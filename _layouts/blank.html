@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body class="year-{{ page.file-suffix }}">
+
+    {% include header-{{ page.file-suffix }}.html %}
+
+    <main class="page-content grid-container">
+      {{ content }}
+    </main>
+    {% include footer-{{ page.file-suffix }}.html %}
+    {% include foot.html %}
+</body>
+
+</html>
