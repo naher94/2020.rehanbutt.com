@@ -6,10 +6,11 @@
 <body class="year-{{ page.file-suffix }}">
 
     {% include header-{{ page.file-suffix }}.html %}
-
-    <main class="page-content grid-container">
-      {{ content }}
-    </main>
+    <div class="content-container">
+      <main class="page-content grid-container">
+        {{ content }}
+      </main>
+    </div>
     {% include footer-{{ page.file-suffix }}.html %}
     {% include foot.html %}
 </body>
