@@ -15,10 +15,16 @@
       font-size: 12em;
       font-weight: $zilla-bold;
       color: $pure-white;
+      @media screen and (max-width: 40em) {
+        font-size: 6em;
+      }
     }
     h1{
       display: inline-block;
       line-height: 9rem;
+      @media screen and (max-width: 40em) {
+        line-height: 4rem;
+      }
     }
     h2{
       display: inline-block;
@@ -29,7 +35,8 @@
       margin-bottom: 0;
       margin-top: -2em;
       @media screen and (max-width: 40em) {
-        // line-height: 1em;
+        font-size: 3em;
+        line-height: 2.6rem;
       }
     }
   }
@@ -72,6 +79,97 @@
 
   }
 
+  .website{
+    .tile-container{
+      .big-bold{
+        padding: 2rem 2rem;
+        background: linear-gradient(120deg, rgba(69,188,242,1) 0%, rgba(17,102,142,1) 100%);
+        color: $pure-white;
+        font-size: 10rem;
+        line-height: 9rem;
+        font-family: $zilla;
+        span{
+          display: block;
+        }
+        .big{
+          font-weight: $zilla-bold;
+          span{
+            display: inline-block;
+          }
+          .b{
+            font-size: 0.8em;
+            margin-right: -0.2em;
+          }
+          .i{
+            font-size: 0.9em;
+            margin-right: -0.2em;
+          }
+          .g{}
+        }
+        .bold{
+          font-weight: $zilla-bold;
+        }
+        @media screen and (max-width: 40em) {
+          font-size: 6em;
+          line-height: 6rem;
+        }
+      }
+      .new-footer{
+        .foot{
+          padding: 2rem 2rem;
+        }
+        .title-container{
+          padding: 2rem 2rem;
+          border-radius: 0 0 40px 40px;
+          color: $pure-white;
+          font-size: 10rem;
+          line-height: 9rem;
+          font-family: $zilla;
+          font-weight: $zilla-bold;
+          background: linear-gradient(225deg, rgba(0,218,209,1) 0%, rgba(0,241,159,1) 100%);
+          @media screen and (max-width: 40em) {
+            font-size: 6em;
+            line-height: 6rem;
+          }
+        }
+      }
+      .dark-mode{
+        padding: 2rem 2rem;
+        color: $navy-black;
+        font-size: 5rem;
+        line-height: 5rem;
+        font-family: $zilla;
+        font-weight: $zilla-bold;
+        background: linear-gradient(45deg, rgba(255,221,30,1) 0%, rgba(255,255,255,1) 100%);
+        span{
+          // display: block;
+        }
+      }
+      .speed{
+        padding: 2rem 2rem;
+        color: $pure-white;
+        background: linear-gradient(45deg, rgba(241,206,0,1) 0%, rgba(255,161,0,1) 100%);
+        font-size: 4rem;
+        line-height: 4rem;
+        font-family: $zilla;
+        font-weight: $zilla-bold;
+      }
+    }
+    .tile{
+      border-radius: 40px;
+      min-height: 43rem;
+      -webkit-box-shadow: 0px 0px 100px 0px rgba($navy-black,0.25);
+      -moz-box-shadow: 0px 0px 100px 0px rgba($navy-black,0.25);
+      box-shadow: 0px 0px 100px 0px rgba($navy-black,0.25);
+      @media screen and (max-width: 40em) {
+        min-height: 30rem;
+      }
+    }
+  }
+
+
+
+
   footer{
     background-image: url("../img/2020/footergradient.jpg");
     background-repeat: no-repeat;
@@ -81,9 +179,6 @@
     bottom: 0;
     left: 0;
     z-index: -1;
-    // @media screen and (max-width: 40em) {
-    //   height: 50vh;
-    // }
     .logo{
       margin-top: -3.1em;
       float: right;
@@ -121,7 +216,6 @@
       }
     }
   }
-
 
 
 }

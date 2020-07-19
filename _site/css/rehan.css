@@ -11,9 +11,15 @@
 
 .year-twenty .year-in-review .twenty { font-family: "Zilla Slab", serif; font-size: 12em; font-weight: 700; color: #ffffff; }
 
+@media screen and (max-width: 40em) { .year-twenty .year-in-review .twenty { font-size: 6em; } }
+
 .year-twenty .year-in-review h1 { display: inline-block; line-height: 9rem; }
 
+@media screen and (max-width: 40em) { .year-twenty .year-in-review h1 { line-height: 4rem; } }
+
 .year-twenty .year-in-review h2 { display: inline-block; color: #ffffff; font-size: 5.5em; line-height: 6rem; font-weight: 300; margin-bottom: 0; margin-top: -2em; }
+
+@media screen and (max-width: 40em) { .year-twenty .year-in-review h2 { font-size: 3em; line-height: 2.6rem; } }
 
 .year-twenty .content-container { background-color: white; padding-top: 6rem; padding-bottom: 20rem; }
 
@@ -26,6 +32,36 @@
 .year-twenty .hero-text span span { display: none; position: absolute; }
 
 .year-twenty .hero-text .wow .wow-react { display: block; width: 100%; opacity: 0.5; z-index: -1; font-size: 2em; text-align: center; margin-top: -25%; }
+
+.year-twenty .website .tile-container .big-bold { padding: 2rem 2rem; background: linear-gradient(120deg, #45bcf2 0%, #11668e 100%); color: #ffffff; font-size: 10rem; line-height: 9rem; font-family: "Zilla Slab", serif; }
+
+.year-twenty .website .tile-container .big-bold span { display: block; }
+
+.year-twenty .website .tile-container .big-bold .big { font-weight: 700; }
+
+.year-twenty .website .tile-container .big-bold .big span { display: inline-block; }
+
+.year-twenty .website .tile-container .big-bold .big .b { font-size: 0.8em; margin-right: -0.2em; }
+
+.year-twenty .website .tile-container .big-bold .big .i { font-size: 0.9em; margin-right: -0.2em; }
+
+.year-twenty .website .tile-container .big-bold .bold { font-weight: 700; }
+
+@media screen and (max-width: 40em) { .year-twenty .website .tile-container .big-bold { font-size: 6em; line-height: 6rem; } }
+
+.year-twenty .website .tile-container .new-footer .foot { padding: 2rem 2rem; }
+
+.year-twenty .website .tile-container .new-footer .title-container { padding: 2rem 2rem; border-radius: 0 0 40px 40px; color: #ffffff; font-size: 10rem; line-height: 9rem; font-family: "Zilla Slab", serif; font-weight: 700; background: linear-gradient(225deg, #00dad1 0%, #00f19f 100%); }
+
+@media screen and (max-width: 40em) { .year-twenty .website .tile-container .new-footer .title-container { font-size: 6em; line-height: 6rem; } }
+
+.year-twenty .website .tile-container .dark-mode { padding: 2rem 2rem; color: #1f2937; font-size: 5rem; line-height: 5rem; font-family: "Zilla Slab", serif; font-weight: 700; background: linear-gradient(45deg, #ffdd1e 0%, white 100%); }
+
+.year-twenty .website .tile-container .speed { padding: 2rem 2rem; color: #ffffff; background: linear-gradient(45deg, #f1ce00 0%, #ffa100 100%); font-size: 4rem; line-height: 4rem; font-family: "Zilla Slab", serif; font-weight: 700; }
+
+.year-twenty .website .tile { border-radius: 40px; min-height: 43rem; -webkit-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25); -moz-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25); box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25); }
+
+@media screen and (max-width: 40em) { .year-twenty .website .tile { min-height: 30rem; } }
 
 .year-twenty footer { background-image: url("../img/2020/footergradient.jpg"); background-repeat: no-repeat; background-size: cover; background-color: #1f2937; position: sticky; bottom: 0; left: 0; z-index: -1; }
 
