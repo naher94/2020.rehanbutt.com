@@ -142,17 +142,23 @@
         font-weight: $zilla-bold;
         background: linear-gradient(45deg, rgba(255,221,30,1) 0%, rgba(255,255,255,1) 100%);
         span{
-          // display: block;
+          display: block;
         }
       }
       .speed{
         padding: 2rem 2rem;
         color: $pure-white;
-        background: linear-gradient(45deg, rgba(241,206,0,1) 0%, rgba(255,161,0,1) 100%);
+        background: url(../img/speed-stripes.svg), linear-gradient(45deg, rgba(241,206,0,1) 0%, rgba(255,161,0,1) 100%);
+        // background-image: url(../img/speed-stripes.svg);
+        background-repeat: no-repeat;
+        background-position: center; 
         font-size: 4rem;
         line-height: 4rem;
         font-family: $zilla;
         font-weight: $zilla-bold;
+        span{
+          display: block;
+        }
       }
     }
     .tile{
