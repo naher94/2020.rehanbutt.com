@@ -80,6 +80,34 @@
   }
 
   .website{
+    .dragonfruit-container{
+      font-family: $montserrat;
+      text-align: center;
+      padding: 6rem 0;
+      background: url(../img/dots.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      span{
+        display: block;
+      }
+      .launched{
+        font-weight: $montserrat-light;
+        color: #AC2C4C;
+        font-size: 10vw;
+      }
+      .dragon{
+        font-weight: $montserrat-bold;
+        color: #DB3F66;
+        font-size: 14vw;
+        margin-top: -11vw;
+        span{
+          display: inline-block;
+          img{
+            width: 10vw;
+          }
+        }
+      }
+    }
     .tile-container{
       .big-bold{
         padding: 2rem 2rem;
@@ -149,9 +177,8 @@
         padding: 2rem 2rem;
         color: $pure-white;
         background: url(../img/speed-stripes.svg), linear-gradient(45deg, rgba(241,206,0,1) 0%, rgba(255,161,0,1) 100%);
-        // background-image: url(../img/speed-stripes.svg);
         background-repeat: no-repeat;
-        background-position: center; 
+        background-position: center;
         font-size: 4rem;
         line-height: 4rem;
         font-family: $zilla;
@@ -169,6 +196,21 @@
       box-shadow: 0px 0px 100px 0px rgba($navy-black,0.25);
       @media screen and (max-width: 40em) {
         min-height: 30rem;
+      }
+    }
+    .sub-text{
+      text-align: center;
+      margin-top: 4rem;
+      p{
+        margin-bottom: 0;
+        margin-top: 0;
+        font-family: $zilla;
+        font-weight: $zilla-bold;
+        font-size: 2rem;
+        line-height: 2.4rem;
+        &:nth-of-type(2){
+          font-size: 3rem;
+        }
       }
     }
   }
