@@ -234,6 +234,65 @@
       position: absolute;
       right: -10%;
       bottom: 15%; }
+.year-twenty .slack-moji .slack-icon {
+  max-width: 210px; }
+.year-twenty .slack-moji .title-container {
+  margin-bottom: 2em; }
+.year-twenty .slack-moji .title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4.4em;
+  position: relative;
+  margin-left: 0.3em; }
+  .year-twenty .slack-moji .title .most {
+    font-weight: 200;
+    position: absolute; }
+  .year-twenty .slack-moji .title .emoji {
+    font-weight: 700;
+    position: absolute;
+    top: 0.6em;
+    color: rgba(31, 41, 55, 0.3); }
+.year-twenty .slack-moji .emoji-container {
+  border-radius: 50%;
+  min-height: 16.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .year-twenty .slack-moji .emoji-container img {
+    min-width: 8rem; }
+  .year-twenty .slack-moji .emoji-container span {
+    font-size: 8rem; }
+.year-twenty .slack-moji .thumbs-up {
+  background-color: #B9E98B; }
+.year-twenty .slack-moji .party-parrot {
+  background-color: #B5E0FE; }
+.year-twenty .slack-moji .floor-laughing {
+  background-color: #F9F064; }
+.year-twenty .slack-moji .hoppy-goat {
+  background-color: #F2C1FD; }
+.year-twenty .memoji {
+  margin-top: 14em;
+  margin-bottom: 14em; }
+  .year-twenty .memoji .wrapper {
+    align-items: center; }
+  .year-twenty .memoji .bubble {
+    position: absolute; }
+  .year-twenty .memoji .text-container {
+    position: relative; }
+    .year-twenty .memoji .text-container .video {
+      top: -60%;
+      left: 20%; }
+    .year-twenty .memoji .text-container .chat {
+      right: 0;
+      bottom: -20%; }
+  .year-twenty .memoji p {
+    font-family: "Zilla Slab", serif;
+    font-weight: 500;
+    font-size: 4em;
+    padding: 0;
+    line-height: 1em;
+    margin: 0;
+    z-index: 2;
+    position: relative; }
 .year-twenty footer {
   background-image: url("../img/2020/footergradient.jpg");
   background-repeat: no-repeat;
