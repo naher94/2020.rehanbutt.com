@@ -46,37 +46,55 @@
     padding-top: 6rem;
     padding-bottom: 20rem;
   }
-
-  .hero-text{
-    font-family: $zilla;
-    font-size: 2.5em;
-    line-height: 1.2em;
-    text-align: justify;
-    padding-left: 0;
-    padding-right: 0;
-    @media screen and (max-width: 40em) {
-      padding-left: 0.5em;
-      padding-right: 0.5em;
-    }
-    span{
-      position: relative;
+  .hero{
+    .hero-text{
+      font-family: $zilla;
+      font-size: 2.5em;
+      line-height: 1.2em;
+      text-align: justify;
+      padding-left: 0;
+      padding-right: 0;
+      @media screen and (max-width: 40em) {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+      }
       span{
-        display: none;
-        position: absolute;
+        position: relative;
+        span{
+          display: none;
+          position: absolute;
+        }
+      }
+      .wow{
+        .wow-react{
+          display: block;
+          width: 100%;
+          opacity: 0.5;
+          z-index: -1;
+          font-size: 2em;
+          text-align: center;
+          margin-top: -25%;
+        }
       }
     }
-    .wow{
-      .wow-react{
-        display: block;
-        width: 100%;
-        opacity: 0.5;
-        z-index: -1;
-        font-size: 2em;
-        text-align: center;
-        margin-top: -25%;
-      }
-    }
+  }
 
+  .black-lives-matter{
+    padding-top: 6em;
+    padding-bottom: 6em;
+    background-color: $pure-black;
+    h2, p{
+      color: $pure-white;
+    }
+    h2{
+      font-weight: $zilla-bold;
+      text-align: center;
+      font-size: 2.5em;
+    }
+    p{
+      font-size: 1.5em;
+      padding: 0;
+    }
   }
 
   .website{
@@ -172,7 +190,9 @@
         line-height: 5rem;
         font-family: $zilla;
         font-weight: $zilla-bold;
-        background: linear-gradient(45deg, rgba(255,221,30,1) 0%, rgba(255,255,255,1) 100%);
+        background:
+        radial-gradient(circle at 0% 100%, rgba($navy-black,1) 0%, rgba($navy-black,1) 45%, rgba($navy-black,0) 45%),
+        linear-gradient(45deg, rgba(255,221,30,1) 0%, rgba(255,255,255,1) 100%);
         span{
           display: block;
         }
@@ -245,6 +265,7 @@
       }
       .image-container{
         position: absolute;
+        z-index: 1;
         width: 45%;
         border-radius: 20px;
         overflow: hidden;
@@ -261,6 +282,21 @@
         transform: rotate(-15deg);
         top: 18rem;
         left: 12rem;
+      }
+      .blue-blob{
+        position: absolute;
+        top: -20%;
+        left: 50%;
+      }
+      .peach-blob{
+        position: absolute;
+        bottom: 10%;
+        left: -10%;
+      }
+      .brick-blob{
+        position: absolute;
+        right: -10%;
+        bottom: 15%;
       }
     }
   }
