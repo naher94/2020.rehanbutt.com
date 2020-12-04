@@ -301,59 +301,108 @@
     }
   }
 
-.slack-moji{
-  .slack-icon{
-    max-width: 210px;
-  }
-  .title-container{
-    margin-bottom: 2em;
-  }
-  .title{
-    font-family: $montserrat;
-    font-size: 4.4em;
-    position: relative;
-    margin-left: 0.3em;
-    .most{
-      font-weight: $montserrat-light;
-      position: absolute;
+  .music{
+    h2{
+      font-family: $montserrat;
+      font-weight: $montserrat-black;
+      font-size: 10vw;
+      line-height: 7vw;
+      .hrs{
+        font-weight: $montserrat-light;
+      }
+      .description{
+        font-size: 5vw;
+        display: block;
+      }
     }
-    .emoji{
+    h3{
+      font-family: $montserrat;
+      text-align: center;
       font-weight: $montserrat-bold;
-      position: absolute;
-      top: 0.6em;
-      color: rgba($navy-black,0.3);
+      margin-top: 3em;
+      margin-bottom: 2em;
+    }
+    .song-tile{
+      img{
+        border-radius: 40px;
+        box-shadow: 0 0 50px 0 rgba($navy-black, 0.20);
+      }
+      .text-container{
+        margin-top: 0.5em;
+        font-family: $montserrat;
+        p{
+          margin: 0;
+          padding: 0;
+        }
+        .title{
+          font-weight: $montserrat-black;
+        }
+        .artist{
+          font-weight: $montserrat-bold;
+          display: inline-block;
+        }
+        .play-count{
+          font-weight: $montserrat-regular;
+          display: inline-block;
+          float: right;
+        }
+      }
     }
   }
-  .emoji-container{
-    border-radius: 50%;
-    min-height: 16.9rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    img{
-      min-width: 8rem;
+
+  .slack-moji{
+    .slack-icon{
+      max-width: 210px;
     }
-    span{
-      font-size: 8rem;
+    .title-container{
+      margin-bottom: 2em;
+    }
+    .title{
+      font-family: $montserrat;
+      font-size: 4.4em;
+      position: relative;
+      margin-left: 0.3em;
+      .most{
+        font-weight: $montserrat-light;
+        position: absolute;
+      }
+      .emoji{
+        font-weight: $montserrat-bold;
+        position: absolute;
+        top: 0.6em;
+        color: rgba($navy-black,0.3);
+      }
+    }
+    .emoji-container{
+      border-radius: 50%;
+      min-height: 16.9rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img{
+        min-width: 8rem;
+      }
+      span{
+        font-size: 8rem;
+      }
+    }
+    .thumbs-up{
+      background-color: #B9E98B;
+    }
+    .party-parrot{
+      background-color: #B5E0FE;
+    }
+    .floor-laughing{
+      background-color: #F9F064;
+    }
+    .hoppy-goat{
+      background-color: #F2C1FD;
     }
   }
-  .thumbs-up{
-    background-color: #B9E98B;
-  }
-  .party-parrot{
-    background-color: #B5E0FE;
-  }
-  .floor-laughing{
-    background-color: #F9F064;
-  }
-  .hoppy-goat{
-    background-color: #F2C1FD;
-  }
-}
 
   .memoji{
     margin-top: 14em;
-    margin-bottom: 14em;
+    margin-bottom: 14 em;
     .wrapper{
       align-items: center;
     }
