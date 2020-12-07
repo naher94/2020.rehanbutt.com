@@ -90,6 +90,10 @@
       padding: 3rem 0; } }
   .year-twenty .website .dragonfruit-container span {
     display: block; }
+  .year-twenty .website .dragonfruit-container .site-name {
+    font-weight: 700;
+    color: #AC2C4C;
+    font-size: 2vw; }
   .year-twenty .website .dragonfruit-container .launched {
     font-weight: 200;
     color: #AC2C4C;
@@ -165,6 +169,38 @@
   font-weight: 700; }
   .year-twenty .website .tile-container .speed span {
     display: block; }
+.year-twenty .website .tile-container .resources {
+  background-color: #12abc4;
+  color: #ffffff;
+  font-family: "Zilla Slab", serif; }
+  .year-twenty .website .tile-container .resources .cell {
+    padding: 3em; }
+  .year-twenty .website .tile-container .resources p {
+    font-size: 2.5em;
+    padding: 0; }
+  .year-twenty .website .tile-container .resources .title {
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0.5em; }
+  .year-twenty .website .tile-container .resources .description {
+    margin-top: 0;
+    line-height: 1.2em; }
+  .year-twenty .website .tile-container .resources .pill-container {
+    font-size: 0.5em;
+    font-family: "Lato", sans-serif;
+    font-weight: 700; }
+    .year-twenty .website .tile-container .resources .pill-container .pill {
+      padding: 1em 2.5em 1em 2.5em;
+      background-color: #ffffff;
+      color: #12abc4;
+      display: inline-block;
+      border-radius: 50px;
+      margin: 5px; }
+      .year-twenty .website .tile-container .resources .pill-container .pill p {
+        margin: 0; }
+    .year-twenty .website .tile-container .resources .pill-container .special {
+      color: #ffffff;
+      background-color: #1f2937; }
 .year-twenty .website .tile {
   border-radius: 40px;
   min-height: 43rem;
@@ -199,7 +235,10 @@
     font-family: "Zilla Slab", serif;
     font-size: 3rem;
     line-height: 3.2rem;
-    min-height: 50rem; }
+    min-height: 50rem;
+    -webkit-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
+    -moz-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
+    box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25); }
     .year-twenty .shine-registry .shine-container .label-container .description {
       margin-top: 1rem;
       font-weight: 400; }
@@ -274,41 +313,43 @@
     font-weight: 400;
     display: inline-block;
     float: right; }
-.year-twenty .slack-moji .slack-icon {
-  max-width: 210px; }
-.year-twenty .slack-moji .title-container {
-  margin-bottom: 2em; }
-.year-twenty .slack-moji .title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 4.4em;
-  position: relative;
-  margin-left: 0.3em; }
-  .year-twenty .slack-moji .title .most {
-    font-weight: 200;
-    position: absolute; }
-  .year-twenty .slack-moji .title .emoji {
-    font-weight: 700;
-    position: absolute;
-    top: 0.6em;
-    color: rgba(31, 41, 55, 0.3); }
-.year-twenty .slack-moji .emoji-container {
-  border-radius: 50%;
-  min-height: 16.9rem;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-  .year-twenty .slack-moji .emoji-container img {
-    min-width: 8rem; }
-  .year-twenty .slack-moji .emoji-container span {
-    font-size: 8rem; }
-.year-twenty .slack-moji .thumbs-up {
-  background-color: #B9E98B; }
-.year-twenty .slack-moji .party-parrot {
-  background-color: #B5E0FE; }
-.year-twenty .slack-moji .floor-laughing {
-  background-color: #F9F064; }
-.year-twenty .slack-moji .hoppy-goat {
-  background-color: #F2C1FD; }
+.year-twenty .slack-moji {
+  margin-top: 20em; }
+  .year-twenty .slack-moji .slack-icon {
+    max-width: 210px; }
+  .year-twenty .slack-moji .title-container {
+    margin-bottom: 2em; }
+  .year-twenty .slack-moji .title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 4.4em;
+    position: relative;
+    margin-left: 0.3em; }
+    .year-twenty .slack-moji .title .most {
+      font-weight: 200;
+      position: absolute; }
+    .year-twenty .slack-moji .title .emoji {
+      font-weight: 700;
+      position: absolute;
+      top: 0.6em;
+      color: rgba(31, 41, 55, 0.3); }
+  .year-twenty .slack-moji .emoji-container {
+    border-radius: 50%;
+    min-height: 16.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .year-twenty .slack-moji .emoji-container img {
+      min-width: 8rem; }
+    .year-twenty .slack-moji .emoji-container span {
+      font-size: 8rem; }
+  .year-twenty .slack-moji .thumbs-up {
+    background-color: #B9E98B; }
+  .year-twenty .slack-moji .party-parrot {
+    background-color: #B5E0FE; }
+  .year-twenty .slack-moji .floor-laughing {
+    background-color: #F9F064; }
+  .year-twenty .slack-moji .hoppy-goat {
+    background-color: #F2C1FD; }
 .year-twenty .memoji {
   margin-top: 14em;
   margin-bottom: 14 em; }

@@ -112,10 +112,16 @@
       span{
         display: block;
       }
+      .site-name{
+        font-weight: $montserrat-bold;
+        color: #AC2C4C;
+        font-size: 2vw;
+      }
       .launched{
         font-weight: $montserrat-light;
         color: #AC2C4C;
         font-size: 10vw;
+        // margin-top: -5vw;
       }
       .dragon{
         font-weight: $montserrat-bold;
@@ -211,6 +217,48 @@
           display: block;
         }
       }
+      .resources{
+        background-color: $signature-teal;
+        color: $pure-white;
+        font-family: $zilla;
+        .cell{
+          padding: 3em;
+        }
+        p{
+          font-size: 2.5em;
+          padding: 0;
+
+        }
+        .title{
+          font-weight: $zilla-bold;
+          margin-bottom: 0;
+          margin-top: 0.5em;
+        }
+        .description{
+          margin-top: 0;
+          line-height: 1.2em;
+        }
+        .pill-container{
+          font-size: 0.5em;
+          font-family: $lato;
+          font-weight: $lato-bold;
+          .pill{
+            padding: 1em 2.5em 1em 2.5em;
+            background-color: $pure-white;
+            color: $signature-teal;
+            display: inline-block;
+            border-radius: 50px;
+            margin: 5px;
+            p{
+              margin: 0;
+            }
+          }
+          .special{
+            color: $pure-white;
+            background-color: $navy-black;
+          }
+        }
+      }
     }
     .tile{
       border-radius: 40px;
@@ -253,6 +301,9 @@
       font-size: 3rem;
       line-height: 3.2rem;
       min-height: 50rem;
+      -webkit-box-shadow: 0px 0px 100px 0px rgba($navy-black,0.25);
+      -moz-box-shadow: 0px 0px 100px 0px rgba($navy-black,0.25);
+      box-shadow: 0px 0px 100px 0px rgba($navy-black,0.25);
       .label-container{
         .description{
           margin-top: 1rem;
@@ -360,6 +411,7 @@
   }
 
   .slack-moji{
+    margin-top: 20em;
     .slack-icon{
       max-width: 210px;
     }
