@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Zilla+Slab:300,400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Zilla+Slab:300,400,500,500i,700,700i&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,700,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;900&display=swap");
 .year-twenty .year-in-review {
@@ -279,40 +279,75 @@
   .year-twenty .by-the-numbers h2 {
     font-size: 10vw;
     line-height: 10vw; }
+.year-twenty .by-the-numbers-end h2, .year-twenty .by-the-numbers-end p {
+  font-family: "Zilla Slab", serif;
+  text-align: center;
+  line-height: 0.9em; }
+.year-twenty .by-the-numbers-end h2 {
+  font-size: 3em;
+  font-weight: 700;
+  font-style: italic; }
+  .year-twenty .by-the-numbers-end h2 span {
+    font-size: 1.5em; }
+.year-twenty .by-the-numbers-end p {
+  font-size: 2em;
+  font-weight: 500;
+  font-style: italic;
+  margin: 0;
+  padding: 0; }
 .year-twenty .music h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-size: 10vw;
   line-height: 7vw; }
+  @media screen and (max-width: 64em) {
+    .year-twenty .music h2 {
+      font-size: 20vw;
+      line-height: 14vw; } }
   .year-twenty .music h2 .hrs {
     font-weight: 200; }
   .year-twenty .music h2 .description {
     font-size: 5vw;
     display: block; }
+    @media screen and (max-width: 64em) {
+      .year-twenty .music h2 .description {
+        font-size: 12vw;
+        line-height: 0.8em;
+        margin-top: 0.2em; } }
 .year-twenty .music h3 {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   font-weight: 700;
   margin-top: 3em;
   margin-bottom: 2em; }
-.year-twenty .music .song-tile img {
-  border-radius: 40px;
-  box-shadow: 0 0 50px 0 rgba(31, 41, 55, 0.2); }
-.year-twenty .music .song-tile .text-container {
-  margin-top: 0.5em;
-  font-family: "Montserrat", sans-serif; }
-  .year-twenty .music .song-tile .text-container p {
-    margin: 0;
-    padding: 0; }
-  .year-twenty .music .song-tile .text-container .title {
-    font-weight: 900; }
-  .year-twenty .music .song-tile .text-container .artist {
-    font-weight: 700;
-    display: inline-block; }
-  .year-twenty .music .song-tile .text-container .play-count {
-    font-weight: 400;
-    display: inline-block;
-    float: right; }
+.year-twenty .music .song-container .song-tile {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem; }
+  @media screen and (max-width: 64em) {
+    .year-twenty .music .song-container .song-tile {
+      padding-left: 0;
+      padding-right: 0; } }
+  @media screen and (max-width: 40em) {
+    .year-twenty .music .song-container .song-tile {
+      margin-bottom: 2em; } }
+  .year-twenty .music .song-container .song-tile img {
+    border-radius: 40px;
+    box-shadow: 0 0 50px 0 rgba(31, 41, 55, 0.2); }
+  .year-twenty .music .song-container .song-tile .text-container {
+    margin-top: 0.5em;
+    font-family: "Montserrat", sans-serif; }
+    .year-twenty .music .song-container .song-tile .text-container p {
+      margin: 0;
+      padding: 0; }
+    .year-twenty .music .song-container .song-tile .text-container .title {
+      font-weight: 900; }
+    .year-twenty .music .song-container .song-tile .text-container .artist {
+      font-weight: 700;
+      display: inline-block; }
+    .year-twenty .music .song-container .song-tile .text-container .play-count {
+      font-weight: 400;
+      display: inline-block;
+      float: right; }
 .year-twenty .slack-moji {
   margin-top: 20em; }
   .year-twenty .slack-moji .slack-icon {

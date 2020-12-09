@@ -361,18 +361,50 @@
     }
   }
 
+  .by-the-numbers-end{
+    h2, p{
+      font-family: $zilla;
+      text-align: center;
+      line-height: 0.9em;
+    }
+    h2{
+      font-size: 3em;
+      font-weight: $zilla-bold;
+      font-style: italic;
+      span{
+        font-size: 1.5em;
+      }
+    }
+    p{
+      font-size: 2em;
+      font-weight: $zilla-medium;
+      font-style: italic;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
   .music{
     h2{
       font-family: $montserrat;
       font-weight: $montserrat-black;
       font-size: 10vw;
       line-height: 7vw;
+      @media screen and (max-width: 64em) {
+        font-size: 20vw;
+        line-height: 14vw;
+      }
       .hrs{
         font-weight: $montserrat-light;
       }
       .description{
         font-size: 5vw;
         display: block;
+        @media screen and (max-width: 64em) {
+          font-size: 12vw;
+          line-height: 0.8em;
+          margin-top: 0.2em;
+        }
       }
     }
     h3{
@@ -382,29 +414,40 @@
       margin-top: 3em;
       margin-bottom: 2em;
     }
-    .song-tile{
-      img{
-        border-radius: 40px;
-        box-shadow: 0 0 50px 0 rgba($navy-black, 0.20);
-      }
-      .text-container{
-        margin-top: 0.5em;
-        font-family: $montserrat;
-        p{
-          margin: 0;
-          padding: 0;
+    .song-container{
+      .song-tile{
+        padding-left: 0.9375rem;
+        padding-right: 0.9375rem;
+        @media screen and (max-width: 64em) {
+          padding-left: 0;
+          padding-right: 0;
         }
-        .title{
-          font-weight: $montserrat-black;
+        @media screen and (max-width: 40em) {
+          margin-bottom: 2em;
         }
-        .artist{
-          font-weight: $montserrat-bold;
-          display: inline-block;
+        img{
+          border-radius: 40px;
+          box-shadow: 0 0 50px 0 rgba($navy-black, 0.20);
         }
-        .play-count{
-          font-weight: $montserrat-regular;
-          display: inline-block;
-          float: right;
+        .text-container{
+          margin-top: 0.5em;
+          font-family: $montserrat;
+          p{
+            margin: 0;
+            padding: 0;
+          }
+          .title{
+            font-weight: $montserrat-black;
+          }
+          .artist{
+            font-weight: $montserrat-bold;
+            display: inline-block;
+          }
+          .play-count{
+            font-weight: $montserrat-regular;
+            display: inline-block;
+            float: right;
+          }
         }
       }
     }
