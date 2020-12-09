@@ -362,9 +362,18 @@
     .year-twenty .memoji .text-container .video {
       top: -60%;
       left: 20%; }
+      @media screen and (max-width: 64em) {
+        .year-twenty .memoji .text-container .video {
+          top: -5%;
+          left: 5%;
+          opacity: 30%; } }
     .year-twenty .memoji .text-container .chat {
       right: 0;
       bottom: -20%; }
+      @media screen and (max-width: 64em) {
+        .year-twenty .memoji .text-container .chat {
+          right: 5%;
+          opacity: 30%; } }
   .year-twenty .memoji p {
     font-family: "Zilla Slab", serif;
     font-weight: 500;

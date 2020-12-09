@@ -475,10 +475,19 @@
       .video{
         top: -60%;
         left: 20%;
+        @media screen and (max-width: 64em) {
+          top: -5%;
+          left: 5%;
+          opacity: 30%;
+        }
       }
       .chat{
         right: 0;
         bottom: -20%;
+        @media screen and (max-width: 64em) {
+          right: 5%;
+          opacity: 30%;
+        }
       }
     }
     p{
