@@ -493,6 +493,7 @@
     }
   }
   .drone-photography{
+    margin-top: 15rem;
     .title{
       font-family: $zilla;
       font-size: 3em;
@@ -505,7 +506,7 @@
         top: -1.5em;
       }
     }
-    .circle, .text{
+    .circle, .text, .left-col, .right-col{
       margin-bottom: 0.9375rem*2;
     }
   }
