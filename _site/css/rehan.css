@@ -171,18 +171,18 @@
   font-family: "Zilla Slab", serif;
   font-weight: 700;
   background: radial-gradient(circle at 0% 100%, #1f2937 0%, #1f2937 45%, rgba(31, 41, 55, 0) 45%), linear-gradient(45deg, #ffdd1e 0%, white 100%); }
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 64em) {
     .year-twenty .website .tile-container .dark-mode .text {
       text-shadow: 0px 0px 50px #ffdd1e; } }
   .year-twenty .website .tile-container .dark-mode span {
     display: block; }
   @media screen and (max-width: 64em) {
     .year-twenty .website .tile-container .dark-mode .moon {
-      width: 50%; } }
+      width: 40%; } }
   @media screen and (max-width: 40em) {
     .year-twenty .website .tile-container .dark-mode .moon {
       width: 30%; } }
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 64em) {
     .year-twenty .website .tile-container .dark-mode {
       background: radial-gradient(circle at 0% 100%, #1f2937 0%, #1f2937 35%, rgba(31, 41, 55, 0) 35%), linear-gradient(45deg, #ffdd1e 0%, white 100%); } }
 .year-twenty .website .tile-container .speed {
@@ -242,7 +242,7 @@
   -webkit-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
   -moz-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
   box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25); }
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 64em) {
     .year-twenty .website .tile {
       min-height: 30rem; } }
 .year-twenty .website .sub-text {
