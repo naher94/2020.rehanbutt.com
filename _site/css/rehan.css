@@ -383,48 +383,57 @@
       font-weight: 400;
       display: inline-block;
       float: right; }
-.year-twenty .duolingo .duolingo-container {
-  border-radius: 40px;
-  padding: 4rem 4rem;
-  background-color: #1f2937;
-  -webkit-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
-  -moz-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
-  box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25); }
-  @media screen and (max-width: 40em) {
-    .year-twenty .duolingo .duolingo-container {
-      padding: 2rem; } }
-  .year-twenty .duolingo .duolingo-container .text {
-    font-family: "Montserrat", sans-serif;
-    color: #ffffff; }
-    .year-twenty .duolingo .duolingo-container .text p {
-      padding: 0;
-      margin: 0; }
-    .year-twenty .duolingo .duolingo-container .text .minutes, .year-twenty .duolingo .duolingo-container .text .words {
-      font-size: 5em;
-      line-height: 0.9em;
-      font-weight: 200; }
-      .year-twenty .duolingo .duolingo-container .text .minutes span, .year-twenty .duolingo .duolingo-container .text .words span {
-        font-weight: 900; }
-      @media screen and (max-width: 40em) {
-        .year-twenty .duolingo .duolingo-container .text .minutes, .year-twenty .duolingo .duolingo-container .text .words {
-          font-size: 3em; } }
-    .year-twenty .duolingo .duolingo-container .text .minutes span {
-      color: #1CB0F6; }
-    .year-twenty .duolingo .duolingo-container .text .words span {
-      color: #58CC02; }
-    .year-twenty .duolingo .duolingo-container .text .sentance {
-      font-size: 2em;
-      line-height: 1.2em;
-      font-weight: 900;
-      margin-top: 0.5em; }
-      @media screen and (max-width: 40em) {
-        .year-twenty .duolingo .duolingo-container .text .sentance {
-          font-size: 1.5em; } }
-    .year-twenty .duolingo .duolingo-container .text .footnote {
-      margin-top: 0.5em; }
-      @media screen and (max-width: 40em) {
-        .year-twenty .duolingo .duolingo-container .text .footnote {
-          font-size: 0.8em; } }
+.year-twenty .duolingo {
+  margin-top: 3em;
+  margin-bottom: 3em; }
+  .year-twenty .duolingo .duolingo-container {
+    border-radius: 40px;
+    padding: 4rem 4rem;
+    background-color: #1f2937;
+    -webkit-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
+    -moz-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
+    box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
+    background-image: url(../img/fireworks.svg);
+    background-repeat: no-repeat;
+    background-position: 90% 15%; }
+    @media screen and (max-width: 64em) {
+      .year-twenty .duolingo .duolingo-container {
+        background-size: 50%; } }
+    @media screen and (max-width: 40em) {
+      .year-twenty .duolingo .duolingo-container {
+        padding: 2rem; } }
+    .year-twenty .duolingo .duolingo-container .text {
+      font-family: "Montserrat", sans-serif;
+      color: #ffffff; }
+      .year-twenty .duolingo .duolingo-container .text p {
+        padding: 0;
+        margin: 0; }
+      .year-twenty .duolingo .duolingo-container .text .minutes, .year-twenty .duolingo .duolingo-container .text .words {
+        font-size: 5em;
+        line-height: 0.9em;
+        font-weight: 200; }
+        .year-twenty .duolingo .duolingo-container .text .minutes span, .year-twenty .duolingo .duolingo-container .text .words span {
+          font-weight: 900; }
+        @media screen and (max-width: 40em) {
+          .year-twenty .duolingo .duolingo-container .text .minutes, .year-twenty .duolingo .duolingo-container .text .words {
+            font-size: 3em; } }
+      .year-twenty .duolingo .duolingo-container .text .minutes span {
+        color: #1CB0F6; }
+      .year-twenty .duolingo .duolingo-container .text .words span {
+        color: #58CC02; }
+      .year-twenty .duolingo .duolingo-container .text .sentance {
+        font-size: 2em;
+        line-height: 1.2em;
+        font-weight: 900;
+        margin-top: 0.5em; }
+        @media screen and (max-width: 40em) {
+          .year-twenty .duolingo .duolingo-container .text .sentance {
+            font-size: 1.5em; } }
+      .year-twenty .duolingo .duolingo-container .text .footnote {
+        margin-top: 0.5em; }
+        @media screen and (max-width: 40em) {
+          .year-twenty .duolingo .duolingo-container .text .footnote {
+            font-size: 0.8em; } }
 .year-twenty .slack-moji {
   margin-top: 20em; }
   .year-twenty .slack-moji .slack-icon {
