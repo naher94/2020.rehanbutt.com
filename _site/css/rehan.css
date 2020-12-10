@@ -39,7 +39,7 @@
 .year-twenty .content-container {
   background-color: white;
   padding-top: 6rem;
-  padding-bottom: 20rem; }
+  padding-bottom: 12rem; }
 .year-twenty .hero .hero-text {
   font-family: "Zilla Slab", serif;
   font-size: 2.5em;
@@ -699,6 +699,75 @@
       top: -1.5em; }
   .year-twenty .drone-photography .circle, .year-twenty .drone-photography .text, .year-twenty .drone-photography .left-col, .year-twenty .drone-photography .right-col {
     margin-bottom: 1.875rem; }
+.year-twenty .lastly .full-bleed {
+  font-family: "Zilla Slab", serif;
+  font-weight: 300;
+  color: rgba(31, 41, 55, 0.15);
+  white-space: nowrap;
+  text-align: center;
+  font-size: 32vw;
+  width: calc(100% + 3vw);
+  padding: 0;
+  margin: 0;
+  margin-left: -3vw;
+  line-height: 1.5em;
+  overflow: hidden; }
+.year-twenty .lastly .lastly-grid-container {
+  margin-top: -20vw; }
+  .year-twenty .lastly .lastly-grid-container p {
+    margin: 0;
+    padding: 0; }
+  .year-twenty .lastly .lastly-grid-container .blurb {
+    text-align: center;
+    font-family: "Zilla Slab", serif;
+    font-weight: 700;
+    line-height: 1em;
+    font-size: 3em;
+    padding: 0 3.4em; }
+    @media screen and (max-width: 64em) {
+      .year-twenty .lastly .lastly-grid-container .blurb {
+        font-size: 2em;
+        padding: 0 2em; } }
+    @media screen and (max-width: 40em) {
+      .year-twenty .lastly .lastly-grid-container .blurb {
+        font-size: 1.5em;
+        padding: 0 1em; } }
+  .year-twenty .lastly .lastly-grid-container .emoji-container .emoji {
+    font-size: 4em;
+    display: inline-block;
+    position: relative; }
+  .year-twenty .lastly .lastly-grid-container .emoji-container .boom {
+    font-size: 6em;
+    transform: rotate(20deg);
+    top: -2vw;
+    left: 10vw; }
+  .year-twenty .lastly .lastly-grid-container .emoji-container .mask {
+    transform: rotate(-20deg); }
+  .year-twenty .lastly .lastly-grid-container .emoji-container .party {
+    transform: rotate(14deg);
+    right: 0; }
+.year-twenty .in-person p {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: "Zilla Slab", serif;
+  font-weight: 500;
+  font-size: 4em;
+  padding: 0 2em;
+  line-height: 1.2em; }
+  @media screen and (max-width: 64em) {
+    .year-twenty .in-person p {
+      font-size: 3em;
+      padding: 0 1em; } }
+  @media screen and (max-width: 40em) {
+    .year-twenty .in-person p {
+      padding: 0 0.7em;
+      font-size: 2em; } }
+.year-twenty .in-person .fingers-crossed {
+  margin-top: 1em; }
+  @media screen and (max-width: 40em) {
+    .year-twenty .in-person .fingers-crossed {
+      margin-top: 0.5em; } }
 .year-twenty footer {
   background-image: url("../img/2020/footergradient.jpg");
   background-repeat: no-repeat;
