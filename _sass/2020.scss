@@ -634,6 +634,48 @@
     }
   }
 
+  .site-analytics{
+    .total-views-container{
+      border-radius: 40px;
+      padding: 4rem 4rem;
+      background-color: $navy-black;
+      -webkit-box-shadow: 0px 0px 100px 0px rgba($navy-black,0.25);
+      -moz-box-shadow: 0px 0px 100px 0px rgba($navy-black,0.25);
+      box-shadow: 0px 0px 100px 0px rgba($navy-black,0.25);
+
+      color: $pure-white;
+      font-family: $zilla;
+      font-size: 2.5em;
+      .party{
+        font-size: 2em;
+        display: inline-block;
+      }
+      p{
+        padding: 0;
+        margin: 0;
+      }
+      h3{
+        font-family: $lato;
+        font-weight: $lato-black;
+        font-size: 4em;
+        margin-top: -0.3em;
+      }
+      .wow{
+        font-weight: $zilla-bold;
+      }
+      .thanks{
+        line-height: 1.2em;
+        margin-bottom: 0.5em;
+        font-weight: $zilla-light;
+      }
+      .come-back{
+        font-weight: $zilla-bold;
+        line-height: 1.2em;
+        font-size: 0.7em;
+      }
+    }
+  }
+
   .slack-moji{
     margin-top: 20em;
     .slack-icon{
