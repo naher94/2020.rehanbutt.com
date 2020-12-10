@@ -259,7 +259,10 @@
         color: $pure-white;
         font-family: $zilla;
         .cell{
-          padding: 2rem;
+          padding: 3rem;
+          @media screen and (max-width: 64em) {
+            padding: 2rem;
+          }
         }
         p{
           font-size: 2.5em;

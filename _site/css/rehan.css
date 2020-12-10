@@ -206,7 +206,10 @@
   color: #ffffff;
   font-family: "Zilla Slab", serif; }
   .year-twenty .website .tile-container .resources .cell {
-    padding: 2rem; }
+    padding: 3rem; }
+    @media screen and (max-width: 64em) {
+      .year-twenty .website .tile-container .resources .cell {
+        padding: 2rem; } }
   .year-twenty .website .tile-container .resources p {
     font-size: 2.5em;
     padding: 0; }
