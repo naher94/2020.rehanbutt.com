@@ -490,37 +490,128 @@
         @media screen and (max-width: 40em) {
           .year-twenty .duolingo .duolingo-container .text .footnote {
             font-size: 0.8em; } }
-.year-twenty .site-analytics .total-views-container {
-  border-radius: 40px;
-  padding: 4rem 4rem;
-  background-color: #1f2937;
-  -webkit-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
-  -moz-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
-  box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
-  color: #ffffff;
-  font-family: "Zilla Slab", serif;
-  font-size: 2.5em; }
-  .year-twenty .site-analytics .total-views-container .party {
-    font-size: 2em;
-    display: inline-block; }
-  .year-twenty .site-analytics .total-views-container p {
-    padding: 0;
-    margin: 0; }
-  .year-twenty .site-analytics .total-views-container h3 {
-    font-family: "Lato", sans-serif;
-    font-weight: 900;
-    font-size: 4em;
-    margin-top: -0.3em; }
-  .year-twenty .site-analytics .total-views-container .wow {
-    font-weight: 700; }
-  .year-twenty .site-analytics .total-views-container .thanks {
-    line-height: 1.2em;
-    margin-bottom: 0.5em;
-    font-weight: 300; }
-  .year-twenty .site-analytics .total-views-container .come-back {
-    font-weight: 700;
-    line-height: 1.2em;
-    font-size: 0.7em; }
+.year-twenty .site-analytics {
+  margin-bottom: 10em; }
+  .year-twenty .site-analytics .title-container {
+    font-family: "Zilla Slab", serif;
+    margin-bottom: 5em; }
+    @media screen and (max-width: 64em) {
+      .year-twenty .site-analytics .title-container {
+        font-size: 0.8em; } }
+    .year-twenty .site-analytics .title-container p {
+      padding: 0;
+      margin: 0;
+      font-size: 3em; }
+    .year-twenty .site-analytics .title-container h2 {
+      font-weight: 700;
+      font-size: 6em;
+      margin-top: -0.5em; }
+      @media screen and (max-width: 64em) {
+        .year-twenty .site-analytics .title-container h2 {
+          line-height: 0.8em;
+          margin-top: -0.2em; } }
+  .year-twenty .site-analytics .top-countries {
+    background-image: url(../img/world.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center; }
+  .year-twenty .site-analytics .top-countries, .year-twenty .site-analytics .devices {
+    margin-bottom: 6em; }
+    @media screen and (max-width: 64em) {
+      .year-twenty .site-analytics .top-countries, .year-twenty .site-analytics .devices {
+        font-size: 0.8em; } }
+    .year-twenty .site-analytics .top-countries h3, .year-twenty .site-analytics .devices h3 {
+      text-align: center;
+      font-weight: 700;
+      font-size: 3em; }
+      @media screen and (max-width: 64em) {
+        .year-twenty .site-analytics .top-countries h3, .year-twenty .site-analytics .devices h3 {
+          line-height: 1em; } }
+    .year-twenty .site-analytics .top-countries .device-container, .year-twenty .site-analytics .devices .device-container {
+      margin-top: 2em; }
+    .year-twenty .site-analytics .top-countries .country-container, .year-twenty .site-analytics .top-countries .device-container, .year-twenty .site-analytics .devices .country-container, .year-twenty .site-analytics .devices .device-container {
+      text-align: center; }
+      .year-twenty .site-analytics .top-countries .country-container .country-wrapper, .year-twenty .site-analytics .top-countries .country-container .device-wrapper, .year-twenty .site-analytics .top-countries .device-container .country-wrapper, .year-twenty .site-analytics .top-countries .device-container .device-wrapper, .year-twenty .site-analytics .devices .country-container .country-wrapper, .year-twenty .site-analytics .devices .country-container .device-wrapper, .year-twenty .site-analytics .devices .device-container .country-wrapper, .year-twenty .site-analytics .devices .device-container .device-wrapper {
+        display: inline-block;
+        text-align: right; }
+      .year-twenty .site-analytics .top-countries .country-container p, .year-twenty .site-analytics .top-countries .device-container p, .year-twenty .site-analytics .devices .country-container p, .year-twenty .site-analytics .devices .device-container p {
+        padding: 0;
+        margin: 0; }
+      .year-twenty .site-analytics .top-countries .country-container .flag, .year-twenty .site-analytics .top-countries .device-container .flag, .year-twenty .site-analytics .devices .country-container .flag, .year-twenty .site-analytics .devices .device-container .flag {
+        font-size: 3em; }
+      .year-twenty .site-analytics .top-countries .country-container .number-views, .year-twenty .site-analytics .top-countries .country-container .percentage, .year-twenty .site-analytics .top-countries .device-container .number-views, .year-twenty .site-analytics .top-countries .device-container .percentage, .year-twenty .site-analytics .devices .country-container .number-views, .year-twenty .site-analytics .devices .country-container .percentage, .year-twenty .site-analytics .devices .device-container .number-views, .year-twenty .site-analytics .devices .device-container .percentage {
+        font-size: 6em;
+        font-weight: 900;
+        margin-top: -0.5em;
+        margin-bottom: -0.4em; }
+      .year-twenty .site-analytics .top-countries .country-container .country-name, .year-twenty .site-analytics .top-countries .country-container .device-type, .year-twenty .site-analytics .top-countries .device-container .country-name, .year-twenty .site-analytics .top-countries .device-container .device-type, .year-twenty .site-analytics .devices .country-container .country-name, .year-twenty .site-analytics .devices .country-container .device-type, .year-twenty .site-analytics .devices .device-container .country-name, .year-twenty .site-analytics .devices .device-container .device-type {
+        font-size: 2em; }
+  .year-twenty .site-analytics .popular-project {
+    border-radius: 40px;
+    padding: 1rem 1rem;
+    background-color: #F5F5F5;
+    margin-bottom: 3em;
+    -webkit-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
+    -moz-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
+    box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25); }
+    @media screen and (max-width: 64em) {
+      .year-twenty .site-analytics .popular-project {
+        font-size: 0.6em; } }
+    .year-twenty .site-analytics .popular-project .photo-container {
+      border-radius: 26px;
+      overflow: hidden; }
+      @media screen and (max-width: 40em) {
+        .year-twenty .site-analytics .popular-project .photo-container {
+          margin-bottom: 2em; } }
+    .year-twenty .site-analytics .popular-project .text {
+      text-align: right;
+      font-family: "Zilla Slab", serif; }
+      .year-twenty .site-analytics .popular-project .text p {
+        margin: 0;
+        padding: 0;
+        font-size: 2em;
+        line-height: 1em; }
+      .year-twenty .site-analytics .popular-project .text .title {
+        font-weight: 700;
+        font-size: 4em; }
+  .year-twenty .site-analytics .total-views-container {
+    border-radius: 40px;
+    padding: 4rem 4rem;
+    background-color: #1f2937;
+    -webkit-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
+    -moz-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
+    box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
+    color: #ffffff;
+    font-family: "Zilla Slab", serif;
+    font-size: 2.5em; }
+    @media screen and (max-width: 64em) {
+      .year-twenty .site-analytics .total-views-container {
+        font-size: 2em; } }
+    @media screen and (max-width: 40em) {
+      .year-twenty .site-analytics .total-views-container {
+        font-size: 1.2em;
+        padding: 2em; } }
+    .year-twenty .site-analytics .total-views-container .party {
+      font-size: 2em;
+      display: inline-block; }
+    .year-twenty .site-analytics .total-views-container p {
+      padding: 0;
+      margin: 0; }
+    .year-twenty .site-analytics .total-views-container h3 {
+      font-family: "Lato", sans-serif;
+      font-weight: 900;
+      font-size: 4em;
+      margin-top: -0.3em; }
+    .year-twenty .site-analytics .total-views-container .wow {
+      font-weight: 700; }
+    .year-twenty .site-analytics .total-views-container .thanks {
+      line-height: 1.2em;
+      margin-bottom: 0.5em;
+      font-weight: 300; }
+    .year-twenty .site-analytics .total-views-container .come-back {
+      font-weight: 700;
+      line-height: 1.2em;
+      font-size: 0.7em; }
 .year-twenty .slack-moji {
   margin-top: 20em; }
   .year-twenty .slack-moji .slack-icon {
