@@ -510,6 +510,10 @@
           font-family: $montserrat;
           font-weight: $montserrat-black;
           line-height: 12vw;
+          @media screen and (max-width: 64em) {
+            font-size: 16vw;
+            line-height: 16vw;
+          }
         }
         p{
           font-size: 4vw;
@@ -517,6 +521,10 @@
           padding: 0;
           margin: 0;
           margin-top: -2vw;
+          @media screen and (max-width: 64em) {
+            font-size: 5vw;
+            line-height: 5vw;
+          }
         }
       }
       .calendar{
@@ -536,7 +544,7 @@
             background-color: #CD0909;
             color: $pure-white;
             padding: 0.3em 0.6em;
-  
+
           }
           .body{
             padding: 0.6em;
