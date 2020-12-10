@@ -498,6 +498,65 @@
     }
   }
 
+  .data-consumed{
+    margin-bottom: 10em;
+    .data-container{
+      font-family: $montserrat;
+      .title{
+        text-align: center;
+        margin-bottom: 4em;
+        h2{
+          font-size: 12vw;
+          font-family: $montserrat;
+          font-weight: $montserrat-black;
+          line-height: 12vw;
+        }
+        p{
+          font-size: 4vw;
+          font-weight: $montserrat-light;
+          padding: 0;
+          margin: 0;
+          margin-top: -2vw;
+        }
+      }
+      .calendar{
+        p{
+          margin: 0;
+          padding: 0;
+        }
+        .calendar-cell{
+          border: thick solid $pure-black;
+          border-radius: 30px;
+          overflow: hidden;
+          font-size: 2em;
+          @media screen and (max-width: 64em) {
+            font-size: 1.2em;
+          }
+          .header{
+            background-color: #CD0909;
+            color: $pure-white;
+            padding: 0.3em 0.6em;
+  
+          }
+          .body{
+            padding: 0.6em;
+            margin-top: 0.4em;
+            .number{
+              font-weight: $montserrat-black;
+              font-size: 2em;
+              line-height: 0.8em;
+              color: $pure-black;
+            }
+            .gig{
+              font-size: 0.7em;
+              color: $pure-black;
+            }
+          }
+        }
+      }
+    }
+  }
+
   .duolingo{
     margin-top: 6em;
     margin-bottom: 3em;

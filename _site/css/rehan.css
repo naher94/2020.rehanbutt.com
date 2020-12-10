@@ -387,6 +387,50 @@
       font-weight: 400;
       display: inline-block;
       float: right; }
+.year-twenty .data-consumed {
+  margin-bottom: 10em; }
+  .year-twenty .data-consumed .data-container {
+    font-family: "Montserrat", sans-serif; }
+    .year-twenty .data-consumed .data-container .title {
+      text-align: center;
+      margin-bottom: 4em; }
+      .year-twenty .data-consumed .data-container .title h2 {
+        font-size: 12vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 900;
+        line-height: 12vw; }
+      .year-twenty .data-consumed .data-container .title p {
+        font-size: 4vw;
+        font-weight: 200;
+        padding: 0;
+        margin: 0;
+        margin-top: -2vw; }
+    .year-twenty .data-consumed .data-container .calendar p {
+      margin: 0;
+      padding: 0; }
+    .year-twenty .data-consumed .data-container .calendar .calendar-cell {
+      border: thick solid #000000;
+      border-radius: 30px;
+      overflow: hidden;
+      font-size: 2em; }
+      @media screen and (max-width: 64em) {
+        .year-twenty .data-consumed .data-container .calendar .calendar-cell {
+          font-size: 1.2em; } }
+      .year-twenty .data-consumed .data-container .calendar .calendar-cell .header {
+        background-color: #CD0909;
+        color: #ffffff;
+        padding: 0.3em 0.6em; }
+      .year-twenty .data-consumed .data-container .calendar .calendar-cell .body {
+        padding: 0.6em;
+        margin-top: 0.4em; }
+        .year-twenty .data-consumed .data-container .calendar .calendar-cell .body .number {
+          font-weight: 900;
+          font-size: 2em;
+          line-height: 0.8em;
+          color: #000000; }
+        .year-twenty .data-consumed .data-container .calendar .calendar-cell .body .gig {
+          font-size: 0.7em;
+          color: #000000; }
 .year-twenty .duolingo {
   margin-top: 6em;
   margin-bottom: 3em; }
