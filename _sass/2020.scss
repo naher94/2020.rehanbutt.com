@@ -459,12 +459,10 @@
       .song-tile{
         padding-left: 0.9375rem;
         padding-right: 0.9375rem;
-        @media screen and (max-width: 64em) {
-          padding-left: 0;
-          padding-right: 0;
-        }
         @media screen and (max-width: 40em) {
           margin-bottom: 2em;
+          padding-left: 0;
+          padding-right: 0;
         }
         img{
           border-radius: 40px;
@@ -476,6 +474,12 @@
           p{
             margin: 0;
             padding: 0;
+            @media screen and (max-width: 64em) {
+              font-size: 0.8em;
+            }
+            @media screen and (max-width: 40em) {
+              font-size: 1em;
+            }
           }
           .title{
             font-weight: $montserrat-black;

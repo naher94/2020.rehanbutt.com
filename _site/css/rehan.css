@@ -358,13 +358,11 @@
 .year-twenty .music .song-container .song-tile {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem; }
-  @media screen and (max-width: 64em) {
-    .year-twenty .music .song-container .song-tile {
-      padding-left: 0;
-      padding-right: 0; } }
   @media screen and (max-width: 40em) {
     .year-twenty .music .song-container .song-tile {
-      margin-bottom: 2em; } }
+      margin-bottom: 2em;
+      padding-left: 0;
+      padding-right: 0; } }
   .year-twenty .music .song-container .song-tile img {
     border-radius: 40px;
     box-shadow: 0 0 50px 0 rgba(31, 41, 55, 0.2); }
@@ -374,6 +372,12 @@
     .year-twenty .music .song-container .song-tile .text-container p {
       margin: 0;
       padding: 0; }
+      @media screen and (max-width: 64em) {
+        .year-twenty .music .song-container .song-tile .text-container p {
+          font-size: 0.8em; } }
+      @media screen and (max-width: 40em) {
+        .year-twenty .music .song-container .song-tile .text-container p {
+          font-size: 1em; } }
     .year-twenty .music .song-container .song-tile .text-container .title {
       font-weight: 900; }
     .year-twenty .music .song-container .song-tile .text-container .artist {
