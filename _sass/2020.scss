@@ -494,6 +494,67 @@
     }
   }
 
+  .duolingo{
+    .duolingo-container{
+      border-radius: 40px;
+      padding: 4rem 4rem;
+      background-color: $navy-black;
+      -webkit-box-shadow: 0px 0px 100px 0px rgba($navy-black,0.25);
+      -moz-box-shadow: 0px 0px 100px 0px rgba($navy-black,0.25);
+      box-shadow: 0px 0px 100px 0px rgba($navy-black,0.25);
+      @media screen and (max-width: 40em) {
+        padding: 2rem;
+      }
+      .text{
+        font-family: $montserrat;
+        color: $pure-white;
+        p{
+          padding: 0;
+          margin: 0;
+        }
+        .minutes, .words{
+          font-size: 5em;
+          line-height: 0.9em;
+          font-weight: $montserrat-light;
+          span{
+            font-weight: $montserrat-black;
+          }
+          @media screen and (max-width: 40em) {
+            font-size: 3em;
+          }
+        }
+        .minutes{
+          span{
+            color: #1CB0F6;
+          }
+        }
+        .words{
+          span{
+            color: #58CC02;
+          }
+        }
+        .sentance{
+          font-size: 2em;
+          line-height: 1.2em;
+          font-weight: $montserrat-black;
+          margin-top: 0.5em;
+          @media screen and (max-width: 40em) {
+            font-size: 1.5em;
+          }
+        }
+        .footnote{
+          margin-top: 0.5em;
+          @media screen and (max-width: 40em) {
+            font-size: 0.8em;
+          }
+        }
+      }
+      .fireworks{
+
+      }
+    }
+  }
+
   .slack-moji{
     margin-top: 20em;
     .slack-icon{
