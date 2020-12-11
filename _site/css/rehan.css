@@ -942,7 +942,7 @@
       @media screen and (max-width: 40em) {
         .year-twenty footer .logo {
           width: 4em; } }
-    .year-twenty footer h1 {
+    .year-twenty footer h2 {
       font-family: "Lato", sans-serif;
       color: #ffffff;
       font-size: 18em;
@@ -950,10 +950,10 @@
       font-style: italic;
       line-height: 0.8em; }
       @media screen and (max-width: 64em) {
-        .year-twenty footer h1 {
+        .year-twenty footer h2 {
           font-size: 10em; } }
       @media screen and (max-width: 40em) {
-        .year-twenty footer h1 {
+        .year-twenty footer h2 {
           font-size: 6.4em; } }
     .year-twenty footer .text-section {
       margin-top: 10em;
