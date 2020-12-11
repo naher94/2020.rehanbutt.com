@@ -883,47 +883,72 @@
       @media screen and (max-width: 64em) {
         .year-twenty .lastly .lastly-grid-container .blurb {
           font-size: 2em;
-          padding: 0 2em; } }
+          padding: 0 2.5em; } }
       @media screen and (max-width: 40em) {
         .year-twenty .lastly .lastly-grid-container .blurb {
           font-size: 1.5em;
           padding: 0 1em; } }
-    .year-twenty .lastly .lastly-grid-container .emoji-container .emoji {
-      font-size: 4em;
-      display: inline-block;
+    .year-twenty .lastly .lastly-grid-container .emoji-container {
       position: relative; }
-    .year-twenty .lastly .lastly-grid-container .emoji-container .boom {
-      font-size: 6em;
-      transform: rotate(20deg);
-      top: -2vw;
-      left: 10vw; }
-    .year-twenty .lastly .lastly-grid-container .emoji-container .mask {
-      transform: rotate(-20deg); }
-    .year-twenty .lastly .lastly-grid-container .emoji-container .party {
-      transform: rotate(14deg);
-      right: 0; }
-  .year-twenty .in-person p {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    font-family: "Zilla Slab", serif;
-    font-weight: 500;
-    font-size: 4em;
-    padding: 0 2em;
-    line-height: 1.2em; }
-    @media screen and (max-width: 64em) {
-      .year-twenty .in-person p {
-        font-size: 3em;
-        padding: 0 1em; } }
-    @media screen and (max-width: 40em) {
-      .year-twenty .in-person p {
-        padding: 0 0.7em;
-        font-size: 2em; } }
-  .year-twenty .in-person .fingers-crossed {
-    margin-top: 1em; }
-    @media screen and (max-width: 40em) {
-      .year-twenty .in-person .fingers-crossed {
-        margin-top: 0.5em; } }
+      @media screen and (max-width: 64em) {
+        .year-twenty .lastly .lastly-grid-container .emoji-container {
+          font-size: 0.7em; } }
+      @media screen and (max-width: 40em) {
+        .year-twenty .lastly .lastly-grid-container .emoji-container {
+          font-size: 0.5em; } }
+      .year-twenty .lastly .lastly-grid-container .emoji-container .emoji-left {
+        display: inline-block;
+        position: absolute;
+        top: -20vw;
+        left: 4vw; }
+      .year-twenty .lastly .lastly-grid-container .emoji-container .emoji {
+        font-size: 4em;
+        display: inline-block;
+        position: absolute; }
+      .year-twenty .lastly .lastly-grid-container .emoji-container .boom {
+        font-size: 6em;
+        transform: rotate(20deg);
+        left: 5vw; }
+        @media screen and (max-width: 64em) {
+          .year-twenty .lastly .lastly-grid-container .emoji-container .boom {
+            top: -10vw; } }
+        @media screen and (max-width: 40em) {
+          .year-twenty .lastly .lastly-grid-container .emoji-container .boom {
+            top: -14vw; } }
+      .year-twenty .lastly .lastly-grid-container .emoji-container .mask {
+        transform: rotate(-20deg);
+        top: 8vw; }
+        @media screen and (max-width: 40em) {
+          .year-twenty .lastly .lastly-grid-container .emoji-container .mask {
+            top: 12vw; } }
+      .year-twenty .lastly .lastly-grid-container .emoji-container .party {
+        transform: rotate(14deg);
+        right: 4vw;
+        top: -4vw; }
+  .year-twenty .in-person {
+    margin-top: 12em; }
+    .year-twenty .in-person p {
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      font-family: "Zilla Slab", serif;
+      font-weight: 500;
+      font-size: 4em;
+      padding: 0 2em;
+      line-height: 1.2em; }
+      @media screen and (max-width: 64em) {
+        .year-twenty .in-person p {
+          font-size: 3em;
+          padding: 0 1em; } }
+      @media screen and (max-width: 40em) {
+        .year-twenty .in-person p {
+          padding: 0 0.7em;
+          font-size: 2em; } }
+    .year-twenty .in-person .fingers-crossed {
+      margin-top: 1em; }
+      @media screen and (max-width: 40em) {
+        .year-twenty .in-person .fingers-crossed {
+          margin-top: 0.5em; } }
   .year-twenty footer {
     background-image: url("../img/2020/footergradient.jpg");
     background-repeat: no-repeat;

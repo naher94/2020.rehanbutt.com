@@ -1105,38 +1105,62 @@
         padding: 0 3.4em;
         @media screen and (max-width: 64em) {
           font-size: 2em;
-          padding: 0 2em;
+          padding: 0 2.5em;
         }
         @media screen and (max-width: 40em) {
           font-size: 1.5em;
           padding: 0 1em;
         }
       }
-      // WHATS HAPPENING HERE
       .emoji-container{
-        // display: block;
+        position: relative;
+        @media screen and (max-width: 64em) {
+          font-size: 0.7em;
+        }
+        @media screen and (max-width: 40em) {
+          font-size: 0.5em;
+        }
+        .emoji-left{
+          display: inline-block;
+          position: absolute;
+          top: -20vw;
+          left: 4vw;
+        }
         .emoji{
           font-size: 4em;
           display: inline-block;
-          position: relative;
+          position: absolute;
         }
         .boom{
           font-size: 6em;
           transform: rotate(20deg);
-          top: -2vw;
-          left: 10vw;
+          // top: -20vw;
+          left: 5vw;
+          @media screen and (max-width: 64em) {
+            top: -10vw;
+          }
+          @media screen and (max-width: 40em) {
+            top: -14vw;
+          }
         }
         .mask{
           transform: rotate(-20deg);
+          top: 8vw;
+          @media screen and (max-width: 40em) {
+            top: 12vw;
+          }
+          // left: 6vw;
         }
         .party{
           transform: rotate(14deg);
-          right: 0;
+          right: 4vw;
+          top: -4vw;
         }
       }
     }
   }
   .in-person{
+    margin-top: 12em;
     p{
       padding: 0;
       margin: 0;
