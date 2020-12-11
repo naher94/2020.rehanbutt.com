@@ -628,20 +628,28 @@
     margin-top: 20em; }
     .year-twenty .slack-moji .slack-icon {
       max-width: 210px; }
+      @media screen and (max-width: 64em) {
+        .year-twenty .slack-moji .slack-icon {
+          max-width: 160px; } }
+      @media screen and (max-width: 40em) {
+        .year-twenty .slack-moji .slack-icon {
+          max-width: 100px; } }
     .year-twenty .slack-moji .title-container {
       margin-bottom: 2em; }
     .year-twenty .slack-moji .title {
       font-family: "Montserrat", sans-serif;
       font-size: 4.4em;
-      position: relative;
       margin-left: 0.3em; }
+      @media screen and (max-width: 64em) {
+        .year-twenty .slack-moji .title {
+          font-size: 3em; } }
       .year-twenty .slack-moji .title .most {
         font-weight: 200;
-        position: absolute; }
+        display: block; }
       .year-twenty .slack-moji .title .emoji {
         font-weight: 700;
-        position: absolute;
-        top: 0.6em;
+        display: block;
+        margin-top: -1.0em;
         color: rgba(31, 41, 55, 0.3); }
     .year-twenty .slack-moji .emoji-container {
       border-radius: 50%;
@@ -649,10 +657,23 @@
       display: flex;
       align-items: center;
       justify-content: center; }
+      @media screen and (max-width: 64em) {
+        .year-twenty .slack-moji .emoji-container {
+          border-radius: 40px; } }
+      @media screen and (max-width: 64em) {
+        .year-twenty .slack-moji .emoji-container {
+          min-height: 0;
+          padding: 2em 0; } }
       .year-twenty .slack-moji .emoji-container img {
-        min-width: 8rem; }
+        width: 8rem; }
+        @media screen and (max-width: 64em) {
+          .year-twenty .slack-moji .emoji-container img {
+            width: 4rem; } }
       .year-twenty .slack-moji .emoji-container span {
         font-size: 8rem; }
+        @media screen and (max-width: 64em) {
+          .year-twenty .slack-moji .emoji-container span {
+            font-size: 4rem; } }
     .year-twenty .slack-moji .thumbs-up {
       background-color: #B9E98B; }
     .year-twenty .slack-moji .party-parrot {
