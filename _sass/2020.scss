@@ -1,4 +1,5 @@
 .year-twenty{
+  overflow-x: hidden;
   .year-in-review{
     margin-bottom: 0;
     .nav-container{
@@ -893,6 +894,66 @@
     }
     .circle, .text, .left-col, .right-col{
       margin-bottom: 0.9375rem*2;
+    }
+  }
+
+  .covid{
+    .opener{
+      text-align: center;
+      z-index: 3;
+
+      @media screen and (max-width: 64em) {
+        font-size: 0.7em;
+      }
+      img{
+        @media screen and (max-width: 64em) {
+          max-width: 50%;
+        }
+      }
+      h2{
+        font-size: 3em;
+        font-weight: $zilla-bold;
+        padding: 0 2em;
+        line-height: 1.2em;
+        @media screen and (max-width: 40em) {
+          padding: 0 0.5em;
+        }
+      }
+      p{
+        font-family: $zilla;
+        font-size: 1.5em;
+        text-align: left;
+        padding: 0 1em;
+        text-shadow: 0px 0px 10px rgba($pure-white,1), 0px 0px 20px rgba($pure-white,1),0px 0px 20px rgba($pure-white,1),0px 0px 20px rgba($pure-white,1),0px 0px 40px rgba($pure-white,1),0px 0px 60px rgba($pure-white,1),0px 0px 60px rgba($pure-white,1),0px 0px 80px rgba($pure-white,1);
+      }
+    }
+  }
+  .sash{
+    margin-bottom: 15em;
+    z-index: 2;
+    background-image: url(../img/felt-texture.jpg);
+    background-blend-mode: overlay;
+    background-color: #415B50;
+    position: relative;
+    transform: rotate(12deg);
+    width: 150%;
+    left: -25%;
+    @media screen and (max-width: 40em) {
+      transform: rotate(0deg);
+      width: 100%;
+      left: 0;
+    }
+    &::before{
+      position: absolute;
+    }
+    .patch-container{
+      text-align: center;
+      transform: rotate(-12deg);
+      @media screen and (max-width: 40em) {
+        transform: rotate(0deg);
+        padding: 4em 0;
+      }
+
     }
   }
 
