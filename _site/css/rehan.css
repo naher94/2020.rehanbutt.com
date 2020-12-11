@@ -357,9 +357,9 @@
         bottom: 15%; }
   .year-twenty .by-the-numbers {
     margin-top: 20em;
-    margin-bottom: 20em; }
+    margin-bottom: 10em; }
     .year-twenty .by-the-numbers h2 {
-      font-size: 10vw;
+      font-size: 14vw;
       line-height: 10vw; }
   .year-twenty .by-the-numbers-end h2, .year-twenty .by-the-numbers-end p {
     font-family: "Zilla Slab", serif;
@@ -661,6 +661,9 @@
         font-size: 0.7em; }
   .year-twenty .slack-moji {
     margin-top: 20em; }
+    @media screen and (max-width: 64em) {
+      .year-twenty .slack-moji {
+        margin-top: 10em; } }
     .year-twenty .slack-moji .slack-icon {
       max-width: 210px; }
       @media screen and (max-width: 64em) {
@@ -719,7 +722,10 @@
       background-color: #F2C1FD; }
   .year-twenty .memoji {
     margin-top: 14em;
-    margin-bottom: 14 em; }
+    margin-bottom: 14em; }
+    @media screen and (max-width: 64em) {
+      .year-twenty .memoji {
+        margin-top: 8em; } }
     .year-twenty .memoji .wrapper {
       align-items: center; }
     .year-twenty .memoji .bubble {
@@ -801,7 +807,8 @@
       .year-twenty .sash {
         transform: rotate(0deg);
         width: 100%;
-        left: 0; } }
+        left: 0;
+        margin-bottom: 6em; } }
     .year-twenty .sash::before {
       position: absolute; }
     .year-twenty .sash .patch-container {
