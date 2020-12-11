@@ -811,7 +811,6 @@
     .title{
       font-family: $montserrat;
       font-size: 4.4em;
-      // position: relative;
       margin-left: 0.3em;
       @media screen and (max-width: 64em) {
         font-size: 3em;
@@ -819,14 +818,11 @@
       .most{
         font-weight: $montserrat-light;
         display: block;
-        // position: absolute;
       }
       .emoji{
         font-weight: $montserrat-bold;
         display: block;
         margin-top: -1.0em;
-        // position: absolute;
-        // top: 0.6em;
         color: rgba($navy-black,0.3);
       }
     }
