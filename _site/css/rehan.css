@@ -1,996 +1,996 @@
 @import url("https://fonts.googleapis.com/css?family=Zilla+Slab:300,400,500,500i,700,700i&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,700,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;900&display=swap");
-.year-twenty {
+.year-twenty .page-content {
   overflow-x: hidden; }
-  .year-twenty .year-in-review {
-    margin-bottom: 0; }
-    .year-twenty .year-in-review .nav-container {
-      background: linear-gradient(120deg, #f79868 0%, #f15f63 100%);
-      padding-bottom: 4em;
-      padding-top: 3em; }
-    .year-twenty .year-in-review .twenty-container {
-      margin-top: 2em;
-      margin-bottom: 2em; }
-    .year-twenty .year-in-review .twenty {
-      font-family: "Zilla Slab", serif;
-      font-size: 12em;
-      font-weight: 700;
-      color: #ffffff; }
-      @media screen and (max-width: 40em) {
-        .year-twenty .year-in-review .twenty {
-          font-size: 6em; } }
-    .year-twenty .year-in-review h1 {
-      display: inline-block;
-      line-height: 9rem; }
-      @media screen and (max-width: 40em) {
-        .year-twenty .year-in-review h1 {
-          line-height: 4rem; } }
-    .year-twenty .year-in-review h2 {
-      display: inline-block;
-      color: #ffffff;
-      font-size: 5.5em;
-      line-height: 6rem;
-      font-weight: 300;
-      margin-bottom: 0;
-      margin-top: -2em; }
-      @media screen and (max-width: 40em) {
-        .year-twenty .year-in-review h2 {
-          font-size: 3em;
-          line-height: 2.6rem; } }
-  .year-twenty .content-container {
-    background-color: white;
-    padding-top: 6rem;
-    padding-bottom: 12rem; }
-    @media screen and (max-width: 64em) {
-      .year-twenty .content-container {
-        padding-top: 3rem; } }
-    @media screen and (max-width: 40em) {
-      .year-twenty .content-container {
-        padding-top: 1.5rem; } }
-  .year-twenty .hero .hero-text {
+.year-twenty .year-in-review {
+  margin-bottom: 0; }
+  .year-twenty .year-in-review .nav-container {
+    background: linear-gradient(120deg, #f79868 0%, #f15f63 100%);
+    padding-bottom: 4em;
+    padding-top: 3em; }
+  .year-twenty .year-in-review .twenty-container {
+    margin-top: 2em;
+    margin-bottom: 2em; }
+  .year-twenty .year-in-review .twenty {
     font-family: "Zilla Slab", serif;
-    font-size: 2.5em;
-    line-height: 1.2em;
-    text-align: justify;
-    padding-left: 0;
-    padding-right: 0; }
-    @media screen and (max-width: 64em) {
-      .year-twenty .hero .hero-text {
-        padding-left: 1em;
-        padding-right: 1em;
-        font-size: 1.5em; } }
-    .year-twenty .hero .hero-text span {
-      position: relative; }
-      .year-twenty .hero .hero-text span span {
-        display: none;
-        position: absolute; }
-    .year-twenty .hero .hero-text .wow .wow-react {
-      display: block;
-      width: 100%;
-      opacity: 0.5;
-      z-index: -1;
-      font-size: 2em;
-      text-align: center;
-      margin-top: -25%; }
-  .year-twenty .black-lives-matter {
-    padding-top: 6em;
-    padding-bottom: 6em;
-    background-color: #000000; }
-    .year-twenty .black-lives-matter h2, .year-twenty .black-lives-matter p {
-      color: #ffffff; }
-    .year-twenty .black-lives-matter h2 {
-      font-weight: 700;
-      text-align: center;
-      font-size: 2.5em; }
-    .year-twenty .black-lives-matter p {
-      font-size: 1.5em;
-      padding: 0; }
-  .year-twenty .website .dragonfruit-container {
-    font-family: "Montserrat", sans-serif;
+    font-size: 12em;
+    font-weight: 700;
+    color: #ffffff; }
+    @media screen and (max-width: 40em) {
+      .year-twenty .year-in-review .twenty {
+        font-size: 6em; } }
+  .year-twenty .year-in-review h1 {
+    display: inline-block;
+    line-height: 9rem; }
+    @media screen and (max-width: 40em) {
+      .year-twenty .year-in-review h1 {
+        line-height: 4rem; } }
+  .year-twenty .year-in-review h2 {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 5.5em;
+    line-height: 6rem;
+    font-weight: 300;
+    margin-bottom: 0;
+    margin-top: -2em; }
+    @media screen and (max-width: 40em) {
+      .year-twenty .year-in-review h2 {
+        font-size: 3em;
+        line-height: 2.6rem; } }
+.year-twenty .content-container {
+  background-color: white;
+  padding-top: 6rem;
+  padding-bottom: 12rem; }
+  @media screen and (max-width: 64em) {
+    .year-twenty .content-container {
+      padding-top: 3rem; } }
+  @media screen and (max-width: 40em) {
+    .year-twenty .content-container {
+      padding-top: 1.5rem; } }
+.year-twenty .hero .hero-text {
+  font-family: "Zilla Slab", serif;
+  font-size: 2.5em;
+  line-height: 1.2em;
+  text-align: justify;
+  padding-left: 0;
+  padding-right: 0; }
+  @media screen and (max-width: 64em) {
+    .year-twenty .hero .hero-text {
+      padding-left: 1em;
+      padding-right: 1em;
+      font-size: 1.5em; } }
+  .year-twenty .hero .hero-text span {
+    position: relative; }
+    .year-twenty .hero .hero-text span span {
+      display: none;
+      position: absolute; }
+  .year-twenty .hero .hero-text .wow .wow-react {
+    display: block;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+    font-size: 2em;
     text-align: center;
-    padding: 6rem 0;
-    background: url(../img/dots.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%; }
-    @media screen and (max-width: 40em) {
-      .year-twenty .website .dragonfruit-container {
-        padding: 3rem 0; } }
-    .year-twenty .website .dragonfruit-container span {
-      display: block; }
-    .year-twenty .website .dragonfruit-container .site-name {
-      font-weight: 700;
-      color: #AC2C4C;
-      font-size: 2vw; }
-      @media screen and (max-width: 64em) {
-        .year-twenty .website .dragonfruit-container .site-name {
-          font-size: 4vw;
-          line-height: 4vw; } }
-      @media screen and (max-width: 40em) {
-        .year-twenty .website .dragonfruit-container .site-name {
-          font-size: 6vw;
-          line-height: 6vw; } }
-    .year-twenty .website .dragonfruit-container .launched {
-      font-weight: 200;
-      color: #AC2C4C;
-      font-size: 10vw; }
-    .year-twenty .website .dragonfruit-container .dragon {
-      font-weight: 700;
-      color: #DB3F66;
-      font-size: 14vw;
-      margin-top: -11vw; }
-      .year-twenty .website .dragonfruit-container .dragon span {
-        display: inline-block; }
-        .year-twenty .website .dragonfruit-container .dragon span img {
-          width: 10vw; }
-  .year-twenty .website .tile-container .big-bold {
-    padding: 2rem 2rem;
-    background: linear-gradient(120deg, #45bcf2 0%, #11668e 100%);
-    color: #ffffff;
-    font-size: 10rem;
-    line-height: 9rem;
-    font-family: "Zilla Slab", serif; }
-    .year-twenty .website .tile-container .big-bold span {
-      display: block; }
-    .year-twenty .website .tile-container .big-bold .big {
-      font-weight: 700; }
-      .year-twenty .website .tile-container .big-bold .big span {
-        display: inline-block; }
-      .year-twenty .website .tile-container .big-bold .big .b {
-        font-size: 0.8em;
-        margin-right: -0.2em; }
-      .year-twenty .website .tile-container .big-bold .big .i {
-        font-size: 0.9em;
-        margin-right: -0.2em; }
-    .year-twenty .website .tile-container .big-bold .bold {
-      font-weight: 700; }
-    @media screen and (max-width: 64em) {
-      .year-twenty .website .tile-container .big-bold {
-        font-size: 4em;
-        line-height: 4rem; } }
-    @media screen and (max-width: 40em) {
-      .year-twenty .website .tile-container .big-bold {
-        font-size: 6em;
-        line-height: 6rem; } }
-  .year-twenty .website .tile-container .new-footer .foot {
-    padding: 2rem 2rem; }
-  .year-twenty .website .tile-container .new-footer .title-container {
-    padding: 2rem 2rem;
-    border-radius: 0 0 40px 40px;
-    color: #ffffff;
-    font-size: 10rem;
-    line-height: 9rem;
-    font-family: "Zilla Slab", serif;
+    margin-top: -25%; }
+.year-twenty .black-lives-matter {
+  padding-top: 6em;
+  padding-bottom: 6em;
+  background-color: #000000; }
+  .year-twenty .black-lives-matter h2, .year-twenty .black-lives-matter p {
+    color: #ffffff; }
+  .year-twenty .black-lives-matter h2 {
     font-weight: 700;
-    background: linear-gradient(225deg, #00dad1 0%, #00f19f 100%); }
-    @media screen and (max-width: 64em) {
-      .year-twenty .website .tile-container .new-footer .title-container {
-        font-size: 4em;
-        line-height: 4rem; } }
-    @media screen and (max-width: 40em) {
-      .year-twenty .website .tile-container .new-footer .title-container {
-        font-size: 6em;
-        line-height: 6rem; } }
-  .year-twenty .website .tile-container .dark-mode {
-    padding: 2rem 2rem;
-    color: #1f2937;
-    font-size: 5rem;
-    line-height: 5rem;
-    font-family: "Zilla Slab", serif;
+    text-align: center;
+    font-size: 2.5em; }
+  .year-twenty .black-lives-matter p {
+    font-size: 1.5em;
+    padding: 0; }
+.year-twenty .website .dragonfruit-container {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding: 6rem 0;
+  background: url(../img/dots.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%; }
+  @media screen and (max-width: 40em) {
+    .year-twenty .website .dragonfruit-container {
+      padding: 3rem 0; } }
+  .year-twenty .website .dragonfruit-container span {
+    display: block; }
+  .year-twenty .website .dragonfruit-container .site-name {
     font-weight: 700;
-    background: radial-gradient(circle at 0% 100%, #1f2937 0%, #1f2937 45%, rgba(31, 41, 55, 0) 45%), linear-gradient(45deg, #ffdd1e 0%, white 100%); }
+    color: #AC2C4C;
+    font-size: 2vw; }
     @media screen and (max-width: 64em) {
-      .year-twenty .website .tile-container .dark-mode .text {
-        text-shadow: 0px 0px 50px #ffdd1e; } }
-    .year-twenty .website .tile-container .dark-mode span {
-      display: block; }
-    @media screen and (max-width: 64em) {
-      .year-twenty .website .tile-container .dark-mode .moon {
-        width: 40%; } }
+      .year-twenty .website .dragonfruit-container .site-name {
+        font-size: 4vw;
+        line-height: 4vw; } }
     @media screen and (max-width: 40em) {
-      .year-twenty .website .tile-container .dark-mode .moon {
-        width: 30%; } }
-    @media screen and (max-width: 64em) {
-      .year-twenty .website .tile-container .dark-mode {
-        background: radial-gradient(circle at 0% 100%, #1f2937 0%, #1f2937 35%, rgba(31, 41, 55, 0) 35%), linear-gradient(45deg, #ffdd1e 0%, white 100%); } }
-  .year-twenty .website .tile-container .speed {
-    padding: 2rem 2rem;
-    color: #ffffff;
-    background: url(../img/speed-stripes.svg), linear-gradient(45deg, #f1ce00 0%, #ffa100 100%);
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: 4rem;
-    line-height: 4rem;
-    font-family: "Zilla Slab", serif;
+      .year-twenty .website .dragonfruit-container .site-name {
+        font-size: 6vw;
+        line-height: 6vw; } }
+  .year-twenty .website .dragonfruit-container .launched {
+    font-weight: 200;
+    color: #AC2C4C;
+    font-size: 10vw; }
+  .year-twenty .website .dragonfruit-container .dragon {
+    font-weight: 700;
+    color: #DB3F66;
+    font-size: 14vw;
+    margin-top: -11vw; }
+    .year-twenty .website .dragonfruit-container .dragon span {
+      display: inline-block; }
+      .year-twenty .website .dragonfruit-container .dragon span img {
+        width: 10vw; }
+.year-twenty .website .tile-container .big-bold {
+  padding: 2rem 2rem;
+  background: linear-gradient(120deg, #45bcf2 0%, #11668e 100%);
+  color: #ffffff;
+  font-size: 10rem;
+  line-height: 9rem;
+  font-family: "Zilla Slab", serif; }
+  .year-twenty .website .tile-container .big-bold span {
+    display: block; }
+  .year-twenty .website .tile-container .big-bold .big {
     font-weight: 700; }
-    .year-twenty .website .tile-container .speed span {
-      display: block; }
+    .year-twenty .website .tile-container .big-bold .big span {
+      display: inline-block; }
+    .year-twenty .website .tile-container .big-bold .big .b {
+      font-size: 0.8em;
+      margin-right: -0.2em; }
+    .year-twenty .website .tile-container .big-bold .big .i {
+      font-size: 0.9em;
+      margin-right: -0.2em; }
+  .year-twenty .website .tile-container .big-bold .bold {
+    font-weight: 700; }
+  @media screen and (max-width: 64em) {
+    .year-twenty .website .tile-container .big-bold {
+      font-size: 4em;
+      line-height: 4rem; } }
+  @media screen and (max-width: 40em) {
+    .year-twenty .website .tile-container .big-bold {
+      font-size: 6em;
+      line-height: 6rem; } }
+.year-twenty .website .tile-container .new-footer .foot {
+  padding: 2rem 2rem; }
+.year-twenty .website .tile-container .new-footer .title-container {
+  padding: 2rem 2rem;
+  border-radius: 0 0 40px 40px;
+  color: #ffffff;
+  font-size: 10rem;
+  line-height: 9rem;
+  font-family: "Zilla Slab", serif;
+  font-weight: 700;
+  background: linear-gradient(225deg, #00dad1 0%, #00f19f 100%); }
+  @media screen and (max-width: 64em) {
+    .year-twenty .website .tile-container .new-footer .title-container {
+      font-size: 4em;
+      line-height: 4rem; } }
+  @media screen and (max-width: 40em) {
+    .year-twenty .website .tile-container .new-footer .title-container {
+      font-size: 6em;
+      line-height: 6rem; } }
+.year-twenty .website .tile-container .dark-mode {
+  padding: 2rem 2rem;
+  color: #1f2937;
+  font-size: 5rem;
+  line-height: 5rem;
+  font-family: "Zilla Slab", serif;
+  font-weight: 700;
+  background: radial-gradient(circle at 0% 100%, #1f2937 0%, #1f2937 45%, rgba(31, 41, 55, 0) 45%), linear-gradient(45deg, #ffdd1e 0%, white 100%); }
+  @media screen and (max-width: 64em) {
+    .year-twenty .website .tile-container .dark-mode .text {
+      text-shadow: 0px 0px 50px #ffdd1e; } }
+  .year-twenty .website .tile-container .dark-mode span {
+    display: block; }
+  @media screen and (max-width: 64em) {
+    .year-twenty .website .tile-container .dark-mode .moon {
+      width: 40%; } }
+  @media screen and (max-width: 40em) {
+    .year-twenty .website .tile-container .dark-mode .moon {
+      width: 30%; } }
+  @media screen and (max-width: 64em) {
+    .year-twenty .website .tile-container .dark-mode {
+      background: radial-gradient(circle at 0% 100%, #1f2937 0%, #1f2937 35%, rgba(31, 41, 55, 0) 35%), linear-gradient(45deg, #ffdd1e 0%, white 100%); } }
+.year-twenty .website .tile-container .speed {
+  padding: 2rem 2rem;
+  color: #ffffff;
+  background: url(../img/speed-stripes.svg), linear-gradient(45deg, #f1ce00 0%, #ffa100 100%);
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 4rem;
+  line-height: 4rem;
+  font-family: "Zilla Slab", serif;
+  font-weight: 700; }
+  .year-twenty .website .tile-container .speed span {
+    display: block; }
+  @media screen and (max-width: 64em) {
+    .year-twenty .website .tile-container .speed {
+      font-size: 2.3em;
+      line-height: 2.3rem; } }
+.year-twenty .website .tile-container .resources {
+  background-color: #12abc4;
+  color: #ffffff;
+  font-family: "Zilla Slab", serif; }
+  .year-twenty .website .tile-container .resources .cell {
+    padding: 3rem; }
     @media screen and (max-width: 64em) {
-      .year-twenty .website .tile-container .speed {
-        font-size: 2.3em;
-        line-height: 2.3rem; } }
-  .year-twenty .website .tile-container .resources {
-    background-color: #12abc4;
-    color: #ffffff;
-    font-family: "Zilla Slab", serif; }
-    .year-twenty .website .tile-container .resources .cell {
-      padding: 3rem; }
-      @media screen and (max-width: 64em) {
-        .year-twenty .website .tile-container .resources .cell {
-          padding: 2rem; } }
-    .year-twenty .website .tile-container .resources p {
-      font-size: 2.5em;
-      padding: 0; }
-    .year-twenty .website .tile-container .resources .title {
-      font-weight: 700;
-      margin-bottom: 0;
-      margin-top: 0.5em; }
-    .year-twenty .website .tile-container .resources .description {
-      margin-top: 0;
-      line-height: 1.2em; }
-    .year-twenty .website .tile-container .resources .pill-container {
-      font-size: 0.5em;
-      font-family: "Lato", sans-serif;
-      font-weight: 700; }
-      .year-twenty .website .tile-container .resources .pill-container .pill {
-        padding: 1em 2.5em 1em 2.5em;
-        background-color: #ffffff;
-        color: #12abc4;
-        display: inline-block;
-        border-radius: 50px;
-        margin: 5px; }
-        .year-twenty .website .tile-container .resources .pill-container .pill p {
-          margin: 0; }
-      .year-twenty .website .tile-container .resources .pill-container .special {
-        color: #ffffff;
-        background-color: #1f2937; }
-    @media screen and (max-width: 64em) {
-      .year-twenty .website .tile-container .resources {
-        font-size: 0.7em; } }
-  .year-twenty .website .tile {
+      .year-twenty .website .tile-container .resources .cell {
+        padding: 2rem; } }
+  .year-twenty .website .tile-container .resources p {
+    font-size: 2.5em;
+    padding: 0; }
+  .year-twenty .website .tile-container .resources .title {
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0.5em; }
+  .year-twenty .website .tile-container .resources .description {
+    margin-top: 0;
+    line-height: 1.2em; }
+  .year-twenty .website .tile-container .resources .pill-container {
+    font-size: 0.5em;
+    font-family: "Lato", sans-serif;
+    font-weight: 700; }
+    .year-twenty .website .tile-container .resources .pill-container .pill {
+      padding: 1em 2.5em 1em 2.5em;
+      background-color: #ffffff;
+      color: #12abc4;
+      display: inline-block;
+      border-radius: 50px;
+      margin: 5px; }
+      .year-twenty .website .tile-container .resources .pill-container .pill p {
+        margin: 0; }
+    .year-twenty .website .tile-container .resources .pill-container .special {
+      color: #ffffff;
+      background-color: #1f2937; }
+  @media screen and (max-width: 64em) {
+    .year-twenty .website .tile-container .resources {
+      font-size: 0.7em; } }
+.year-twenty .website .tile {
+  border-radius: 40px;
+  min-height: 43rem;
+  -webkit-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
+  -moz-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
+  box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25); }
+  @media screen and (max-width: 64em) {
+    .year-twenty .website .tile {
+      min-height: 30rem; } }
+.year-twenty .website .sub-text {
+  text-align: center;
+  margin-top: 4rem; }
+  .year-twenty .website .sub-text p {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: "Zilla Slab", serif;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    padding: 0; }
+    .year-twenty .website .sub-text p:nth-of-type(2) {
+      font-size: 3rem; }
+.year-twenty .shine-registry {
+  margin-top: 6rem;
+  margin-bottom: 6rem; }
+  .year-twenty .shine-registry .shine-container {
+    overflow: hidden;
+    position: relative;
     border-radius: 40px;
-    min-height: 43rem;
+    padding: 4rem 4rem;
+    background-color: #FFE6BA;
+    font-family: "Zilla Slab", serif;
+    font-size: 3rem;
+    line-height: 3.2rem;
+    min-height: 50rem;
     -webkit-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
     -moz-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
     box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25); }
     @media screen and (max-width: 64em) {
-      .year-twenty .website .tile {
-        min-height: 30rem; } }
-  .year-twenty .website .sub-text {
-    text-align: center;
-    margin-top: 4rem; }
-    .year-twenty .website .sub-text p {
-      margin-bottom: 0;
-      margin-top: 0;
-      font-family: "Zilla Slab", serif;
-      font-weight: 700;
-      font-size: 2rem;
-      line-height: 2.4rem;
-      padding: 0; }
-      .year-twenty .website .sub-text p:nth-of-type(2) {
-        font-size: 3rem; }
-  .year-twenty .shine-registry {
-    margin-top: 6rem;
-    margin-bottom: 6rem; }
-    .year-twenty .shine-registry .shine-container {
-      overflow: hidden;
-      position: relative;
-      border-radius: 40px;
-      padding: 4rem 4rem;
-      background-color: #FFE6BA;
-      font-family: "Zilla Slab", serif;
-      font-size: 3rem;
-      line-height: 3.2rem;
-      min-height: 50rem;
-      -webkit-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
-      -moz-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
-      box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25); }
-      @media screen and (max-width: 64em) {
-        .year-twenty .shine-registry .shine-container {
-          min-height: 40rem;
-          font-size: 2rem;
-          line-height: 2.2rem; } }
-      @media screen and (max-width: 40em) {
-        .year-twenty .shine-registry .shine-container {
-          min-height: 25rem;
-          padding: 2rem; } }
-      .year-twenty .shine-registry .shine-container .label-container {
-        z-index: 2; }
-        .year-twenty .shine-registry .shine-container .label-container .description {
-          margin-top: 1rem;
-          font-weight: 400; }
-          .year-twenty .shine-registry .shine-container .label-container .description span {
-            font-weight: 700; }
-      .year-twenty .shine-registry .shine-container .image-container {
-        position: absolute;
-        z-index: 3;
-        width: 45%;
-        border-radius: 20px;
-        overflow: hidden;
-        -webkit-box-shadow: 0px 0px 20px 0px rgba(31, 41, 55, 0.25);
-        -moz-box-shadow: 0px 0px 20px 0px rgba(31, 41, 55, 0.25);
-        box-shadow: 0px 0px 20px 0px rgba(31, 41, 55, 0.25); }
-      .year-twenty .shine-registry .shine-container .shine-1 {
-        transform: rotate(15deg);
-        top: 4rem;
-        right: 12rem; }
-        @media screen and (max-width: 64em) {
-          .year-twenty .shine-registry .shine-container .shine-1 {
-            top: 6rem;
-            right: 6rem; } }
-        @media screen and (max-width: 40em) {
-          .year-twenty .shine-registry .shine-container .shine-1 {
-            top: 13rem;
-            right: 3rem; } }
-      .year-twenty .shine-registry .shine-container .shine-2 {
-        transform: rotate(-15deg);
-        top: 18rem;
-        left: 12rem; }
-        @media screen and (max-width: 64em) {
-          .year-twenty .shine-registry .shine-container .shine-2 {
-            top: 16rem;
-            left: 6rem; } }
-        @media screen and (max-width: 40em) {
-          .year-twenty .shine-registry .shine-container .shine-2 {
-            top: 15rem;
-            left: 3rem; } }
-      .year-twenty .shine-registry .shine-container .blue-blob, .year-twenty .shine-registry .shine-container .peach-blob, .year-twenty .shine-registry .shine-container .brick-blob {
-        z-index: 1; }
-        @media screen and (max-width: 64em) {
-          .year-twenty .shine-registry .shine-container .blue-blob, .year-twenty .shine-registry .shine-container .peach-blob, .year-twenty .shine-registry .shine-container .brick-blob {
-            max-width: 30%; } }
-        @media screen and (max-width: 40em) {
-          .year-twenty .shine-registry .shine-container .blue-blob, .year-twenty .shine-registry .shine-container .peach-blob, .year-twenty .shine-registry .shine-container .brick-blob {
-            max-width: 40%; } }
-      .year-twenty .shine-registry .shine-container .blue-blob {
-        position: absolute;
-        top: -20%;
-        left: 50%; }
-      .year-twenty .shine-registry .shine-container .peach-blob {
-        position: absolute;
-        bottom: 10%;
-        left: -10%; }
-      .year-twenty .shine-registry .shine-container .brick-blob {
-        position: absolute;
-        right: -10%;
-        bottom: 15%; }
-  .year-twenty .by-the-numbers {
-    margin-top: 20em;
-    margin-bottom: 10em; }
-    .year-twenty .by-the-numbers h2 {
-      font-size: 14vw;
-      line-height: 10vw; }
-  .year-twenty .by-the-numbers-end h2, .year-twenty .by-the-numbers-end p {
-    font-family: "Zilla Slab", serif;
-    text-align: center;
-    line-height: 0.9em; }
-  .year-twenty .by-the-numbers-end h2 {
-    font-size: 3em;
-    font-weight: 700;
-    font-style: italic; }
-    .year-twenty .by-the-numbers-end h2 span {
-      font-size: 1.5em; }
-  .year-twenty .by-the-numbers-end p {
-    font-size: 2em;
-    font-weight: 500;
-    font-style: italic;
-    margin: 0;
-    padding: 0; }
-  .year-twenty .music h2 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 900;
-    font-size: 10vw;
-    line-height: 7vw; }
-    @media screen and (max-width: 64em) {
-      .year-twenty .music h2 {
-        font-size: 20vw;
-        line-height: 14vw; } }
-    .year-twenty .music h2 .hrs {
-      font-weight: 200; }
-    .year-twenty .music h2 .description {
-      font-size: 5vw;
-      display: block; }
-      @media screen and (max-width: 64em) {
-        .year-twenty .music h2 .description {
-          font-size: 12vw;
-          line-height: 0.8em;
-          margin-top: 0.2em; } }
-  .year-twenty .music h3 {
-    font-family: "Montserrat", sans-serif;
-    text-align: center;
-    font-weight: 700;
-    margin-top: 3em;
-    margin-bottom: 2em; }
-  .year-twenty .music .song-container .song-tile {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem; }
+      .year-twenty .shine-registry .shine-container {
+        min-height: 40rem;
+        font-size: 2rem;
+        line-height: 2.2rem; } }
     @media screen and (max-width: 40em) {
-      .year-twenty .music .song-container .song-tile {
-        margin-bottom: 2em;
-        padding-left: 0;
-        padding-right: 0; } }
-    .year-twenty .music .song-container .song-tile img {
-      border-radius: 40px;
-      box-shadow: 0 0 50px 0 rgba(31, 41, 55, 0.2); }
-    .year-twenty .music .song-container .song-tile .text-container {
-      margin-top: 0.5em;
-      font-family: "Montserrat", sans-serif; }
-      .year-twenty .music .song-container .song-tile .text-container p {
-        margin: 0;
-        padding: 0; }
-        @media screen and (max-width: 64em) {
-          .year-twenty .music .song-container .song-tile .text-container p {
-            font-size: 0.8em; } }
-        @media screen and (max-width: 40em) {
-          .year-twenty .music .song-container .song-tile .text-container p {
-            font-size: 1em; } }
-      .year-twenty .music .song-container .song-tile .text-container .title {
-        font-weight: 900; }
-      .year-twenty .music .song-container .song-tile .text-container .artist {
-        font-weight: 700;
-        display: inline-block; }
-      .year-twenty .music .song-container .song-tile .text-container .play-count {
-        font-weight: 400;
-        display: inline-block;
-        float: right; }
-  .year-twenty .data-consumed {
-    margin-bottom: 10em; }
-    .year-twenty .data-consumed .data-container {
-      font-family: "Montserrat", sans-serif; }
-      .year-twenty .data-consumed .data-container .title {
-        text-align: center;
-        margin-bottom: 4em; }
-        .year-twenty .data-consumed .data-container .title h2 {
-          font-size: 12vw;
-          font-family: "Montserrat", sans-serif;
-          font-weight: 900;
-          line-height: 12vw; }
-          @media screen and (max-width: 64em) {
-            .year-twenty .data-consumed .data-container .title h2 {
-              font-size: 16vw;
-              line-height: 16vw; } }
-        .year-twenty .data-consumed .data-container .title p {
-          font-size: 4vw;
-          font-weight: 200;
-          padding: 0;
-          margin: 0;
-          margin-top: -2vw; }
-          @media screen and (max-width: 64em) {
-            .year-twenty .data-consumed .data-container .title p {
-              font-size: 5vw;
-              line-height: 5vw; } }
-      .year-twenty .data-consumed .data-container .calendar p {
-        margin: 0;
-        padding: 0; }
-      .year-twenty .data-consumed .data-container .calendar .calendar-cell {
-        border: thick solid #000000;
-        border-radius: 30px;
-        overflow: hidden;
-        font-size: 2em; }
-        @media screen and (max-width: 64em) {
-          .year-twenty .data-consumed .data-container .calendar .calendar-cell {
-            font-size: 1.2em; } }
-        .year-twenty .data-consumed .data-container .calendar .calendar-cell .header {
-          background-color: #CD0909;
-          color: #ffffff;
-          padding: 0.3em 0.6em; }
-        .year-twenty .data-consumed .data-container .calendar .calendar-cell .body {
-          padding: 0.6em;
-          margin-top: 0.4em; }
-          .year-twenty .data-consumed .data-container .calendar .calendar-cell .body .number {
-            font-weight: 900;
-            font-size: 2em;
-            line-height: 0.8em;
-            color: #000000; }
-          .year-twenty .data-consumed .data-container .calendar .calendar-cell .body .gig {
-            font-size: 0.7em;
-            color: #000000; }
-  .year-twenty .duolingo {
-    margin-top: 6em;
-    margin-bottom: 3em; }
-    .year-twenty .duolingo .duolingo-container {
-      border-radius: 40px;
-      padding: 4rem 4rem;
-      background-color: #1f2937;
-      -webkit-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
-      -moz-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
-      box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
-      background-image: url(../img/fireworks.svg);
-      background-repeat: no-repeat;
-      background-position: 90% 15%; }
+      .year-twenty .shine-registry .shine-container {
+        min-height: 25rem;
+        padding: 2rem; } }
+    .year-twenty .shine-registry .shine-container .label-container {
+      z-index: 2; }
+      .year-twenty .shine-registry .shine-container .label-container .description {
+        margin-top: 1rem;
+        font-weight: 400; }
+        .year-twenty .shine-registry .shine-container .label-container .description span {
+          font-weight: 700; }
+    .year-twenty .shine-registry .shine-container .image-container {
+      position: absolute;
+      z-index: 3;
+      width: 45%;
+      border-radius: 20px;
+      overflow: hidden;
+      -webkit-box-shadow: 0px 0px 20px 0px rgba(31, 41, 55, 0.25);
+      -moz-box-shadow: 0px 0px 20px 0px rgba(31, 41, 55, 0.25);
+      box-shadow: 0px 0px 20px 0px rgba(31, 41, 55, 0.25); }
+    .year-twenty .shine-registry .shine-container .shine-1 {
+      transform: rotate(15deg);
+      top: 4rem;
+      right: 12rem; }
       @media screen and (max-width: 64em) {
-        .year-twenty .duolingo .duolingo-container {
-          background-size: 50%; } }
+        .year-twenty .shine-registry .shine-container .shine-1 {
+          top: 6rem;
+          right: 6rem; } }
       @media screen and (max-width: 40em) {
-        .year-twenty .duolingo .duolingo-container {
-          padding: 2rem; } }
-      .year-twenty .duolingo .duolingo-container .text {
-        font-family: "Montserrat", sans-serif;
-        color: #ffffff; }
-        .year-twenty .duolingo .duolingo-container .text p {
-          padding: 0;
-          margin: 0; }
-        .year-twenty .duolingo .duolingo-container .text .minutes, .year-twenty .duolingo .duolingo-container .text .words {
-          font-size: 5em;
-          line-height: 0.9em;
-          font-weight: 200; }
-          .year-twenty .duolingo .duolingo-container .text .minutes span, .year-twenty .duolingo .duolingo-container .text .words span {
-            font-weight: 900; }
-          @media screen and (max-width: 40em) {
-            .year-twenty .duolingo .duolingo-container .text .minutes, .year-twenty .duolingo .duolingo-container .text .words {
-              font-size: 3em; } }
-        .year-twenty .duolingo .duolingo-container .text .minutes span {
-          color: #1CB0F6; }
-        .year-twenty .duolingo .duolingo-container .text .words span {
-          color: #58CC02; }
-        .year-twenty .duolingo .duolingo-container .text .sentance {
-          font-size: 2em;
-          line-height: 1.2em;
-          font-weight: 900;
-          margin-top: 0.5em; }
-          @media screen and (max-width: 40em) {
-            .year-twenty .duolingo .duolingo-container .text .sentance {
-              font-size: 1.5em; } }
-        .year-twenty .duolingo .duolingo-container .text .footnote {
-          margin-top: 0.5em; }
-          @media screen and (max-width: 40em) {
-            .year-twenty .duolingo .duolingo-container .text .footnote {
-              font-size: 0.8em; } }
-  .year-twenty .site-analytics {
-    margin-bottom: 10em; }
-    .year-twenty .site-analytics .title-container {
-      font-family: "Zilla Slab", serif;
-      margin-bottom: 5em; }
+        .year-twenty .shine-registry .shine-container .shine-1 {
+          top: 13rem;
+          right: 3rem; } }
+    .year-twenty .shine-registry .shine-container .shine-2 {
+      transform: rotate(-15deg);
+      top: 18rem;
+      left: 12rem; }
       @media screen and (max-width: 64em) {
-        .year-twenty .site-analytics .title-container {
+        .year-twenty .shine-registry .shine-container .shine-2 {
+          top: 16rem;
+          left: 6rem; } }
+      @media screen and (max-width: 40em) {
+        .year-twenty .shine-registry .shine-container .shine-2 {
+          top: 15rem;
+          left: 3rem; } }
+    .year-twenty .shine-registry .shine-container .blue-blob, .year-twenty .shine-registry .shine-container .peach-blob, .year-twenty .shine-registry .shine-container .brick-blob {
+      z-index: 1; }
+      @media screen and (max-width: 64em) {
+        .year-twenty .shine-registry .shine-container .blue-blob, .year-twenty .shine-registry .shine-container .peach-blob, .year-twenty .shine-registry .shine-container .brick-blob {
+          max-width: 30%; } }
+      @media screen and (max-width: 40em) {
+        .year-twenty .shine-registry .shine-container .blue-blob, .year-twenty .shine-registry .shine-container .peach-blob, .year-twenty .shine-registry .shine-container .brick-blob {
+          max-width: 40%; } }
+    .year-twenty .shine-registry .shine-container .blue-blob {
+      position: absolute;
+      top: -20%;
+      left: 50%; }
+    .year-twenty .shine-registry .shine-container .peach-blob {
+      position: absolute;
+      bottom: 10%;
+      left: -10%; }
+    .year-twenty .shine-registry .shine-container .brick-blob {
+      position: absolute;
+      right: -10%;
+      bottom: 15%; }
+.year-twenty .by-the-numbers {
+  margin-top: 20em;
+  margin-bottom: 10em; }
+  .year-twenty .by-the-numbers h2 {
+    font-size: 14vw;
+    line-height: 10vw; }
+.year-twenty .by-the-numbers-end h2, .year-twenty .by-the-numbers-end p {
+  font-family: "Zilla Slab", serif;
+  text-align: center;
+  line-height: 0.9em; }
+.year-twenty .by-the-numbers-end h2 {
+  font-size: 3em;
+  font-weight: 700;
+  font-style: italic; }
+  .year-twenty .by-the-numbers-end h2 span {
+    font-size: 1.5em; }
+.year-twenty .by-the-numbers-end p {
+  font-size: 2em;
+  font-weight: 500;
+  font-style: italic;
+  margin: 0;
+  padding: 0; }
+.year-twenty .music h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 10vw;
+  line-height: 7vw; }
+  @media screen and (max-width: 64em) {
+    .year-twenty .music h2 {
+      font-size: 20vw;
+      line-height: 14vw; } }
+  .year-twenty .music h2 .hrs {
+    font-weight: 200; }
+  .year-twenty .music h2 .description {
+    font-size: 5vw;
+    display: block; }
+    @media screen and (max-width: 64em) {
+      .year-twenty .music h2 .description {
+        font-size: 12vw;
+        line-height: 0.8em;
+        margin-top: 0.2em; } }
+.year-twenty .music h3 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 3em;
+  margin-bottom: 2em; }
+.year-twenty .music .song-container .song-tile {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem; }
+  @media screen and (max-width: 40em) {
+    .year-twenty .music .song-container .song-tile {
+      margin-bottom: 2em;
+      padding-left: 0;
+      padding-right: 0; } }
+  .year-twenty .music .song-container .song-tile img {
+    border-radius: 40px;
+    box-shadow: 0 0 50px 0 rgba(31, 41, 55, 0.2); }
+  .year-twenty .music .song-container .song-tile .text-container {
+    margin-top: 0.5em;
+    font-family: "Montserrat", sans-serif; }
+    .year-twenty .music .song-container .song-tile .text-container p {
+      margin: 0;
+      padding: 0; }
+      @media screen and (max-width: 64em) {
+        .year-twenty .music .song-container .song-tile .text-container p {
           font-size: 0.8em; } }
-      .year-twenty .site-analytics .title-container p {
+      @media screen and (max-width: 40em) {
+        .year-twenty .music .song-container .song-tile .text-container p {
+          font-size: 1em; } }
+    .year-twenty .music .song-container .song-tile .text-container .title {
+      font-weight: 900; }
+    .year-twenty .music .song-container .song-tile .text-container .artist {
+      font-weight: 700;
+      display: inline-block; }
+    .year-twenty .music .song-container .song-tile .text-container .play-count {
+      font-weight: 400;
+      display: inline-block;
+      float: right; }
+.year-twenty .data-consumed {
+  margin-bottom: 10em; }
+  .year-twenty .data-consumed .data-container {
+    font-family: "Montserrat", sans-serif; }
+    .year-twenty .data-consumed .data-container .title {
+      text-align: center;
+      margin-bottom: 4em; }
+      .year-twenty .data-consumed .data-container .title h2 {
+        font-size: 12vw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 900;
+        line-height: 12vw; }
+        @media screen and (max-width: 64em) {
+          .year-twenty .data-consumed .data-container .title h2 {
+            font-size: 16vw;
+            line-height: 16vw; } }
+      .year-twenty .data-consumed .data-container .title p {
+        font-size: 4vw;
+        font-weight: 200;
         padding: 0;
         margin: 0;
-        font-size: 3em; }
-      .year-twenty .site-analytics .title-container h2 {
-        font-weight: 700;
-        font-size: 6em;
-        margin-top: -0.5em; }
+        margin-top: -2vw; }
         @media screen and (max-width: 64em) {
-          .year-twenty .site-analytics .title-container h2 {
-            line-height: 0.8em;
-            margin-top: -0.2em; } }
-    .year-twenty .site-analytics .top-countries {
-      background-image: url(../img/world.svg);
-      background-repeat: no-repeat;
-      background-size: 100%;
-      background-position: center; }
-    .year-twenty .site-analytics .top-countries, .year-twenty .site-analytics .devices {
-      margin-bottom: 6em; }
+          .year-twenty .data-consumed .data-container .title p {
+            font-size: 5vw;
+            line-height: 5vw; } }
+    .year-twenty .data-consumed .data-container .calendar p {
+      margin: 0;
+      padding: 0; }
+    .year-twenty .data-consumed .data-container .calendar .calendar-cell {
+      border: thick solid #000000;
+      border-radius: 30px;
+      overflow: hidden;
+      font-size: 2em; }
       @media screen and (max-width: 64em) {
-        .year-twenty .site-analytics .top-countries, .year-twenty .site-analytics .devices {
-          font-size: 0.8em; } }
-      .year-twenty .site-analytics .top-countries h3, .year-twenty .site-analytics .devices h3 {
-        text-align: center;
-        font-weight: 700;
-        font-size: 3em; }
-        @media screen and (max-width: 64em) {
-          .year-twenty .site-analytics .top-countries h3, .year-twenty .site-analytics .devices h3 {
-            line-height: 1em; } }
-      .year-twenty .site-analytics .top-countries .device-container, .year-twenty .site-analytics .devices .device-container {
-        margin-top: 2em; }
-      .year-twenty .site-analytics .top-countries .country-container, .year-twenty .site-analytics .top-countries .device-container, .year-twenty .site-analytics .devices .country-container, .year-twenty .site-analytics .devices .device-container {
-        text-align: center; }
-        .year-twenty .site-analytics .top-countries .country-container .country-wrapper, .year-twenty .site-analytics .top-countries .country-container .device-wrapper, .year-twenty .site-analytics .top-countries .device-container .country-wrapper, .year-twenty .site-analytics .top-countries .device-container .device-wrapper, .year-twenty .site-analytics .devices .country-container .country-wrapper, .year-twenty .site-analytics .devices .country-container .device-wrapper, .year-twenty .site-analytics .devices .device-container .country-wrapper, .year-twenty .site-analytics .devices .device-container .device-wrapper {
-          display: inline-block;
-          text-align: right; }
-        .year-twenty .site-analytics .top-countries .country-container p, .year-twenty .site-analytics .top-countries .device-container p, .year-twenty .site-analytics .devices .country-container p, .year-twenty .site-analytics .devices .device-container p {
-          padding: 0;
-          margin: 0; }
-        .year-twenty .site-analytics .top-countries .country-container .flag, .year-twenty .site-analytics .top-countries .device-container .flag, .year-twenty .site-analytics .devices .country-container .flag, .year-twenty .site-analytics .devices .device-container .flag {
-          font-size: 3em; }
-        .year-twenty .site-analytics .top-countries .country-container .number-views, .year-twenty .site-analytics .top-countries .country-container .percentage, .year-twenty .site-analytics .top-countries .device-container .number-views, .year-twenty .site-analytics .top-countries .device-container .percentage, .year-twenty .site-analytics .devices .country-container .number-views, .year-twenty .site-analytics .devices .country-container .percentage, .year-twenty .site-analytics .devices .device-container .number-views, .year-twenty .site-analytics .devices .device-container .percentage {
-          font-size: 6em;
+        .year-twenty .data-consumed .data-container .calendar .calendar-cell {
+          font-size: 1.2em; } }
+      .year-twenty .data-consumed .data-container .calendar .calendar-cell .header {
+        background-color: #CD0909;
+        color: #ffffff;
+        padding: 0.3em 0.6em; }
+      .year-twenty .data-consumed .data-container .calendar .calendar-cell .body {
+        padding: 0.6em;
+        margin-top: 0.4em; }
+        .year-twenty .data-consumed .data-container .calendar .calendar-cell .body .number {
           font-weight: 900;
-          margin-top: -0.5em;
-          margin-bottom: -0.4em; }
-        .year-twenty .site-analytics .top-countries .country-container .country-name, .year-twenty .site-analytics .top-countries .country-container .device-type, .year-twenty .site-analytics .top-countries .device-container .country-name, .year-twenty .site-analytics .top-countries .device-container .device-type, .year-twenty .site-analytics .devices .country-container .country-name, .year-twenty .site-analytics .devices .country-container .device-type, .year-twenty .site-analytics .devices .device-container .country-name, .year-twenty .site-analytics .devices .device-container .device-type {
-          font-size: 2em; }
-    .year-twenty .site-analytics .popular-project {
-      border-radius: 40px;
-      padding: 1rem 1rem;
-      background-color: #F5F5F5;
-      margin-bottom: 3em;
-      -webkit-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
-      -moz-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
-      box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25); }
-      @media screen and (max-width: 64em) {
-        .year-twenty .site-analytics .popular-project {
-          font-size: 0.6em; } }
-      .year-twenty .site-analytics .popular-project .photo-container {
-        border-radius: 26px;
-        overflow: hidden; }
-        @media screen and (max-width: 40em) {
-          .year-twenty .site-analytics .popular-project .photo-container {
-            margin-bottom: 2em; } }
-      .year-twenty .site-analytics .popular-project .text {
-        text-align: right;
-        font-family: "Zilla Slab", serif; }
-        .year-twenty .site-analytics .popular-project .text p {
-          margin: 0;
-          padding: 0;
           font-size: 2em;
-          line-height: 1em; }
-        .year-twenty .site-analytics .popular-project .text .title {
-          font-weight: 700;
-          font-size: 4em; }
-    .year-twenty .site-analytics .total-views-container {
-      border-radius: 40px;
-      padding: 4rem 4rem;
-      background-color: #1f2937;
-      -webkit-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
-      -moz-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
-      box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
-      color: #ffffff;
-      font-family: "Zilla Slab", serif;
-      font-size: 2.5em; }
-      @media screen and (max-width: 64em) {
-        .year-twenty .site-analytics .total-views-container {
-          font-size: 2em; } }
-      @media screen and (max-width: 40em) {
-        .year-twenty .site-analytics .total-views-container {
-          font-size: 1.2em;
-          padding: 2em; } }
-      .year-twenty .site-analytics .total-views-container .party {
-        font-size: 2em;
-        display: inline-block; }
-      .year-twenty .site-analytics .total-views-container p {
+          line-height: 0.8em;
+          color: #000000; }
+        .year-twenty .data-consumed .data-container .calendar .calendar-cell .body .gig {
+          font-size: 0.7em;
+          color: #000000; }
+.year-twenty .duolingo {
+  margin-top: 6em;
+  margin-bottom: 3em; }
+  .year-twenty .duolingo .duolingo-container {
+    border-radius: 40px;
+    padding: 4rem 4rem;
+    background-color: #1f2937;
+    -webkit-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
+    -moz-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
+    box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
+    background-image: url(../img/fireworks.svg);
+    background-repeat: no-repeat;
+    background-position: 90% 15%; }
+    @media screen and (max-width: 64em) {
+      .year-twenty .duolingo .duolingo-container {
+        background-size: 50%; } }
+    @media screen and (max-width: 40em) {
+      .year-twenty .duolingo .duolingo-container {
+        padding: 2rem; } }
+    .year-twenty .duolingo .duolingo-container .text {
+      font-family: "Montserrat", sans-serif;
+      color: #ffffff; }
+      .year-twenty .duolingo .duolingo-container .text p {
         padding: 0;
         margin: 0; }
-      .year-twenty .site-analytics .total-views-container h3 {
-        font-family: "Lato", sans-serif;
-        font-weight: 900;
-        font-size: 4em;
-        margin-top: -0.3em; }
-      .year-twenty .site-analytics .total-views-container .wow {
-        font-weight: 700; }
-      .year-twenty .site-analytics .total-views-container .thanks {
-        line-height: 1.2em;
-        margin-bottom: 0.5em;
-        font-weight: 300; }
-      .year-twenty .site-analytics .total-views-container .come-back {
-        font-weight: 700;
-        line-height: 1.2em;
-        font-size: 0.7em; }
-  .year-twenty .slack-moji {
-    margin-top: 20em; }
-    @media screen and (max-width: 64em) {
-      .year-twenty .slack-moji {
-        margin-top: 10em; } }
-    .year-twenty .slack-moji .slack-icon {
-      max-width: 210px; }
-      @media screen and (max-width: 64em) {
-        .year-twenty .slack-moji .slack-icon {
-          max-width: 160px; } }
-      @media screen and (max-width: 40em) {
-        .year-twenty .slack-moji .slack-icon {
-          max-width: 100px; } }
-    .year-twenty .slack-moji .title-container {
-      margin-bottom: 2em; }
-    .year-twenty .slack-moji .title {
-      font-family: "Montserrat", sans-serif;
-      font-size: 4.4em;
-      margin-left: 0.3em; }
-      @media screen and (max-width: 64em) {
-        .year-twenty .slack-moji .title {
-          font-size: 3em; } }
-      .year-twenty .slack-moji .title .most {
-        font-weight: 200;
-        display: block; }
-      .year-twenty .slack-moji .title .emoji {
-        font-weight: 700;
-        display: block;
-        margin-top: -1.0em;
-        color: rgba(31, 41, 55, 0.3); }
-    .year-twenty .slack-moji .emoji-container {
-      border-radius: 50%;
-      min-height: 16.9rem;
-      display: flex;
-      align-items: center;
-      justify-content: center; }
-      @media screen and (max-width: 64em) {
-        .year-twenty .slack-moji .emoji-container {
-          border-radius: 40px; } }
-      @media screen and (max-width: 64em) {
-        .year-twenty .slack-moji .emoji-container {
-          min-height: 0;
-          padding: 2em 0; } }
-      .year-twenty .slack-moji .emoji-container img {
-        width: 8rem; }
-        @media screen and (max-width: 64em) {
-          .year-twenty .slack-moji .emoji-container img {
-            width: 4rem; } }
-      .year-twenty .slack-moji .emoji-container span {
-        font-size: 8rem; }
-        @media screen and (max-width: 64em) {
-          .year-twenty .slack-moji .emoji-container span {
-            font-size: 4rem; } }
-    .year-twenty .slack-moji .thumbs-up {
-      background-color: #B9E98B; }
-    .year-twenty .slack-moji .party-parrot {
-      background-color: #B5E0FE; }
-    .year-twenty .slack-moji .floor-laughing {
-      background-color: #F9F064; }
-    .year-twenty .slack-moji .hoppy-goat {
-      background-color: #F2C1FD; }
-  .year-twenty .memoji {
-    margin-top: 14em;
-    margin-bottom: 14em; }
-    @media screen and (max-width: 64em) {
-      .year-twenty .memoji {
-        margin-top: 8em; } }
-    .year-twenty .memoji .wrapper {
-      align-items: center; }
-    .year-twenty .memoji .bubble {
-      position: absolute; }
-    .year-twenty .memoji .text-container {
-      position: relative; }
-      .year-twenty .memoji .text-container .video {
-        top: -60%;
-        left: 20%; }
-        @media screen and (max-width: 64em) {
-          .year-twenty .memoji .text-container .video {
-            top: -5%;
-            left: 5%;
-            opacity: 30%; } }
-      .year-twenty .memoji .text-container .chat {
-        right: 0;
-        bottom: -20%; }
-        @media screen and (max-width: 64em) {
-          .year-twenty .memoji .text-container .chat {
-            right: 5%;
-            opacity: 30%; } }
-    .year-twenty .memoji p {
-      font-family: "Zilla Slab", serif;
-      font-weight: 500;
-      font-size: 4em;
-      padding: 0;
-      line-height: 1em;
-      margin: 0;
-      z-index: 2;
-      position: relative; }
-  .year-twenty .drone-photography {
-    margin-top: 15rem; }
-    .year-twenty .drone-photography .title {
-      font-family: "Zilla Slab", serif;
-      font-size: 3em;
-      padding: 0;
-      margin: 0;
-      line-height: 1em;
-      font-weight: 500; }
-      .year-twenty .drone-photography .title sup {
-        font-size: 0.3em;
-        top: -1.5em; }
-    .year-twenty .drone-photography .circle, .year-twenty .drone-photography .text, .year-twenty .drone-photography .left-col, .year-twenty .drone-photography .right-col {
-      margin-bottom: 1.875rem; }
-  .year-twenty .covid .opener {
-    text-align: center;
-    z-index: 3; }
-    @media screen and (max-width: 64em) {
-      .year-twenty .covid .opener {
-        font-size: 0.7em; } }
-    @media screen and (max-width: 64em) {
-      .year-twenty .covid .opener img {
-        max-width: 50%; } }
-    .year-twenty .covid .opener h2 {
-      font-size: 3em;
-      font-weight: 700;
-      padding: 0 2em;
-      line-height: 1.2em; }
-      @media screen and (max-width: 40em) {
-        .year-twenty .covid .opener h2 {
-          padding: 0 0.5em; } }
-    .year-twenty .covid .opener p {
-      font-family: "Zilla Slab", serif;
-      font-size: 1.5em;
-      text-align: left;
-      padding: 0 1em;
-      text-shadow: 0px 0px 10px white, 0px 0px 20px white, 0px 0px 20px white, 0px 0px 20px white, 0px 0px 40px white, 0px 0px 60px white, 0px 0px 60px white, 0px 0px 80px white; }
-  .year-twenty .sash {
-    margin-bottom: 15em;
-    z-index: 2;
-    background-image: url(../img/felt-texture.jpg);
-    background-blend-mode: overlay;
-    background-color: #415B50;
-    position: relative;
-    transform: rotate(12deg);
-    width: 150%;
-    left: -25%; }
-    @media screen and (max-width: 40em) {
-      .year-twenty .sash {
-        transform: rotate(0deg);
-        width: 100%;
-        left: 0;
-        margin-bottom: 6em; } }
-    .year-twenty .sash::before {
-      position: absolute; }
-    .year-twenty .sash .patch-container {
-      text-align: center;
-      transform: rotate(-12deg); }
-      @media screen and (max-width: 40em) {
-        .year-twenty .sash .patch-container {
-          transform: rotate(0deg);
-          padding: 4em 0; } }
-  .year-twenty .leveled-up {
-    margin-top: 10em; }
-    @media screen and (max-width: 64em) {
-      .year-twenty .leveled-up {
-        font-size: 0.7em; } }
-    @media screen and (max-width: 40em) {
-      .year-twenty .leveled-up .icon-container img {
-        max-width: 40%; } }
-    .year-twenty .leveled-up .words-container {
-      padding: 0 2em; }
-      .year-twenty .leveled-up .words-container h2 {
-        font-family: "Montserrat", sans-serif;
-        font-size: 8em;
+      .year-twenty .duolingo .duolingo-container .text .minutes, .year-twenty .duolingo .duolingo-container .text .words {
+        font-size: 5em;
+        line-height: 0.9em;
         font-weight: 200; }
-        @media screen and (max-width: 64em) {
-          .year-twenty .leveled-up .words-container h2 {
-            line-height: 0.8em;
-            margin-top: 0.2em;
-            margin-bottom: 0.5em; } }
-      .year-twenty .leveled-up .words-container p {
-        font-family: "Montserrat", sans-serif;
-        font-weight: 200;
+        .year-twenty .duolingo .duolingo-container .text .minutes span, .year-twenty .duolingo .duolingo-container .text .words span {
+          font-weight: 900; }
+        @media screen and (max-width: 40em) {
+          .year-twenty .duolingo .duolingo-container .text .minutes, .year-twenty .duolingo .duolingo-container .text .words {
+            font-size: 3em; } }
+      .year-twenty .duolingo .duolingo-container .text .minutes span {
+        color: #1CB0F6; }
+      .year-twenty .duolingo .duolingo-container .text .words span {
+        color: #58CC02; }
+      .year-twenty .duolingo .duolingo-container .text .sentance {
         font-size: 2em;
-        padding: 0;
-        margin: 0;
-        margin-top: -1em;
-        padding: 0 0.3em; }
-      .year-twenty .leveled-up .words-container .pill-container {
+        line-height: 1.2em;
+        font-weight: 900;
         margin-top: 0.5em; }
-        .year-twenty .leveled-up .words-container .pill-container .pill {
-          font-size: 1.2em;
-          color: #ffffff;
-          background-color: #1f2937;
-          border-radius: 500px;
-          display: inline-block;
-          padding: 0.2em 0.6em;
-          margin: 0.2em 0.1em; }
-  .year-twenty .lastly .full-bleed {
+        @media screen and (max-width: 40em) {
+          .year-twenty .duolingo .duolingo-container .text .sentance {
+            font-size: 1.5em; } }
+      .year-twenty .duolingo .duolingo-container .text .footnote {
+        margin-top: 0.5em; }
+        @media screen and (max-width: 40em) {
+          .year-twenty .duolingo .duolingo-container .text .footnote {
+            font-size: 0.8em; } }
+.year-twenty .site-analytics {
+  margin-bottom: 10em; }
+  .year-twenty .site-analytics .title-container {
     font-family: "Zilla Slab", serif;
-    font-weight: 300;
-    color: rgba(31, 41, 55, 0.15);
-    white-space: nowrap;
-    text-align: center;
-    font-size: 32vw;
-    width: calc(100% + 3vw);
+    margin-bottom: 5em; }
+    @media screen and (max-width: 64em) {
+      .year-twenty .site-analytics .title-container {
+        font-size: 0.8em; } }
+    .year-twenty .site-analytics .title-container p {
+      padding: 0;
+      margin: 0;
+      font-size: 3em; }
+    .year-twenty .site-analytics .title-container h2 {
+      font-weight: 700;
+      font-size: 6em;
+      margin-top: -0.5em; }
+      @media screen and (max-width: 64em) {
+        .year-twenty .site-analytics .title-container h2 {
+          line-height: 0.8em;
+          margin-top: -0.2em; } }
+  .year-twenty .site-analytics .top-countries {
+    background-image: url(../img/world.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center; }
+  .year-twenty .site-analytics .top-countries, .year-twenty .site-analytics .devices {
+    margin-bottom: 6em; }
+    @media screen and (max-width: 64em) {
+      .year-twenty .site-analytics .top-countries, .year-twenty .site-analytics .devices {
+        font-size: 0.8em; } }
+    .year-twenty .site-analytics .top-countries h3, .year-twenty .site-analytics .devices h3 {
+      text-align: center;
+      font-weight: 700;
+      font-size: 3em; }
+      @media screen and (max-width: 64em) {
+        .year-twenty .site-analytics .top-countries h3, .year-twenty .site-analytics .devices h3 {
+          line-height: 1em; } }
+    .year-twenty .site-analytics .top-countries .device-container, .year-twenty .site-analytics .devices .device-container {
+      margin-top: 2em; }
+    .year-twenty .site-analytics .top-countries .country-container, .year-twenty .site-analytics .top-countries .device-container, .year-twenty .site-analytics .devices .country-container, .year-twenty .site-analytics .devices .device-container {
+      text-align: center; }
+      .year-twenty .site-analytics .top-countries .country-container .country-wrapper, .year-twenty .site-analytics .top-countries .country-container .device-wrapper, .year-twenty .site-analytics .top-countries .device-container .country-wrapper, .year-twenty .site-analytics .top-countries .device-container .device-wrapper, .year-twenty .site-analytics .devices .country-container .country-wrapper, .year-twenty .site-analytics .devices .country-container .device-wrapper, .year-twenty .site-analytics .devices .device-container .country-wrapper, .year-twenty .site-analytics .devices .device-container .device-wrapper {
+        display: inline-block;
+        text-align: right; }
+      .year-twenty .site-analytics .top-countries .country-container p, .year-twenty .site-analytics .top-countries .device-container p, .year-twenty .site-analytics .devices .country-container p, .year-twenty .site-analytics .devices .device-container p {
+        padding: 0;
+        margin: 0; }
+      .year-twenty .site-analytics .top-countries .country-container .flag, .year-twenty .site-analytics .top-countries .device-container .flag, .year-twenty .site-analytics .devices .country-container .flag, .year-twenty .site-analytics .devices .device-container .flag {
+        font-size: 3em; }
+      .year-twenty .site-analytics .top-countries .country-container .number-views, .year-twenty .site-analytics .top-countries .country-container .percentage, .year-twenty .site-analytics .top-countries .device-container .number-views, .year-twenty .site-analytics .top-countries .device-container .percentage, .year-twenty .site-analytics .devices .country-container .number-views, .year-twenty .site-analytics .devices .country-container .percentage, .year-twenty .site-analytics .devices .device-container .number-views, .year-twenty .site-analytics .devices .device-container .percentage {
+        font-size: 6em;
+        font-weight: 900;
+        margin-top: -0.5em;
+        margin-bottom: -0.4em; }
+      .year-twenty .site-analytics .top-countries .country-container .country-name, .year-twenty .site-analytics .top-countries .country-container .device-type, .year-twenty .site-analytics .top-countries .device-container .country-name, .year-twenty .site-analytics .top-countries .device-container .device-type, .year-twenty .site-analytics .devices .country-container .country-name, .year-twenty .site-analytics .devices .country-container .device-type, .year-twenty .site-analytics .devices .device-container .country-name, .year-twenty .site-analytics .devices .device-container .device-type {
+        font-size: 2em; }
+  .year-twenty .site-analytics .popular-project {
+    border-radius: 40px;
+    padding: 1rem 1rem;
+    background-color: #F5F5F5;
+    margin-bottom: 3em;
+    -webkit-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
+    -moz-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
+    box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25); }
+    @media screen and (max-width: 64em) {
+      .year-twenty .site-analytics .popular-project {
+        font-size: 0.6em; } }
+    .year-twenty .site-analytics .popular-project .photo-container {
+      border-radius: 26px;
+      overflow: hidden; }
+      @media screen and (max-width: 40em) {
+        .year-twenty .site-analytics .popular-project .photo-container {
+          margin-bottom: 2em; } }
+    .year-twenty .site-analytics .popular-project .text {
+      text-align: right;
+      font-family: "Zilla Slab", serif; }
+      .year-twenty .site-analytics .popular-project .text p {
+        margin: 0;
+        padding: 0;
+        font-size: 2em;
+        line-height: 1em; }
+      .year-twenty .site-analytics .popular-project .text .title {
+        font-weight: 700;
+        font-size: 4em; }
+  .year-twenty .site-analytics .total-views-container {
+    border-radius: 40px;
+    padding: 4rem 4rem;
+    background-color: #1f2937;
+    -webkit-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
+    -moz-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
+    box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
+    color: #ffffff;
+    font-family: "Zilla Slab", serif;
+    font-size: 2.5em; }
+    @media screen and (max-width: 64em) {
+      .year-twenty .site-analytics .total-views-container {
+        font-size: 2em; } }
+    @media screen and (max-width: 40em) {
+      .year-twenty .site-analytics .total-views-container {
+        font-size: 1.2em;
+        padding: 2em; } }
+    .year-twenty .site-analytics .total-views-container .party {
+      font-size: 2em;
+      display: inline-block; }
+    .year-twenty .site-analytics .total-views-container p {
+      padding: 0;
+      margin: 0; }
+    .year-twenty .site-analytics .total-views-container h3 {
+      font-family: "Lato", sans-serif;
+      font-weight: 900;
+      font-size: 4em;
+      margin-top: -0.3em; }
+    .year-twenty .site-analytics .total-views-container .wow {
+      font-weight: 700; }
+    .year-twenty .site-analytics .total-views-container .thanks {
+      line-height: 1.2em;
+      margin-bottom: 0.5em;
+      font-weight: 300; }
+    .year-twenty .site-analytics .total-views-container .come-back {
+      font-weight: 700;
+      line-height: 1.2em;
+      font-size: 0.7em; }
+.year-twenty .slack-moji {
+  margin-top: 20em; }
+  @media screen and (max-width: 64em) {
+    .year-twenty .slack-moji {
+      margin-top: 10em; } }
+  .year-twenty .slack-moji .slack-icon {
+    max-width: 210px; }
+    @media screen and (max-width: 64em) {
+      .year-twenty .slack-moji .slack-icon {
+        max-width: 160px; } }
+    @media screen and (max-width: 40em) {
+      .year-twenty .slack-moji .slack-icon {
+        max-width: 100px; } }
+  .year-twenty .slack-moji .title-container {
+    margin-bottom: 2em; }
+  .year-twenty .slack-moji .title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 4.4em;
+    margin-left: 0.3em; }
+    @media screen and (max-width: 64em) {
+      .year-twenty .slack-moji .title {
+        font-size: 3em; } }
+    .year-twenty .slack-moji .title .most {
+      font-weight: 200;
+      display: block; }
+    .year-twenty .slack-moji .title .emoji {
+      font-weight: 700;
+      display: block;
+      margin-top: -1.0em;
+      color: rgba(31, 41, 55, 0.3); }
+  .year-twenty .slack-moji .emoji-container {
+    border-radius: 50%;
+    min-height: 16.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    @media screen and (max-width: 64em) {
+      .year-twenty .slack-moji .emoji-container {
+        border-radius: 40px; } }
+    @media screen and (max-width: 64em) {
+      .year-twenty .slack-moji .emoji-container {
+        min-height: 0;
+        padding: 2em 0; } }
+    .year-twenty .slack-moji .emoji-container img {
+      width: 8rem; }
+      @media screen and (max-width: 64em) {
+        .year-twenty .slack-moji .emoji-container img {
+          width: 4rem; } }
+    .year-twenty .slack-moji .emoji-container span {
+      font-size: 8rem; }
+      @media screen and (max-width: 64em) {
+        .year-twenty .slack-moji .emoji-container span {
+          font-size: 4rem; } }
+  .year-twenty .slack-moji .thumbs-up {
+    background-color: #B9E98B; }
+  .year-twenty .slack-moji .party-parrot {
+    background-color: #B5E0FE; }
+  .year-twenty .slack-moji .floor-laughing {
+    background-color: #F9F064; }
+  .year-twenty .slack-moji .hoppy-goat {
+    background-color: #F2C1FD; }
+.year-twenty .memoji {
+  margin-top: 14em;
+  margin-bottom: 14em; }
+  @media screen and (max-width: 64em) {
+    .year-twenty .memoji {
+      margin-top: 8em; } }
+  .year-twenty .memoji .wrapper {
+    align-items: center; }
+  .year-twenty .memoji .bubble {
+    position: absolute; }
+  .year-twenty .memoji .text-container {
+    position: relative; }
+    .year-twenty .memoji .text-container .video {
+      top: -60%;
+      left: 20%; }
+      @media screen and (max-width: 64em) {
+        .year-twenty .memoji .text-container .video {
+          top: -5%;
+          left: 5%;
+          opacity: 30%; } }
+    .year-twenty .memoji .text-container .chat {
+      right: 0;
+      bottom: -20%; }
+      @media screen and (max-width: 64em) {
+        .year-twenty .memoji .text-container .chat {
+          right: 5%;
+          opacity: 30%; } }
+  .year-twenty .memoji p {
+    font-family: "Zilla Slab", serif;
+    font-weight: 500;
+    font-size: 4em;
+    padding: 0;
+    line-height: 1em;
+    margin: 0;
+    z-index: 2;
+    position: relative; }
+.year-twenty .drone-photography {
+  margin-top: 15rem; }
+  .year-twenty .drone-photography .title {
+    font-family: "Zilla Slab", serif;
+    font-size: 3em;
     padding: 0;
     margin: 0;
-    margin-left: -3vw;
-    line-height: 1.5em;
-    overflow: hidden; }
-  .year-twenty .lastly .lastly-grid-container {
-    margin-top: -20vw; }
-    .year-twenty .lastly .lastly-grid-container p {
-      margin: 0;
-      padding: 0; }
-    .year-twenty .lastly .lastly-grid-container .blurb {
-      text-align: center;
-      font-family: "Zilla Slab", serif;
-      font-weight: 700;
-      line-height: 1em;
-      font-size: 3em;
-      padding: 0 3.4em; }
+    line-height: 1em;
+    font-weight: 500; }
+    .year-twenty .drone-photography .title sup {
+      font-size: 0.3em;
+      top: -1.5em; }
+  .year-twenty .drone-photography .circle, .year-twenty .drone-photography .text, .year-twenty .drone-photography .left-col, .year-twenty .drone-photography .right-col {
+    margin-bottom: 1.875rem; }
+.year-twenty .covid .opener {
+  text-align: center;
+  z-index: 3; }
+  @media screen and (max-width: 64em) {
+    .year-twenty .covid .opener {
+      font-size: 0.7em; } }
+  @media screen and (max-width: 64em) {
+    .year-twenty .covid .opener img {
+      max-width: 50%; } }
+  .year-twenty .covid .opener h2 {
+    font-size: 3em;
+    font-weight: 700;
+    padding: 0 2em;
+    line-height: 1.2em; }
+    @media screen and (max-width: 40em) {
+      .year-twenty .covid .opener h2 {
+        padding: 0 0.5em; } }
+  .year-twenty .covid .opener p {
+    font-family: "Zilla Slab", serif;
+    font-size: 1.5em;
+    text-align: left;
+    padding: 0 1em;
+    text-shadow: 0px 0px 10px white, 0px 0px 20px white, 0px 0px 20px white, 0px 0px 20px white, 0px 0px 40px white, 0px 0px 60px white, 0px 0px 60px white, 0px 0px 80px white; }
+.year-twenty .sash {
+  margin-bottom: 15em;
+  z-index: 2;
+  background-image: url(../img/felt-texture.jpg);
+  background-blend-mode: overlay;
+  background-color: #415B50;
+  position: relative;
+  transform: rotate(12deg);
+  width: 150%;
+  left: -25%; }
+  @media screen and (max-width: 40em) {
+    .year-twenty .sash {
+      transform: rotate(0deg);
+      width: 100%;
+      left: 0;
+      margin-bottom: 6em; } }
+  .year-twenty .sash::before {
+    position: absolute; }
+  .year-twenty .sash .patch-container {
+    text-align: center;
+    transform: rotate(-12deg); }
+    @media screen and (max-width: 40em) {
+      .year-twenty .sash .patch-container {
+        transform: rotate(0deg);
+        padding: 4em 0; } }
+.year-twenty .leveled-up {
+  margin-top: 10em; }
+  @media screen and (max-width: 64em) {
+    .year-twenty .leveled-up {
+      font-size: 0.7em; } }
+  @media screen and (max-width: 40em) {
+    .year-twenty .leveled-up .icon-container img {
+      max-width: 40%; } }
+  .year-twenty .leveled-up .words-container {
+    padding: 0 2em; }
+    .year-twenty .leveled-up .words-container h2 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 8em;
+      font-weight: 200; }
       @media screen and (max-width: 64em) {
-        .year-twenty .lastly .lastly-grid-container .blurb {
-          font-size: 2em;
-          padding: 0 2.5em; } }
-      @media screen and (max-width: 40em) {
-        .year-twenty .lastly .lastly-grid-container .blurb {
-          font-size: 1.5em;
-          padding: 0 1em; } }
-    .year-twenty .lastly .lastly-grid-container .emoji-container {
-      position: relative; }
-      @media screen and (max-width: 64em) {
-        .year-twenty .lastly .lastly-grid-container .emoji-container {
-          font-size: 0.7em; } }
-      @media screen and (max-width: 40em) {
-        .year-twenty .lastly .lastly-grid-container .emoji-container {
-          font-size: 0.5em; } }
-      .year-twenty .lastly .lastly-grid-container .emoji-container .emoji-left {
-        display: inline-block;
-        position: absolute;
-        top: -20vw;
-        left: 4vw; }
-      .year-twenty .lastly .lastly-grid-container .emoji-container .emoji {
-        font-size: 4em;
-        display: inline-block;
-        position: absolute; }
-      .year-twenty .lastly .lastly-grid-container .emoji-container .boom {
-        font-size: 6em;
-        transform: rotate(20deg);
-        left: 5vw; }
-        @media screen and (max-width: 64em) {
-          .year-twenty .lastly .lastly-grid-container .emoji-container .boom {
-            top: -10vw; } }
-        @media screen and (max-width: 40em) {
-          .year-twenty .lastly .lastly-grid-container .emoji-container .boom {
-            top: -14vw; } }
-      .year-twenty .lastly .lastly-grid-container .emoji-container .mask {
-        transform: rotate(-20deg);
-        top: 8vw; }
-        @media screen and (max-width: 40em) {
-          .year-twenty .lastly .lastly-grid-container .emoji-container .mask {
-            top: 12vw; } }
-      .year-twenty .lastly .lastly-grid-container .emoji-container .party {
-        transform: rotate(14deg);
-        right: 4vw;
-        top: -4vw; }
-  .year-twenty .in-person {
-    margin-top: 12em; }
-    .year-twenty .in-person p {
+        .year-twenty .leveled-up .words-container h2 {
+          line-height: 0.8em;
+          margin-top: 0.2em;
+          margin-bottom: 0.5em; } }
+    .year-twenty .leveled-up .words-container p {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 200;
+      font-size: 2em;
       padding: 0;
       margin: 0;
-      text-align: center;
-      font-family: "Zilla Slab", serif;
-      font-weight: 500;
+      margin-top: -1em;
+      padding: 0 0.3em; }
+    .year-twenty .leveled-up .words-container .pill-container {
+      margin-top: 0.5em; }
+      .year-twenty .leveled-up .words-container .pill-container .pill {
+        font-size: 1.2em;
+        color: #ffffff;
+        background-color: #1f2937;
+        border-radius: 500px;
+        display: inline-block;
+        padding: 0.2em 0.6em;
+        margin: 0.2em 0.1em; }
+.year-twenty .lastly .full-bleed {
+  font-family: "Zilla Slab", serif;
+  font-weight: 300;
+  color: rgba(31, 41, 55, 0.15);
+  white-space: nowrap;
+  text-align: center;
+  font-size: 32vw;
+  width: calc(100% + 3vw);
+  padding: 0;
+  margin: 0;
+  margin-left: -3vw;
+  line-height: 1.5em;
+  overflow: hidden; }
+.year-twenty .lastly .lastly-grid-container {
+  margin-top: -20vw; }
+  .year-twenty .lastly .lastly-grid-container p {
+    margin: 0;
+    padding: 0; }
+  .year-twenty .lastly .lastly-grid-container .blurb {
+    text-align: center;
+    font-family: "Zilla Slab", serif;
+    font-weight: 700;
+    line-height: 1em;
+    font-size: 3em;
+    padding: 0 3.4em; }
+    @media screen and (max-width: 64em) {
+      .year-twenty .lastly .lastly-grid-container .blurb {
+        font-size: 2em;
+        padding: 0 2.5em; } }
+    @media screen and (max-width: 40em) {
+      .year-twenty .lastly .lastly-grid-container .blurb {
+        font-size: 1.5em;
+        padding: 0 1em; } }
+  .year-twenty .lastly .lastly-grid-container .emoji-container {
+    position: relative; }
+    @media screen and (max-width: 64em) {
+      .year-twenty .lastly .lastly-grid-container .emoji-container {
+        font-size: 0.7em; } }
+    @media screen and (max-width: 40em) {
+      .year-twenty .lastly .lastly-grid-container .emoji-container {
+        font-size: 0.5em; } }
+    .year-twenty .lastly .lastly-grid-container .emoji-container .emoji-left {
+      display: inline-block;
+      position: absolute;
+      top: -20vw;
+      left: 4vw; }
+    .year-twenty .lastly .lastly-grid-container .emoji-container .emoji {
       font-size: 4em;
-      padding: 0 2em;
-      line-height: 1.2em; }
+      display: inline-block;
+      position: absolute; }
+    .year-twenty .lastly .lastly-grid-container .emoji-container .boom {
+      font-size: 6em;
+      transform: rotate(20deg);
+      left: 5vw; }
       @media screen and (max-width: 64em) {
-        .year-twenty .in-person p {
-          font-size: 3em;
-          padding: 0 1em; } }
+        .year-twenty .lastly .lastly-grid-container .emoji-container .boom {
+          top: -10vw; } }
       @media screen and (max-width: 40em) {
-        .year-twenty .in-person p {
-          padding: 0 0.7em;
-          font-size: 2em; } }
-    .year-twenty .in-person .fingers-crossed {
-      margin-top: 1em; }
+        .year-twenty .lastly .lastly-grid-container .emoji-container .boom {
+          top: -14vw; } }
+    .year-twenty .lastly .lastly-grid-container .emoji-container .mask {
+      transform: rotate(-20deg);
+      top: 8vw; }
       @media screen and (max-width: 40em) {
-        .year-twenty .in-person .fingers-crossed {
-          margin-top: 0.5em; } }
-  .year-twenty footer {
-    background-image: url("../img/2020/footergradient.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #1f2937;
-    position: sticky;
-    bottom: 0;
-    left: 0;
-    z-index: -1; }
-    .year-twenty footer .logo {
-      margin-top: -3.1em;
-      float: right; }
-      @media screen and (max-width: 64em) {
-        .year-twenty footer .logo {
-          width: 6em; } }
-      @media screen and (max-width: 40em) {
-        .year-twenty footer .logo {
-          width: 4em; } }
-    .year-twenty footer h2 {
-      font-family: "Lato", sans-serif;
-      color: #ffffff;
-      font-size: 18em;
-      font-weight: 100;
-      font-style: italic;
-      line-height: 0.8em; }
-      @media screen and (max-width: 64em) {
-        .year-twenty footer h2 {
-          font-size: 10em; } }
-      @media screen and (max-width: 40em) {
-        .year-twenty footer h2 {
-          font-size: 6.4em; } }
-    .year-twenty footer .text-section {
-      margin-top: 10em;
-      margin-bottom: 10em; }
-      @media screen and (max-width: 64em) {
-        .year-twenty footer .text-section {
-          margin-top: 3em;
-          margin-bottom: 3em; } }
-      @media screen and (max-width: 40em) {
-        .year-twenty footer .text-section {
-          margin-top: 5em;
-          margin-bottom: 5em; } }
+        .year-twenty .lastly .lastly-grid-container .emoji-container .mask {
+          top: 12vw; } }
+    .year-twenty .lastly .lastly-grid-container .emoji-container .party {
+      transform: rotate(14deg);
+      right: 4vw;
+      top: -4vw; }
+.year-twenty .in-person {
+  margin-top: 12em; }
+  .year-twenty .in-person p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: "Zilla Slab", serif;
+    font-weight: 500;
+    font-size: 4em;
+    padding: 0 2em;
+    line-height: 1.2em; }
+    @media screen and (max-width: 64em) {
+      .year-twenty .in-person p {
+        font-size: 3em;
+        padding: 0 1em; } }
+    @media screen and (max-width: 40em) {
+      .year-twenty .in-person p {
+        padding: 0 0.7em;
+        font-size: 2em; } }
+  .year-twenty .in-person .fingers-crossed {
+    margin-top: 1em; }
+    @media screen and (max-width: 40em) {
+      .year-twenty .in-person .fingers-crossed {
+        margin-top: 0.5em; } }
+.year-twenty footer {
+  background-image: url("../img/2020/footergradient.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #1f2937;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  z-index: -1; }
+  .year-twenty footer .logo {
+    margin-top: -3.1em;
+    float: right; }
+    @media screen and (max-width: 64em) {
+      .year-twenty footer .logo {
+        width: 6em; } }
+    @media screen and (max-width: 40em) {
+      .year-twenty footer .logo {
+        width: 4em; } }
+  .year-twenty footer h2 {
+    font-family: "Lato", sans-serif;
+    color: #ffffff;
+    font-size: 18em;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 0.8em; }
+    @media screen and (max-width: 64em) {
+      .year-twenty footer h2 {
+        font-size: 10em; } }
+    @media screen and (max-width: 40em) {
+      .year-twenty footer h2 {
+        font-size: 6.4em; } }
+  .year-twenty footer .text-section {
+    margin-top: 10em;
+    margin-bottom: 10em; }
+    @media screen and (max-width: 64em) {
+      .year-twenty footer .text-section {
+        margin-top: 3em;
+        margin-bottom: 3em; } }
+    @media screen and (max-width: 40em) {
+      .year-twenty footer .text-section {
+        margin-top: 5em;
+        margin-bottom: 5em; } }
 
 body {
   font-family: "Lato", sans-serif;
