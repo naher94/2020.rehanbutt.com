@@ -270,6 +270,29 @@
     padding: 0; }
     .year-twenty .website .sub-text p:nth-of-type(2) {
       font-size: 3rem; }
+.year-twenty .pixels {
+  margin-bottom: 15em; }
+  .year-twenty .pixels .full-bleed {
+    font-family: "Zilla Slab", serif;
+    font-weight: 700;
+    color: #1f2937;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 24vw;
+    width: calc(100% + 3vw);
+    padding: 0;
+    margin: 0;
+    margin-left: -3vw;
+    line-height: 1.5em;
+    overflow: hidden; }
+  .year-twenty .pixels p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 4em;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: -1em; }
 .year-twenty .shine-registry {
   margin-top: 6rem;
   margin-bottom: 6rem; }
