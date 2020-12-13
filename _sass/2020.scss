@@ -1416,8 +1416,12 @@
           padding: 0.2em 0.6em;
           margin: 0.2em 0.1em;
           @media screen and (max-width: 64em) {
-            margin: 0.1em;
+            // margin: 0.2em;
             font-size: 1.4em;
+          }
+          @media screen and (max-width: 40em) {
+            margin: 0.2em 0.1em;
+            // font-size: 1.4em;
           }
         }
       }

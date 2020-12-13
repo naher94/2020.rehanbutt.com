@@ -1160,8 +1160,10 @@
         margin: 0.2em 0.1em; }
         @media screen and (max-width: 64em) {
           .year-twenty .leveled-up .words-container .pill-container .pill {
-            margin: 0.1em;
             font-size: 1.4em; } }
+        @media screen and (max-width: 40em) {
+          .year-twenty .leveled-up .words-container .pill-container .pill {
+            margin: 0.2em 0.1em; } }
 .year-twenty .lastly .full-bleed {
   font-family: "Zilla Slab", serif;
   font-weight: 300;
