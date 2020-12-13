@@ -10,6 +10,9 @@
     background: linear-gradient(120deg, #f79868 0%, #f15f63 100%);
     padding-bottom: 4em;
     padding-top: 3em; }
+    @media (prefers-color-scheme: dark) {
+      .year-twenty .year-in-review .nav-container {
+        background: linear-gradient(120deg, #7c4c34 0%, #793032 100%); } }
   .year-twenty .year-in-review .twenty-container {
     margin-top: 2em;
     margin-bottom: 2em; }
@@ -21,6 +24,9 @@
     @media screen and (max-width: 40em) {
       .year-twenty .year-in-review .twenty {
         font-size: 6em; } }
+    @media (prefers-color-scheme: dark) {
+      .year-twenty .year-in-review .twenty {
+        color: #cccccc; } }
   .year-twenty .year-in-review h1 {
     display: inline-block;
     line-height: 9rem; }
@@ -39,10 +45,17 @@
       .year-twenty .year-in-review h2 {
         font-size: 3em;
         line-height: 2.6rem; } }
+    @media (prefers-color-scheme: dark) {
+      .year-twenty .year-in-review h2 {
+        color: #cccccc; } }
 .year-twenty .content-container {
   background-color: white;
   padding-top: 6rem;
   padding-bottom: 12rem; }
+  @media (prefers-color-scheme: dark) {
+    .year-twenty .content-container {
+      background-color: #06080C;
+      color: #cccccc; } }
   @media screen and (max-width: 64em) {
     .year-twenty .content-container {
       padding-top: 3rem; } }
@@ -78,8 +91,14 @@
   padding-top: 6em;
   padding-bottom: 6em;
   background-color: #000000; }
+  @media (prefers-color-scheme: dark) {
+    .year-twenty .black-lives-matter {
+      background-color: #212225; } }
   .year-twenty .black-lives-matter h2, .year-twenty .black-lives-matter p {
     color: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .year-twenty .black-lives-matter h2, .year-twenty .black-lives-matter p {
+        color: #cccccc; } }
   .year-twenty .black-lives-matter h2 {
     font-weight: 700;
     text-align: center;
@@ -98,6 +117,9 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%; }
+  @media (prefers-color-scheme: dark) {
+    .year-twenty .website .dragonfruit-container {
+      background: url(../img/dots-darkmode.svg); } }
   @media screen and (max-width: 40em) {
     .year-twenty .website .dragonfruit-container {
       padding: 3rem 0; } }
@@ -107,6 +129,9 @@
     font-weight: 700;
     color: #AC2C4C;
     font-size: 2vw; }
+    @media (prefers-color-scheme: dark) {
+      .year-twenty .website .dragonfruit-container .site-name {
+        color: #83223a; } }
     @media screen and (max-width: 64em) {
       .year-twenty .website .dragonfruit-container .site-name {
         font-size: 4vw;
@@ -115,15 +140,27 @@
       .year-twenty .website .dragonfruit-container .site-name {
         font-size: 6vw;
         line-height: 6vw; } }
+    .year-twenty .website .dragonfruit-container .site-name a {
+      color: #AC2C4C;
+      font-style: italic; }
+      @media (prefers-color-scheme: dark) {
+        .year-twenty .website .dragonfruit-container .site-name a {
+          color: #83223a; } }
   .year-twenty .website .dragonfruit-container .launched {
     font-weight: 200;
     color: #AC2C4C;
     font-size: 10vw; }
+    @media (prefers-color-scheme: dark) {
+      .year-twenty .website .dragonfruit-container .launched {
+        color: #83223a; } }
   .year-twenty .website .dragonfruit-container .dragon {
     font-weight: 700;
     color: #DB3F66;
     font-size: 14vw;
     margin-top: -11vw; }
+    @media (prefers-color-scheme: dark) {
+      .year-twenty .website .dragonfruit-container .dragon {
+        color: #ad2044; } }
     .year-twenty .website .dragonfruit-container .dragon span {
       display: inline-block; }
       .year-twenty .website .dragonfruit-container .dragon span img {
@@ -135,6 +172,10 @@
   font-size: 10rem;
   line-height: 9rem;
   font-family: "Zilla Slab", serif; }
+  @media (prefers-color-scheme: dark) {
+    .year-twenty .website .tile-container .big-bold {
+      background: linear-gradient(120deg, #0a6994 0%, #010405 100%);
+      color: #cccccc; } }
   .year-twenty .website .tile-container .big-bold span {
     display: block; }
   .year-twenty .website .tile-container .big-bold .big {
@@ -157,8 +198,14 @@
     .year-twenty .website .tile-container .big-bold {
       font-size: 6em;
       line-height: 6rem; } }
+@media (prefers-color-scheme: dark) {
+  .year-twenty .website .tile-container .new-footer {
+    background-color: #212225; } }
 .year-twenty .website .tile-container .new-footer .foot {
   padding: 2rem 2rem; }
+  @media (prefers-color-scheme: dark) {
+    .year-twenty .website .tile-container .new-footer .foot img {
+      filter: opacity(40%); } }
 .year-twenty .website .tile-container .new-footer .title-container {
   padding: 2rem 2rem;
   border-radius: 0 0 40px 40px;
@@ -168,6 +215,10 @@
   font-family: "Zilla Slab", serif;
   font-weight: 700;
   background: linear-gradient(225deg, #00dad1 0%, #00f19f 100%); }
+  @media (prefers-color-scheme: dark) {
+    .year-twenty .website .tile-container .new-footer .title-container {
+      background: linear-gradient(120deg, #00413e 0%, #00583a 100%);
+      color: #cccccc; } }
   @media screen and (max-width: 64em) {
     .year-twenty .website .tile-container .new-footer .title-container {
       font-size: 4em;
@@ -184,6 +235,10 @@
   font-family: "Zilla Slab", serif;
   font-weight: 700;
   background: radial-gradient(circle at 0% 100%, #1f2937 0%, #1f2937 45%, rgba(31, 41, 55, 0) 45%), linear-gradient(45deg, #ffdd1e 0%, white 100%); }
+  @media (prefers-color-scheme: dark) {
+    .year-twenty .website .tile-container .dark-mode {
+      color: #131922;
+      background: radial-gradient(circle at 0% 100%, #131922 0%, #131922 45%, rgba(19, 25, 34, 0) 45%), linear-gradient(45deg, #847000 0%, #b3b3b3 100%); } }
   @media screen and (max-width: 64em) {
     .year-twenty .website .tile-container .dark-mode .text {
       text-shadow: 0px 0px 50px #ffdd1e; } }
@@ -198,6 +253,10 @@
   @media screen and (max-width: 64em) {
     .year-twenty .website .tile-container .dark-mode {
       background: radial-gradient(circle at 0% 100%, #1f2937 0%, #1f2937 35%, rgba(31, 41, 55, 0) 35%), linear-gradient(45deg, #ffdd1e 0%, white 100%); } }
+  @media screen and (max-width: 64em) and (prefers-color-scheme: dark) {
+    .year-twenty .website .tile-container .dark-mode {
+      background: radial-gradient(circle at 0% 100%, #131922 0%, #131922 35%, rgba(19, 25, 34, 0) 35%), linear-gradient(45deg, #847000 0%, #b3b3b3 100%); } }
+
 .year-twenty .website .tile-container .speed {
   padding: 2rem 2rem;
   color: #ffffff;
@@ -208,6 +267,10 @@
   line-height: 4rem;
   font-family: "Zilla Slab", serif;
   font-weight: 700; }
+  @media (prefers-color-scheme: dark) {
+    .year-twenty .website .tile-container .speed {
+      color: #cccccc;
+      background: url(../img/speed-stripes-darkmode.svg), linear-gradient(45deg, #584b00 0%, #664000 100%); } }
   .year-twenty .website .tile-container .speed span {
     display: block; }
   @media screen and (max-width: 64em) {
@@ -218,6 +281,9 @@
   background-color: #12abc4;
   color: #ffffff;
   font-family: "Zilla Slab", serif; }
+  @media (prefers-color-scheme: dark) {
+    .year-twenty .website .tile-container .resources {
+      background-color: #084954; } }
   .year-twenty .website .tile-container .resources .cell {
     padding: 3rem; }
     @media screen and (max-width: 64em) {
@@ -244,6 +310,10 @@
       display: inline-block;
       border-radius: 50px;
       margin: 5px; }
+      @media (prefers-color-scheme: dark) {
+        .year-twenty .website .tile-container .resources .pill-container .pill {
+          color: #084954;
+          background-color: #cccccc; } }
       .year-twenty .website .tile-container .resources .pill-container .pill:hover {
         background-color: #1f2937;
         color: #ffffff; }
@@ -256,6 +326,9 @@
     .year-twenty .website .tile-container .resources .pill-container .special {
       color: #ffffff;
       background-color: #1f2937; }
+      @media (prefers-color-scheme: dark) {
+        .year-twenty .website .tile-container .resources .pill-container .special {
+          color: #cccccc; } }
       .year-twenty .website .tile-container .resources .pill-container .special:hover {
         color: #ffffff;
         background-image: linear-gradient(90deg, #00a2e2 0%, #1bad6b 20%, #fec609 40%, #e92687 60%, #6d358d 80%, #00a2e2 100%);
@@ -315,6 +388,9 @@
       padding: 0; }
   .year-twenty .speaking .attended {
     margin-bottom: 8em; }
+    @media (prefers-color-scheme: dark) {
+      .year-twenty .speaking .attended img {
+        filter: brightness(240%) grayscale(80%); } }
   .year-twenty .speaking .spoken .section-title {
     margin-bottom: 12em; }
     .year-twenty .speaking .spoken .section-title p {
@@ -349,6 +425,9 @@
       .year-twenty .speaking .spoken .everything-app .image-container img, .year-twenty .speaking .spoken .design-system .image-container img {
         max-width: 70%;
         margin-top: -14em; }
+    @media (prefers-color-scheme: dark) {
+      .year-twenty .speaking .spoken .everything-app, .year-twenty .speaking .spoken .design-system {
+        background-color: #131922; } }
     .year-twenty .speaking .spoken .everything-app .talk-button, .year-twenty .speaking .spoken .design-system .talk-button {
       color: #12abc4;
       border: solid 0.1em #12abc4;
@@ -364,6 +443,10 @@
       .year-twenty .speaking .spoken .everything-app .talk-button:hover, .year-twenty .speaking .spoken .design-system .talk-button:hover {
         color: #ffffff;
         background-color: #12abc4; }
+        @media (prefers-color-scheme: dark) {
+          .year-twenty .speaking .spoken .everything-app .talk-button:hover, .year-twenty .speaking .spoken .design-system .talk-button:hover {
+            background-color: #084954;
+            border-color: #084954; } }
 .year-twenty .pixels {
   margin-bottom: 15em; }
   @media screen and (max-width: 40em) {
@@ -382,6 +465,9 @@
     margin-left: -2vw;
     line-height: 1.5em;
     overflow: hidden; }
+    @media (prefers-color-scheme: dark) {
+      .year-twenty .pixels .full-bleed {
+        color: #cccccc; } }
   .year-twenty .pixels p {
     margin: 0;
     padding: 0;
@@ -412,6 +498,9 @@
     -webkit-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
     -moz-box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25);
     box-shadow: 0px 0px 100px 0px rgba(31, 41, 55, 0.25); }
+    @media (prefers-color-scheme: dark) {
+      .year-twenty .shine-registry .shine-container {
+        background-color: #2b2e31; } }
     @media screen and (max-width: 64em) {
       .year-twenty .shine-registry .shine-container {
         min-height: 40rem;
@@ -428,6 +517,11 @@
         font-weight: 400; }
         .year-twenty .shine-registry .shine-container .label-container .description span {
           font-weight: 700; }
+        .year-twenty .shine-registry .shine-container .label-container .description a {
+          color: #1f2937; }
+          @media (prefers-color-scheme: dark) {
+            .year-twenty .shine-registry .shine-container .label-container .description a {
+              color: #cccccc; } }
     .year-twenty .shine-registry .shine-container .image-container {
       position: absolute;
       z-index: 3;
@@ -437,6 +531,9 @@
       -webkit-box-shadow: 0px 0px 20px 0px rgba(31, 41, 55, 0.25);
       -moz-box-shadow: 0px 0px 20px 0px rgba(31, 41, 55, 0.25);
       box-shadow: 0px 0px 20px 0px rgba(31, 41, 55, 0.25); }
+      @media screen and (max-width: 64em) {
+        .year-twenty .shine-registry .shine-container .image-container {
+          border-radius: 10px; } }
     .year-twenty .shine-registry .shine-container .shine-1 {
       transform: rotate(15deg);
       top: 4rem;
@@ -598,6 +695,10 @@
       border-radius: 30px;
       overflow: hidden;
       font-size: 2em; }
+      @media (prefers-color-scheme: dark) {
+        .year-twenty .data-consumed .data-container .calendar .calendar-cell {
+          border-color: #cccccc;
+          background-color: #212225; } }
       @media screen and (max-width: 64em) {
         .year-twenty .data-consumed .data-container .calendar .calendar-cell {
           font-size: 1.2em; } }
@@ -605,6 +706,10 @@
         background-color: #CD0909;
         color: #ffffff;
         padding: 0.3em 0.6em; }
+        @media (prefers-color-scheme: dark) {
+          .year-twenty .data-consumed .data-container .calendar .calendar-cell .header {
+            background-color: #7C0A0A;
+            color: #cccccc; } }
       .year-twenty .data-consumed .data-container .calendar .calendar-cell .body {
         padding: 0.6em;
         margin-top: 0.4em; }
@@ -613,9 +718,15 @@
           font-size: 2em;
           line-height: 0.8em;
           color: #000000; }
+          @media (prefers-color-scheme: dark) {
+            .year-twenty .data-consumed .data-container .calendar .calendar-cell .body .number {
+              color: #cccccc; } }
         .year-twenty .data-consumed .data-container .calendar .calendar-cell .body .gig {
           font-size: 0.7em;
           color: #000000; }
+          @media (prefers-color-scheme: dark) {
+            .year-twenty .data-consumed .data-container .calendar .calendar-cell .body .gig {
+              color: #cccccc; } }
 .year-twenty .duolingo {
   margin-top: 6em;
   margin-bottom: 3em; }
@@ -629,6 +740,9 @@
     background-image: url(../img/fireworks.svg);
     background-repeat: no-repeat;
     background-position: 90% 15%; }
+    @media (prefers-color-scheme: dark) {
+      .year-twenty .duolingo .duolingo-container {
+        background-image: url(../img/fireworks-darkmode.svg); } }
     @media screen and (max-width: 64em) {
       .year-twenty .duolingo .duolingo-container {
         background-size: 50%; } }
@@ -638,6 +752,9 @@
     .year-twenty .duolingo .duolingo-container .text {
       font-family: "Montserrat", sans-serif;
       color: #ffffff; }
+      @media (prefers-color-scheme: dark) {
+        .year-twenty .duolingo .duolingo-container .text {
+          color: #cccccc; } }
       .year-twenty .duolingo .duolingo-container .text p {
         padding: 0;
         margin: 0; }
@@ -652,8 +769,14 @@
             font-size: 3em; } }
       .year-twenty .duolingo .duolingo-container .text .minutes span {
         color: #1CB0F6; }
+        @media (prefers-color-scheme: dark) {
+          .year-twenty .duolingo .duolingo-container .text .minutes span {
+            color: #0994d6; } }
       .year-twenty .duolingo .duolingo-container .text .words span {
         color: #58CC02; }
+        @media (prefers-color-scheme: dark) {
+          .year-twenty .duolingo .duolingo-container .text .words span {
+            color: #429902; } }
       .year-twenty .duolingo .duolingo-container .text .sentance {
         font-size: 2em;
         line-height: 1.2em;
@@ -692,6 +815,9 @@
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center; }
+    @media (prefers-color-scheme: dark) {
+      .year-twenty .site-analytics .top-countries {
+        background-image: url(../img/world-darkmode.svg); } }
   .year-twenty .site-analytics .top-countries, .year-twenty .site-analytics .devices {
     margin-bottom: 6em; }
     @media screen and (max-width: 64em) {
@@ -734,9 +860,20 @@
     @media screen and (max-width: 64em) {
       .year-twenty .site-analytics .popular-project {
         font-size: 0.6em; } }
+    @media (prefers-color-scheme: dark) {
+      .year-twenty .site-analytics .popular-project {
+        background-color: #212225; } }
     .year-twenty .site-analytics .popular-project .photo-container {
       border-radius: 26px;
-      overflow: hidden; }
+      overflow: hidden;
+      transition: all 0.2s ease-in-out; }
+      .year-twenty .site-analytics .popular-project .photo-container:hover {
+        border-radius: 31px;
+        transform: scale(1.05) translate(1%);
+        transition: all 0.2s ease-in-out; }
+        @media screen and (max-width: 40em) {
+          .year-twenty .site-analytics .popular-project .photo-container:hover {
+            transform: scale(1.05) translateY(-1%); } }
       @media screen and (max-width: 40em) {
         .year-twenty .site-analytics .popular-project .photo-container {
           margin-bottom: 2em; } }
@@ -768,6 +905,9 @@
       .year-twenty .site-analytics .total-views-container {
         font-size: 1.2em;
         padding: 2em; } }
+    @media (prefers-color-scheme: dark) {
+      .year-twenty .site-analytics .total-views-container {
+        color: #cccccc; } }
     .year-twenty .site-analytics .total-views-container .party {
       font-size: 2em;
       display: inline-block; }
@@ -819,6 +959,9 @@
       display: block;
       margin-top: -1.0em;
       color: rgba(31, 41, 55, 0.3); }
+      @media (prefers-color-scheme: dark) {
+        .year-twenty .slack-moji .title .emoji {
+          color: rgba(204, 204, 204, 0.3); } }
   .year-twenty .slack-moji .emoji-container {
     border-radius: 50%;
     min-height: 16.9rem;
@@ -842,14 +985,29 @@
       @media screen and (max-width: 64em) {
         .year-twenty .slack-moji .emoji-container span {
           font-size: 4rem; } }
+      @media (prefers-color-scheme: dark) {
+        .year-twenty .slack-moji .emoji-container span {
+          opacity: 80%; } }
   .year-twenty .slack-moji .thumbs-up {
     background-color: #B9E98B; }
+    @media (prefers-color-scheme: dark) {
+      .year-twenty .slack-moji .thumbs-up {
+        background-color: #556c4c; } }
   .year-twenty .slack-moji .party-parrot {
     background-color: #B5E0FE; }
+    @media (prefers-color-scheme: dark) {
+      .year-twenty .slack-moji .party-parrot {
+        background-color: #54697a; } }
   .year-twenty .slack-moji .floor-laughing {
     background-color: #F9F064; }
+    @media (prefers-color-scheme: dark) {
+      .year-twenty .slack-moji .floor-laughing {
+        background-color: #6f6f3c; } }
   .year-twenty .slack-moji .hoppy-goat {
     background-color: #F2C1FD; }
+    @media (prefers-color-scheme: dark) {
+      .year-twenty .slack-moji .hoppy-goat {
+        background-color: #6c5c7a; } }
 .year-twenty .memoji {
   margin-top: 14em;
   margin-bottom: 14em; }
@@ -898,6 +1056,8 @@
     .year-twenty .drone-photography .title sup {
       font-size: 0.3em;
       top: -1.5em; }
+  .year-twenty .drone-photography .drone {
+    filter: brightness(500%) saturate(50%); }
   .year-twenty .drone-photography .circle, .year-twenty .drone-photography .text, .year-twenty .drone-photography .left-col, .year-twenty .drone-photography .right-col {
     margin-bottom: 1.875rem; }
 .year-twenty .covid .opener {
@@ -924,6 +1084,9 @@
     text-align: left;
     padding: 0 1em;
     text-shadow: 0px 0px 10px white, 0px 0px 20px white, 0px 0px 20px white, 0px 0px 20px white, 0px 0px 40px white, 0px 0px 60px white, 0px 0px 60px white, 0px 0px 80px white; }
+    @media (prefers-color-scheme: dark) {
+      .year-twenty .covid .opener p {
+        text-shadow: 0px 0px 10px #131922, 0px 0px 20px #131922, 0px 0px 20px #131922, 0px 0px 20px #131922, 0px 0px 40px #131922, 0px 0px 60px #131922, 0px 0px 60px #131922, 0px 0px 80px #131922; } }
     @media screen and (max-width: 40em) {
       .year-twenty .covid .opener p {
         line-height: 1.2em; } }
@@ -937,6 +1100,9 @@
   transform: rotate(12deg);
   width: 150%;
   left: -25%; }
+  @media (prefers-color-scheme: dark) {
+    .year-twenty .sash {
+      background-color: #212e29; } }
   @media screen and (max-width: 40em) {
     .year-twenty .sash {
       transform: rotate(0deg);
@@ -994,8 +1160,10 @@
         margin: 0.2em 0.1em; }
         @media screen and (max-width: 64em) {
           .year-twenty .leveled-up .words-container .pill-container .pill {
-            margin: 0.1em;
             font-size: 1.4em; } }
+        @media screen and (max-width: 40em) {
+          .year-twenty .leveled-up .words-container .pill-container .pill {
+            margin: 0.2em 0.1em; } }
 .year-twenty .lastly .full-bleed {
   font-family: "Zilla Slab", serif;
   font-weight: 300;
@@ -1009,6 +1177,9 @@
   margin-left: -3vw;
   line-height: 1.5em;
   overflow: hidden; }
+  @media (prefers-color-scheme: dark) {
+    .year-twenty .lastly .full-bleed {
+      color: rgba(204, 204, 204, 0.3); } }
 .year-twenty .lastly .lastly-grid-container {
   margin-top: -20vw; }
   .year-twenty .lastly .lastly-grid-container p {
@@ -1091,14 +1262,16 @@
       .year-twenty .in-person .fingers-crossed {
         margin-top: 0.5em; } }
 .year-twenty footer {
-  background-image: url("../img/2020/footergradient.jpg");
+  background-image: url(../img/footergradient.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #1f2937;
   position: sticky;
   bottom: 0;
   left: 0;
   z-index: -1; }
+  @media (prefers-color-scheme: dark) {
+    .year-twenty footer {
+      background-image: url(../img/footergradient-darkmode.jpg); } }
   .year-twenty footer .logo {
     margin-top: -3.1em;
     float: right; }
@@ -1115,6 +1288,9 @@
     font-weight: 100;
     font-style: italic;
     line-height: 0.8em; }
+    @media (prefers-color-scheme: dark) {
+      .year-twenty footer h2 {
+        color: #cccccc; } }
     @media screen and (max-width: 64em) {
       .year-twenty footer h2 {
         font-size: 10em; } }
