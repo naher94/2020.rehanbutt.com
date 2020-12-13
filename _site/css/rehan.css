@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Zilla+Slab:300,400,500,500i,700,700i&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,700,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap");
 .year-twenty .page-content {
   overflow-x: hidden; }
 .year-twenty .year-in-review {
@@ -270,6 +271,75 @@
     padding: 0; }
     .year-twenty .website .sub-text p:nth-of-type(2) {
       font-size: 3rem; }
+.year-twenty .speaking {
+  margin-bottom: 10em;
+  margin-top: 15em; }
+  @media screen and (max-width: 64em) {
+    .year-twenty .speaking {
+      font-size: 0.8em; } }
+  .year-twenty .speaking .attended-title {
+    margin-bottom: 5em; }
+    .year-twenty .speaking .attended-title .main {
+      font-weight: 700;
+      font-size: 2.5em;
+      line-height: 1.2em; }
+      .year-twenty .speaking .attended-title .main .inject {
+        position: relative;
+        font-family: "Caveat", cursive; }
+        .year-twenty .speaking .attended-title .main .inject span {
+          font-size: 0.7em;
+          position: absolute;
+          margin-top: -1.2em;
+          margin-left: -1.4em; }
+    .year-twenty .speaking .attended-title .sub {
+      font-size: 1.8em;
+      line-height: 1.2em; }
+    .year-twenty .speaking .attended-title p {
+      text-align: center;
+      margin: 0;
+      padding: 0; }
+  .year-twenty .speaking .attended {
+    margin-bottom: 8em; }
+  .year-twenty .speaking .spoken .section-title {
+    margin-bottom: 12em; }
+    .year-twenty .speaking .spoken .section-title p {
+      font-family: "Zilla Slab", serif;
+      font-weight: 700;
+      text-align: center;
+      font-size: 2.2em;
+      line-height: 1.2em; }
+  .year-twenty .speaking .spoken .title, .year-twenty .speaking .spoken .description {
+    padding: 0;
+    margin: 0; }
+  .year-twenty .speaking .spoken .title {
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.1em;
+    margin-bottom: 0.5em; }
+  .year-twenty .speaking .spoken .description {
+    line-height: 1.3em;
+    margin-bottom: 1em; }
+  @media screen and (max-width: 40em) {
+    .year-twenty .speaking .spoken .everything-app {
+      margin-bottom: 12em; } }
+  .year-twenty .speaking .spoken .everything-app, .year-twenty .speaking .spoken .design-system {
+    background-color: #f5f5f5;
+    border-radius: 40px;
+    padding: 2em; }
+    .year-twenty .speaking .spoken .everything-app .image-container, .year-twenty .speaking .spoken .design-system .image-container {
+      text-align: center; }
+      .year-twenty .speaking .spoken .everything-app .image-container img, .year-twenty .speaking .spoken .design-system .image-container img {
+        max-width: 70%;
+        margin-top: -14em; }
+    .year-twenty .speaking .spoken .everything-app .talk-button, .year-twenty .speaking .spoken .design-system .talk-button {
+      color: #12abc4;
+      border: solid 0.1em #12abc4;
+      border-radius: 12px;
+      padding: 0.5em 1em;
+      display: inline-block; }
+      .year-twenty .speaking .spoken .everything-app .talk-button:hover, .year-twenty .speaking .spoken .design-system .talk-button:hover {
+        color: #ffffff;
+        background-color: #12abc4; }
 .year-twenty .pixels {
   margin-bottom: 15em; }
   .year-twenty .pixels .full-bleed {
