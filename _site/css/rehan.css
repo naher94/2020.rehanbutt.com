@@ -140,6 +140,12 @@
       .year-twenty .website .dragonfruit-container .site-name {
         font-size: 6vw;
         line-height: 6vw; } }
+    .year-twenty .website .dragonfruit-container .site-name a {
+      color: #AC2C4C;
+      font-style: italic; }
+      @media (prefers-color-scheme: dark) {
+        .year-twenty .website .dragonfruit-container .site-name a {
+          color: #83223a; } }
   .year-twenty .website .dragonfruit-container .launched {
     font-weight: 200;
     color: #AC2C4C;

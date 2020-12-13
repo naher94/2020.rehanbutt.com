@@ -162,6 +162,13 @@
           font-size: 6vw;
           line-height: 6vw;
         }
+        a{
+          color: #AC2C4C;
+          font-style: italic;
+          @media (prefers-color-scheme: dark) {
+            color: darken(#AC2C4C, 10%);
+          }
+        }
       }
       .launched{
         font-weight: $montserrat-light;
