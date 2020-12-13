@@ -921,6 +921,15 @@
       .photo-container{
         border-radius: 40px - 14px;
         overflow: hidden;
+        transition: all 0.2s ease-in-out;
+        &:hover{
+            border-radius: 40px - 14px + 5px;
+            transform: scale(1.05) translate(1%);
+            transition: all 0.2s ease-in-out;
+            @media screen and (max-width: 40em) {
+              transform: scale(1.05) translateY(-1%);
+            }
+        }
         @media screen and (max-width: 40em) {
           margin-bottom: 2em;
         }

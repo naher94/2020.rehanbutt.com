@@ -736,7 +736,15 @@
         font-size: 0.6em; } }
     .year-twenty .site-analytics .popular-project .photo-container {
       border-radius: 26px;
-      overflow: hidden; }
+      overflow: hidden;
+      transition: all 0.2s ease-in-out; }
+      .year-twenty .site-analytics .popular-project .photo-container:hover {
+        border-radius: 31px;
+        transform: scale(1.05) translate(1%);
+        transition: all 0.2s ease-in-out; }
+        @media screen and (max-width: 40em) {
+          .year-twenty .site-analytics .popular-project .photo-container:hover {
+            transform: scale(1.05) translateY(-1%); } }
       @media screen and (max-width: 40em) {
         .year-twenty .site-analytics .popular-project .photo-container {
           margin-bottom: 2em; } }
