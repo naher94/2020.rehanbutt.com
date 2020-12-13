@@ -441,11 +441,11 @@
       color: $navy-black;
       white-space: nowrap;
       text-align: center;
-      font-size: 24vw;
+      font-size: 16.5vw;
       width: calc(100% + 3vw);
       padding: 0;
       margin: 0;
-      margin-left: -3vw;
+      margin-left: -2vw;
       line-height: 1.5em;
       overflow: hidden;
     }
@@ -1120,6 +1120,8 @@
   .sash{
     margin-bottom: 15em;
     z-index: 2;
+    //TODO
+    // some new bug with Safari it seems
     background-image: url(../img/felt-texture.jpg);
     background-blend-mode: overlay;
     background-color: #415B50;
