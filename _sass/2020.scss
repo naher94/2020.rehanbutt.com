@@ -461,7 +461,7 @@
   }
 
   .shine-registry{
-    margin-top: 6rem;
+    margin-top: 15rem;
     margin-bottom: 6rem;
     .shine-container{
       overflow: hidden;
@@ -950,7 +950,7 @@
   }
 
   .slack-moji{
-    margin-top: 20em;
+    margin-top: 10em;
     @media screen and (max-width: 64em) {
       margin-top: 10em;
     }
@@ -1100,6 +1100,7 @@
         }
       }
       h2{
+        margin-top: 1em;
         font-size: 3em;
         font-weight: $zilla-bold;
         padding: 0 2em;

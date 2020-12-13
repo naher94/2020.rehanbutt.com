@@ -364,7 +364,7 @@
     font-style: italic;
     margin-top: -1em; }
 .year-twenty .shine-registry {
-  margin-top: 6rem;
+  margin-top: 15rem;
   margin-bottom: 6rem; }
   .year-twenty .shine-registry .shine-container {
     overflow: hidden;
@@ -753,7 +753,7 @@
       line-height: 1.2em;
       font-size: 0.7em; }
 .year-twenty .slack-moji {
-  margin-top: 20em; }
+  margin-top: 10em; }
   @media screen and (max-width: 64em) {
     .year-twenty .slack-moji {
       margin-top: 10em; } }
@@ -873,6 +873,7 @@
     .year-twenty .covid .opener img {
       max-width: 50%; } }
   .year-twenty .covid .opener h2 {
+    margin-top: 1em;
     font-size: 3em;
     font-weight: 700;
     padding: 0 2em;
