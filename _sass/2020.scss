@@ -302,6 +302,10 @@
             display: inline-block;
             border-radius: 50px;
             margin: 5px;
+            &:hover{
+              background-color: $navy-black;
+              color: $pure-white;
+            }
             @media screen and (max-width: 40em) {
               margin-left: 1px;
               margin-right: 1px;
@@ -313,6 +317,16 @@
           .special{
             color: $pure-white;
             background-color: $navy-black;
+            &:hover{
+              color: $pure-white;
+              background-image: linear-gradient(90deg, #00a2e2 0%, #1bad6b 20%, #fec609 40%, #e92687 60%, #6d358d 80%, #00a2e2 100%);
+              background-size: 200% auto;
+              // background-clip: text;
+              // text-fill-color: transparent;
+              // -webkit-background-clip: text;
+              // -webkit-text-fill-color: transparent;
+              animation: rainbow 3s linear infinite;
+            }
           }
         }
         @media screen and (max-width: 64em) {
@@ -438,6 +452,7 @@
             width: 100%;
             text-align: center;
             padding: 1em;
+            font-size: 1.2em;
           }
           &:hover{
             color: $pure-white;

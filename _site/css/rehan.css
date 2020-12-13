@@ -244,6 +244,9 @@
       display: inline-block;
       border-radius: 50px;
       margin: 5px; }
+      .year-twenty .website .tile-container .resources .pill-container .pill:hover {
+        background-color: #1f2937;
+        color: #ffffff; }
       @media screen and (max-width: 40em) {
         .year-twenty .website .tile-container .resources .pill-container .pill {
           margin-left: 1px;
@@ -253,6 +256,11 @@
     .year-twenty .website .tile-container .resources .pill-container .special {
       color: #ffffff;
       background-color: #1f2937; }
+      .year-twenty .website .tile-container .resources .pill-container .special:hover {
+        color: #ffffff;
+        background-image: linear-gradient(90deg, #00a2e2 0%, #1bad6b 20%, #fec609 40%, #e92687 60%, #6d358d 80%, #00a2e2 100%);
+        background-size: 200% auto;
+        animation: rainbow 3s linear infinite; }
   @media screen and (max-width: 64em) {
     .year-twenty .website .tile-container .resources {
       font-size: 0.7em; } }
@@ -351,7 +359,8 @@
         .year-twenty .speaking .spoken .everything-app .talk-button, .year-twenty .speaking .spoken .design-system .talk-button {
           width: 100%;
           text-align: center;
-          padding: 1em; } }
+          padding: 1em;
+          font-size: 1.2em; } }
       .year-twenty .speaking .spoken .everything-app .talk-button:hover, .year-twenty .speaking .spoken .design-system .talk-button:hover {
         color: #ffffff;
         background-color: #12abc4; }
