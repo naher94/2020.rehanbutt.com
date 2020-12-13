@@ -87,6 +87,9 @@
   .year-twenty .black-lives-matter p {
     font-size: 1.5em;
     padding: 0; }
+    @media screen and (max-width: 64em) {
+      .year-twenty .black-lives-matter p {
+        line-height: 1.2em; } }
 .year-twenty .website .dragonfruit-container {
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -241,6 +244,10 @@
       display: inline-block;
       border-radius: 50px;
       margin: 5px; }
+      @media screen and (max-width: 40em) {
+        .year-twenty .website .tile-container .resources .pill-container .pill {
+          margin-left: 1px;
+          margin-right: 1px; } }
       .year-twenty .website .tile-container .resources .pill-container .pill p {
         margin: 0; }
     .year-twenty .website .tile-container .resources .pill-container .special {
@@ -319,6 +326,9 @@
   .year-twenty .speaking .spoken .description {
     line-height: 1.3em;
     margin-bottom: 1em; }
+    @media screen and (max-width: 64em) {
+      .year-twenty .speaking .spoken .description {
+        font-size: 1.3em; } }
   @media screen and (max-width: 40em) {
     .year-twenty .speaking .spoken .everything-app {
       margin-bottom: 12em; } }
@@ -337,11 +347,19 @@
       border-radius: 12px;
       padding: 0.5em 1em;
       display: inline-block; }
+      @media screen and (max-width: 40em) {
+        .year-twenty .speaking .spoken .everything-app .talk-button, .year-twenty .speaking .spoken .design-system .talk-button {
+          width: 100%;
+          text-align: center;
+          padding: 1em; } }
       .year-twenty .speaking .spoken .everything-app .talk-button:hover, .year-twenty .speaking .spoken .design-system .talk-button:hover {
         color: #ffffff;
         background-color: #12abc4; }
 .year-twenty .pixels {
   margin-bottom: 15em; }
+  @media screen and (max-width: 40em) {
+    .year-twenty .pixels {
+      margin-bottom: 10em; } }
   .year-twenty .pixels .full-bleed {
     font-family: "Zilla Slab", serif;
     font-weight: 700;
@@ -363,6 +381,12 @@
     font-weight: 300;
     font-style: italic;
     margin-top: -1em; }
+    @media screen and (max-width: 64em) {
+      .year-twenty .pixels p {
+        font-size: 2em; } }
+    @media screen and (max-width: 64em) {
+      .year-twenty .pixels p {
+        margin-top: -0.5em; } }
 .year-twenty .shine-registry {
   margin-top: 15rem;
   margin-bottom: 6rem; }
@@ -451,6 +475,10 @@
 .year-twenty .by-the-numbers {
   margin-top: 20em;
   margin-bottom: 10em; }
+  @media screen and (max-width: 40em) {
+    .year-twenty .by-the-numbers {
+      margin-top: 15em;
+      margin-bottom: 7em; } }
   .year-twenty .by-the-numbers h2 {
     font-size: 14vw;
     line-height: 10vw; }
@@ -887,6 +915,9 @@
     text-align: left;
     padding: 0 1em;
     text-shadow: 0px 0px 10px white, 0px 0px 20px white, 0px 0px 20px white, 0px 0px 20px white, 0px 0px 40px white, 0px 0px 60px white, 0px 0px 60px white, 0px 0px 80px white; }
+    @media screen and (max-width: 40em) {
+      .year-twenty .covid .opener p {
+        line-height: 1.2em; } }
 .year-twenty .sash {
   margin-bottom: 15em;
   z-index: 2;
@@ -939,6 +970,9 @@
       margin: 0;
       margin-top: -1em;
       padding: 0 0.3em; }
+      @media screen and (max-width: 40em) {
+        .year-twenty .leveled-up .words-container p {
+          line-height: 1.2em; } }
     .year-twenty .leveled-up .words-container .pill-container {
       margin-top: 0.5em; }
       .year-twenty .leveled-up .words-container .pill-container .pill {
@@ -949,6 +983,10 @@
         display: inline-block;
         padding: 0.2em 0.6em;
         margin: 0.2em 0.1em; }
+        @media screen and (max-width: 64em) {
+          .year-twenty .leveled-up .words-container .pill-container .pill {
+            margin: 0.1em;
+            font-size: 1.4em; } }
 .year-twenty .lastly .full-bleed {
   font-family: "Zilla Slab", serif;
   font-weight: 300;
