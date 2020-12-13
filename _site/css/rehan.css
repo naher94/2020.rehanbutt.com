@@ -1048,6 +1048,8 @@
     .year-twenty .drone-photography .title sup {
       font-size: 0.3em;
       top: -1.5em; }
+  .year-twenty .drone-photography .drone {
+    filter: brightness(500%) saturate(50%); }
   .year-twenty .drone-photography .circle, .year-twenty .drone-photography .text, .year-twenty .drone-photography .left-col, .year-twenty .drone-photography .right-col {
     margin-bottom: 1.875rem; }
 .year-twenty .covid .opener {

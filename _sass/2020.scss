@@ -1278,6 +1278,9 @@
         top: -1.5em;
       }
     }
+    .drone{
+      filter: brightness(500%) saturate(50%);
+    }
     .circle, .text, .left-col, .right-col{
       margin-bottom: 0.9375rem*2;
     }
