@@ -6,6 +6,11 @@
     margin-bottom: 0;
     .nav-container{
       background: linear-gradient(120deg, rgba(247,152,104,1) 0%, rgba(241,95,99,1) 100%);
+      @media (prefers-color-scheme: dark) {
+        background: linear-gradient(120deg, mix(rgba(247,152,104,1), $pure-black, 50%) 0%, mix(rgba(241,95,99,1),$pure-black,50%) 100%);
+        // background: linear-gradient(120deg, darken(rgba(247,152,104,1), 40%) 0%, darken(rgba(241,95,99,1),40%) 100%);
+
+      }
       padding-bottom: 4em;
       padding-top: 3em;
     }
@@ -20,6 +25,9 @@
       color: $pure-white;
       @media screen and (max-width: 40em) {
         font-size: 6em;
+      }
+      @media (prefers-color-scheme: dark) {
+        color: $pure-white-dark;
       }
     }
     h1{
@@ -41,6 +49,9 @@
         font-size: 3em;
         line-height: 2.6rem;
       }
+      @media (prefers-color-scheme: dark) {
+        color: $pure-white-dark;
+      }
     }
   }
 
@@ -48,6 +59,10 @@
     background-color: white;
     padding-top: 6rem;
     padding-bottom: 12rem;
+    @media (prefers-color-scheme: dark) {
+      background-color: #06080C;
+      color: $pure-white-dark;
+    }
     @media screen and (max-width: 64em) {
       padding-top: 3rem;
     }
@@ -93,8 +108,14 @@
     padding-top: 6em;
     padding-bottom: 6em;
     background-color: $pure-black;
+    @media (prefers-color-scheme: dark) {
+      background-color: $navy-black-muted;
+    }
     h2, p{
       color: $pure-white;
+      @media (prefers-color-scheme: dark) {
+        color: $pure-white-dark;
+      }
     }
     h2{
       font-weight: $zilla-bold;
@@ -116,6 +137,9 @@
       text-align: center;
       padding: 6rem 0;
       background: url(../img/dots.svg);
+      @media (prefers-color-scheme: dark) {
+        background: url(../img/dots-darkmode.svg);
+      }
       background-repeat: no-repeat;
       background-position: center;
       background-size: 100%;
@@ -129,6 +153,9 @@
         font-weight: $montserrat-bold;
         color: #AC2C4C;
         font-size: 2vw;
+        @media (prefers-color-scheme: dark) {
+          color: darken(#AC2C4C, 10%);
+        }
         @media screen and (max-width: 64em) {
           font-size: 4vw;
           line-height: 4vw;
@@ -142,13 +169,18 @@
         font-weight: $montserrat-light;
         color: #AC2C4C;
         font-size: 10vw;
-        // margin-top: -5vw;
+        @media (prefers-color-scheme: dark) {
+          color: darken(#AC2C4C, 10%);
+        }
       }
       .dragon{
         font-weight: $montserrat-bold;
         color: #DB3F66;
         font-size: 14vw;
         margin-top: -11vw;
+        @media (prefers-color-scheme: dark) {
+          color: darken(#DB3F66, 15%);
+        }
         span{
           display: inline-block;
           img{
@@ -162,6 +194,10 @@
         padding: 2rem 2rem;
         background: linear-gradient(120deg, rgba(69,188,242,1) 0%, rgba(17,102,142,1) 100%);
         color: $pure-white;
+        @media (prefers-color-scheme: dark) {
+          background: linear-gradient(120deg, darken(rgba(69,188,242,1), 30%) 0%, darken(rgba(17,102,142,1), 30%) 100%);
+          color: $pure-white-dark;
+        }
         font-size: 10rem;
         line-height: 9rem;
         font-family: $zilla;
@@ -196,8 +232,16 @@
         }
       }
       .new-footer{
+        @media (prefers-color-scheme: dark) {
+          background-color: $navy-black-muted;
+        }
         .foot{
           padding: 2rem 2rem;
+          @media (prefers-color-scheme: dark) {
+            img{
+              filter: opacity(40%);
+            }
+          }
         }
         .title-container{
           padding: 2rem 2rem;
@@ -208,6 +252,10 @@
           font-family: $zilla;
           font-weight: $zilla-bold;
           background: linear-gradient(225deg, rgba(0,218,209,1) 0%, rgba(0,241,159,1) 100%);
+          @media (prefers-color-scheme: dark) {
+            background: linear-gradient(120deg, darken(rgba(0,218,209,1), 30%) 0%, darken(rgba(0,241,159,1), 30%) 100%);
+            color: $pure-white-dark;
+          }
           @media screen and (max-width: 64em) {
             font-size: 4em;
             line-height: 4rem;
@@ -228,6 +276,12 @@
         background:
         radial-gradient(circle at 0% 100%, rgba($navy-black,1) 0%, rgba($navy-black,1) 45%, rgba($navy-black,0) 45%),
         linear-gradient(45deg, rgba(255,221,30,1) 0%, rgba(255,255,255,1) 100%);
+        @media (prefers-color-scheme: dark) {
+          color: $navy-black-dark;
+          background:
+          radial-gradient(circle at 0% 100%, rgba($navy-black-dark,1) 0%, rgba($navy-black-dark,1) 45%, rgba($navy-black-dark,0) 45%),
+          linear-gradient(45deg, darken(rgba(255,221,30,1), 30%) 0%, darken(rgba(255,255,255,1), 30%) 100%)
+        }
         .text{
           @media screen and (max-width: 64em) {
             text-shadow: 0px 0px 50px rgba(255,221,30,1);
@@ -247,6 +301,11 @@
         @media screen and (max-width: 64em) {
           background: radial-gradient(circle at 0% 100%, rgba($navy-black,1) 0%, rgba($navy-black,1) 35%, rgba($navy-black,0) 35%),
           linear-gradient(45deg, rgba(255,221,30,1) 0%, rgba(255,255,255,1) 100%);
+          @media (prefers-color-scheme: dark) {
+            background:
+            radial-gradient(circle at 0% 100%, rgba($navy-black-dark,1) 0%, rgba($navy-black-dark,1) 35%, rgba($navy-black-dark,0) 35%),
+            linear-gradient(45deg, darken(rgba(255,221,30,1), 30%) 0%, darken(rgba(255,255,255,1), 30%) 100%)
+          }
         }
       }
       .speed{
@@ -259,6 +318,11 @@
         line-height: 4rem;
         font-family: $zilla;
         font-weight: $zilla-bold;
+        @media (prefers-color-scheme: dark) {
+          color: $pure-white-dark;
+          background: url(../img/speed-stripes-darkmode.svg), linear-gradient(45deg, darken(rgba(241,206,0,1),30%) 0%, darken(rgba(255,161,0,1), 30%) 100%);
+
+        }
         span{
           display: block;
         }
@@ -271,6 +335,9 @@
         background-color: $signature-teal;
         color: $pure-white;
         font-family: $zilla;
+        @media (prefers-color-scheme: dark) {
+          background-color: $signature-teal-dark;
+        }
         .cell{
           padding: 3rem;
           @media screen and (max-width: 64em) {
@@ -302,6 +369,10 @@
             display: inline-block;
             border-radius: 50px;
             margin: 5px;
+            @media (prefers-color-scheme: dark) {
+              color: $signature-teal-dark;
+              background-color: $pure-white-dark;
+            }
             &:hover{
               background-color: $navy-black;
               color: $pure-white;
@@ -317,6 +388,9 @@
           .special{
             color: $pure-white;
             background-color: $navy-black;
+            @media (prefers-color-scheme: dark) {
+              color: $pure-white-dark;
+            }
             &:hover{
               color: $pure-white;
               background-image: linear-gradient(90deg, #00a2e2 0%, #1bad6b 20%, #fec609 40%, #e92687 60%, #6d358d 80%, #00a2e2 100%);
@@ -393,6 +467,11 @@
     }
     .attended{
       margin-bottom: 8em;
+      img{
+        @media (prefers-color-scheme: dark) {
+          filter: brightness(240%) grayscale(80%);
+        }
+      }
     }
     .spoken{
       .section-title{
@@ -438,6 +517,9 @@
             margin-top: -14em;
           }
         }
+        @media (prefers-color-scheme: dark) {
+          background-color: $navy-black-dark;
+        }
         .talk-button{
           color: $signature-teal;
           border: solid 0.1em $signature-teal;
@@ -453,6 +535,10 @@
           &:hover{
             color: $pure-white;
             background-color: $signature-teal;
+            @media (prefers-color-scheme: dark) {
+              background-color: $signature-teal-dark;
+              border-color: $signature-teal-dark;
+            }
           }
         }
       }
@@ -477,6 +563,9 @@
       margin-left: -2vw;
       line-height: 1.5em;
       overflow: hidden;
+      @media (prefers-color-scheme: dark) {
+        color: $pure-white-dark;
+      }
     }
     p{
       margin: 0;
@@ -511,6 +600,9 @@
       -webkit-box-shadow: 0px 0px 100px 0px rgba($navy-black,0.25);
       -moz-box-shadow: 0px 0px 100px 0px rgba($navy-black,0.25);
       box-shadow: 0px 0px 100px 0px rgba($navy-black,0.25);
+      @media (prefers-color-scheme: dark) {
+        background-color: mix(#FFE6BA, $navy-black-dark, 10%);
+      }
       @media screen and (max-width: 64em) {
         min-height: 40rem;
         font-size: 2rem;
@@ -741,6 +833,10 @@
           border-radius: 30px;
           overflow: hidden;
           font-size: 2em;
+          @media (prefers-color-scheme: dark) {
+            border-color: $pure-white-dark;
+            background-color: $navy-black-muted;
+          }
           @media screen and (max-width: 64em) {
             font-size: 1.2em;
           }
@@ -748,7 +844,10 @@
             background-color: #CD0909;
             color: $pure-white;
             padding: 0.3em 0.6em;
-
+            @media (prefers-color-scheme: dark) {
+              background-color: #7C0A0A;
+              color: $pure-white-dark;
+            }
           }
           .body{
             padding: 0.6em;
@@ -758,10 +857,16 @@
               font-size: 2em;
               line-height: 0.8em;
               color: $pure-black;
+              @media (prefers-color-scheme: dark) {
+                color: $pure-white-dark;
+              }
             }
             .gig{
               font-size: 0.7em;
               color: $pure-black;
+              @media (prefers-color-scheme: dark) {
+                color: $pure-white-dark;
+              }
             }
           }
         }
@@ -780,6 +885,9 @@
       -moz-box-shadow: 0px 0px 100px 0px rgba($navy-black,0.25);
       box-shadow: 0px 0px 100px 0px rgba($navy-black,0.25);
       background-image: url(../img/fireworks.svg);
+      @media (prefers-color-scheme: dark) {
+        background-image: url(../img/fireworks-darkmode.svg);
+      }
       background-repeat: no-repeat;
       background-position: 90% 15%;
       @media screen and (max-width: 64em) {
@@ -791,6 +899,9 @@
       .text{
         font-family: $montserrat;
         color: $pure-white;
+        @media (prefers-color-scheme: dark) {
+          color: $pure-white-dark;
+        }
         p{
           padding: 0;
           margin: 0;
@@ -809,11 +920,17 @@
         .minutes{
           span{
             color: #1CB0F6;
+            @media (prefers-color-scheme: dark) {
+              color: darken(#1CB0F6, 10%);
+            }
           }
         }
         .words{
           span{
             color: #58CC02;
+            @media (prefers-color-scheme: dark) {
+              color: darken(#58CC02, 10%);
+            }
           }
         }
         .sentance{
@@ -863,6 +980,9 @@
     }
     .top-countries{
       background-image: url(../img/world.svg);
+      @media (prefers-color-scheme: dark) {
+        background-image: url(../img/world-darkmode.svg);
+      }
       background-repeat: no-repeat;
       background-size: 100%;
       background-position: center;
@@ -918,6 +1038,9 @@
       -webkit-box-shadow: 0px 0px 100px 0px rgba($navy-black,0.25);
       -moz-box-shadow: 0px 0px 100px 0px rgba($navy-black,0.25);
       box-shadow: 0px 0px 100px 0px rgba($navy-black,0.25);
+      @media (prefers-color-scheme: dark) {
+        background-color: $navy-black-muted;
+      }
       .photo-container{
         border-radius: 40px - 14px;
         overflow: hidden;
@@ -967,6 +1090,9 @@
       color: $pure-white;
       font-family: $zilla;
       font-size: 2.5em;
+      @media (prefers-color-scheme: dark) {
+        color: $pure-white-dark;
+      }
       .party{
         font-size: 2em;
         display: inline-block;
@@ -1030,6 +1156,9 @@
         display: block;
         margin-top: -1.0em;
         color: rgba($navy-black,0.3);
+        @media (prefers-color-scheme: dark) {
+          color: rgba($pure-white-dark,0.3);
+        }
       }
     }
     .emoji-container{
@@ -1056,19 +1185,34 @@
         @media screen and (max-width: 64em) {
           font-size: 4rem;
         }
+        @media (prefers-color-scheme: dark) {
+          opacity: 80%;
+        }
       }
     }
     .thumbs-up{
       background-color: #B9E98B;
+      @media (prefers-color-scheme: dark) {
+        background-color: mix(#B9E98B, $navy-black-dark, 40%);
+      }
     }
     .party-parrot{
       background-color: #B5E0FE;
+      @media (prefers-color-scheme: dark) {
+        background-color: mix(#B5E0FE, $navy-black-dark, 40%);
+      }
     }
     .floor-laughing{
       background-color: #F9F064;
+      @media (prefers-color-scheme: dark) {
+        background-color: mix(#F9F064, $navy-black-dark, 40%);
+      }
     }
     .hoppy-goat{
       background-color: #F2C1FD;
+      @media (prefers-color-scheme: dark) {
+        background-color: mix(#F2C1FD, $navy-black-dark, 40%);
+      }
     }
   }
 
@@ -1163,6 +1307,9 @@
         text-align: left;
         padding: 0 1em;
         text-shadow: 0px 0px 10px rgba($pure-white,1), 0px 0px 20px rgba($pure-white,1),0px 0px 20px rgba($pure-white,1),0px 0px 20px rgba($pure-white,1),0px 0px 40px rgba($pure-white,1),0px 0px 60px rgba($pure-white,1),0px 0px 60px rgba($pure-white,1),0px 0px 80px rgba($pure-white,1);
+        @media (prefers-color-scheme: dark) {
+          text-shadow: 0px 0px 10px rgba($navy-black-dark,1), 0px 0px 20px rgba($navy-black-dark,1),0px 0px 20px rgba($navy-black-dark,1),0px 0px 20px rgba($navy-black-dark,1),0px 0px 40px rgba($navy-black-dark,1),0px 0px 60px rgba($navy-black-dark,1),0px 0px 60px rgba($navy-black-dark,1),0px 0px 80px rgba($navy-black-dark,1);
+        }
         @media screen and (max-width: 40em) {
           line-height: 1.2em;
         }
@@ -1177,6 +1324,9 @@
     background-image: url(../img/felt-texture.jpg);
     background-blend-mode: overlay;
     background-color: #415B50;
+    @media (prefers-color-scheme: dark) {
+      background-color: darken(#415B50, 15%);
+    }
     position: relative;
     transform: rotate(12deg);
     width: 150%;
@@ -1271,6 +1421,9 @@
       margin-left: -3vw;
       line-height: 1.5em;
       overflow: hidden;
+      @media (prefers-color-scheme: dark) {
+        color: rgba($pure-white-dark, 0.30);
+      }
     }
     .lastly-grid-container{
       margin-top: -20vw;
@@ -1316,7 +1469,6 @@
         .boom{
           font-size: 6em;
           transform: rotate(20deg);
-          // top: -20vw;
           left: 5vw;
           @media screen and (max-width: 64em) {
             top: -10vw;
@@ -1331,7 +1483,6 @@
           @media screen and (max-width: 40em) {
             top: 12vw;
           }
-          // left: 6vw;
         }
         .party{
           transform: rotate(14deg);
@@ -1370,10 +1521,12 @@
   }
 
   footer{
-    background-image: url("../img/2020/footergradient.jpg");
+    background-image: url(../img/footergradient.jpg);
+    @media (prefers-color-scheme: dark) {
+      background-image: url(../img/footergradient-darkmode.jpg);
+    }
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: $navy-black;
     position: sticky;
     bottom: 0;
     left: 0;
@@ -1395,6 +1548,9 @@
       font-weight: $lato-thin;
       font-style: italic;
       line-height: 0.8em;
+      @media (prefers-color-scheme: dark) {
+        color: $pure-white-dark;
+      }
       @media screen and (max-width: 64em) {
         font-size: 10em;
       }
