@@ -519,6 +519,9 @@
           font-weight: 700; }
         .year-twenty .shine-registry .shine-container .label-container .description a {
           color: #1f2937; }
+          @media (prefers-color-scheme: dark) {
+            .year-twenty .shine-registry .shine-container .label-container .description a {
+              color: #cccccc; } }
     .year-twenty .shine-registry .shine-container .image-container {
       position: absolute;
       z-index: 3;

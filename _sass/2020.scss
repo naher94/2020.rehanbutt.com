@@ -627,6 +627,9 @@
           }
           a{
             color: $navy-black;
+            @media (prefers-color-scheme: dark) {
+              color: $pure-white-dark;
+            }
           }
         }
       }
