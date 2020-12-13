@@ -642,6 +642,9 @@
         -webkit-box-shadow: 0px 0px 20px 0px rgba($navy-black,0.25);
         -moz-box-shadow: 0px 0px 20px 0px rgba($navy-black,0.25);
         box-shadow: 0px 0px 20px 0px rgba($navy-black,0.25);
+        @media screen and (max-width: 64em) {
+          border-radius: 10px;
+        }
       }
       .shine-1{
         transform: rotate(15deg);
